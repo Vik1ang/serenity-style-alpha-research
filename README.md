@@ -5,30 +5,35 @@ Serenity-style chokepoint lens: **certain demand → constrained supply → low
 attention → value capture → catalyst → anti-thesis**. Default output language is
 Chinese.
 
-This repository is a **skill package**, not a runnable application. The shipping
-artifact is the skill at `.codex/skills/serenity-style-alpha-research/`, which is
-loaded by Codex-compatible agents at runtime.
+This repository is a **skill package**, not a runnable application. The canonical,
+human-visible skill lives at `skills/serenity-style-alpha-research/`. The
+`.codex/skills/serenity-style-alpha-research/` copy is kept as the project-level
+Codex install mirror so Codex-compatible agents can load it directly.
 
 ## Repository Layout
 
 ```
 .
+├── skills/
+│   └── serenity-style-alpha-research/    # canonical, human-visible skill package
+│       ├── SKILL.md                      # skill entry point + trigger metadata
+│       ├── references/
+│       │   ├── output-template.md        # full memo + shortlist format
+│       │   ├── domain-extensions.md      # AI / semi / DC-power variants
+│       │   ├── scoring.md                # elasticity math & factor checklist
+│       │   ├── a-share-skill-spec-FINAL.md
+│       │   ├── a-share-skill-spec-draft.md
+│       │   ├── a-share-4-pillars-*.md
+│       │   ├── a-share-r4-*.md
+│       │   ├── a-share-r5-*.md
+│       │   └── a-share-r6-*.md
+│       └── agents/
+│           └── openai.yaml               # UI-facing skill metadata
 ├── .codex/
 │   └── skills/
-│       └── serenity-style-alpha-research/
-│           ├── SKILL.md                 # skill entry point + trigger metadata
-│           ├── references/
-│           │   ├── output-template.md   # full memo + shortlist format
-│           │   ├── domain-extensions.md # AI / semi / DC-power variants
-│           │   ├── scoring.md           # elasticity math & factor checklist
-│           │   ├── a-share-skill-spec-FINAL.md
-│           │   ├── a-share-skill-spec-draft.md
-│           │   ├── a-share-4-pillars-*.md
-│           │   ├── a-share-r4-*.md
-│           │   ├── a-share-r5-*.md
-│           │   └── a-share-r6-*.md
-│           └── agents/
-│               └── openai.yaml          # UI-facing skill metadata
+│       └── serenity-style-alpha-research/ # Codex project-level install mirror
+├── docs/
+│   └── a-share-maintenance-backlog.md
 ├── README.md
 ├── CLAUDE.md
 └── .gitignore
@@ -39,17 +44,20 @@ excluded from version control.
 
 ## Install / Use
 
-Copy the skill directory into any Codex-compatible environment:
+Copy the canonical public skill directory into any Codex-compatible environment:
 
 ```bash
 # project-level install
-cp -r .codex/skills/serenity-style-alpha-research \
+cp -r skills/serenity-style-alpha-research \
       <your-project>/.codex/skills/
 
 # or user-level install
-cp -r .codex/skills/serenity-style-alpha-research \
+cp -r skills/serenity-style-alpha-research \
       ~/.codex/skills/
 ```
+
+For this repository itself, `.codex/skills/serenity-style-alpha-research/` is kept
+in sync as the local Codex project-level install mirror.
 
 The skill is triggered by phrases like “谁受益 / 找类似 Serenity 的机会 / 帮我筛选
 / 这个逻辑对吗 / 验证一个 chokepoint thesis”.
@@ -62,7 +70,7 @@ The skill is triggered by phrases like “谁受益 / 找类似 Serenity 的机�
 - **完整研究 Memo** — use `references/output-template.md` for deep dives.
 - **公司核验** — verify current market and financial data before judging exposure.
 - **A 股 thesis-level 分桶** — for A-share names, start from
-  `references/a-share-skill-spec-FINAL.md`, then load D3/R4/R5/R6 detail files as
+  `skills/serenity-style-alpha-research/references/a-share-skill-spec-FINAL.md`, then load D3/R4/R5/R6 detail files as
   needed.
 
 Conclusion is always textual status with confidence — never A/B/C/D ratings and
@@ -105,7 +113,8 @@ Excluded; do not force a strong alpha conclusion.
 
 ## Editing The Skill
 
-- `SKILL.md` is the entry point and activation surface. Keep frontmatter intact.
+- `skills/serenity-style-alpha-research/SKILL.md` is the canonical entry point and activation surface. Keep frontmatter intact.
+- Keep `skills/serenity-style-alpha-research/` and `.codex/skills/serenity-style-alpha-research/` synchronized when editing.
 - Put long-form methodology in `references/` and link it from `SKILL.md`.
 - For A-share edits, update `a-share-skill-spec-FINAL.md` if the change affects
   the top-level read path; update D3/R4/R5/R6 only in their owned scopes.

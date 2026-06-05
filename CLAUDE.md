@@ -6,8 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working in this
 
 This is a **Codex / OpenAI skill package**, not a runnable application. There is
 no `package.json`, no build step, and no test suite. The shipped artifact is the
-skill at `.codex/skills/serenity-style-alpha-research/` plus its `references/`
-directory. Agents load `SKILL.md` at runtime and selectively load reference docs.
+canonical skill at `skills/serenity-style-alpha-research/` plus its `references/`
+directory. The `.codex/skills/serenity-style-alpha-research/` copy is the local
+Codex project-level install mirror. Agents load `SKILL.md` at runtime and
+selectively load reference docs.
 
 Subject domain: Serenity-style chokepoint alpha stock research — supply-chain
 bottlenecks in AI / semiconductor / datacenter-power chains, plus a dedicated
@@ -15,17 +17,14 @@ A-share thesis-level methodology stack.
 
 ## Key Files
 
-- `.codex/skills/serenity-style-alpha-research/SKILL.md` — skill entry point.
+- `skills/serenity-style-alpha-research/SKILL.md` — canonical skill entry point.
+- `.codex/skills/serenity-style-alpha-research/SKILL.md` — Codex install mirror; keep synchronized with `skills/`.
   Contains YAML frontmatter (`name`, `description`, `metadata.short-description`)
   and behavioral rules. **Do not strip frontmatter**.
-- `.codex/skills/serenity-style-alpha-research/agents/openai.yaml` — UI-facing
-  metadata.
-- `.codex/skills/serenity-style-alpha-research/references/output-template.md` —
-  full research memo and shortlist format.
-- `.codex/skills/serenity-style-alpha-research/references/domain-extensions.md` —
-  AI / semiconductor / datacenter-power / crypto-mining-to-HPC / A·H·HK·US variants.
-- `.codex/skills/serenity-style-alpha-research/references/scoring.md` — elasticity
-  math and factor checklist. Do not use it to output A/B/C/D ratings.
+- `skills/serenity-style-alpha-research/agents/openai.yaml` — UI-facing metadata.
+- `skills/serenity-style-alpha-research/references/output-template.md` — full research memo and shortlist format.
+- `skills/serenity-style-alpha-research/references/domain-extensions.md` — AI / semiconductor / datacenter-power / crypto-mining-to-HPC / A·H·HK·US variants.
+- `skills/serenity-style-alpha-research/references/scoring.md` — elasticity math and factor checklist. Do not use it to output A/B/C/D ratings.
 
 ## A-share Reference Stack
 
@@ -63,7 +62,8 @@ R1 provenance files:
 
 ## Editing Conventions
 
-- `SKILL.md` is the activation surface; references hold long-form methodology.
+- `skills/serenity-style-alpha-research/SKILL.md` is the canonical activation surface; references hold long-form methodology.
+- Keep `skills/serenity-style-alpha-research/` and `.codex/skills/serenity-style-alpha-research/` synchronized. The former is for repository readers/distribution; the latter is for local Codex loading.
 - When adding a reference doc, add a one-line entry under `SKILL.md` → `## References`.
 - When changing A-share methodology, update the owning file:
   - D3 for the overview/index.
