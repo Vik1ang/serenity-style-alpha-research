@@ -26,6 +26,7 @@ A-share thesis-level methodology stack.
 - `GEMINI.md` — Gemini / generic Markdown-aware agent guidance.
 - `docs/agent-integration.md` — cross-agent loading and maintenance map.
 - `skills/serenity-style-alpha-research/references/output-template.md` — full research memo and shortlist format.
+- `skills/serenity-style-alpha-research/references/trading-scenario.md` — non-advisory trading scenario status mapping, checkpoints, triggers, invalidation, and risk controls.
 - `skills/serenity-style-alpha-research/references/domain-extensions.md` — AI / semiconductor / datacenter-power / crypto-mining-to-HPC / A·H·HK·US variants.
 - `skills/serenity-style-alpha-research/references/scoring.md` — elasticity math and factor checklist. Do not use it to output A/B/C/D ratings.
 
@@ -61,7 +62,7 @@ R1 provenance files:
   transmission is proven.**
 - **Shortlist requires evidence.** Missing demand proof, bottleneck proof,
   materiality, market context, or risk checks → Watchlist / 待核验 or Excluded.
-- **Trading scenario layer is not trade advice.** If users ask “怎么交易 / 买不买 / 卖不卖”, reframe into 可交易研究对象 / 等待触发 / 仅观察 / 回避交易 / 数据不足 plus evidence checkpoints and risks.
+- **Trading scenario layer is not trade advice.** If users ask “怎么交易 / 买不买 / 卖不卖”, load `references/trading-scenario.md` and reframe into 可交易研究对象 / 等待触发 / 仅观察 / 回避交易 / 数据不足 plus evidence checkpoints and risks.
 - **Default output language is Chinese** unless the user asks otherwise.
 
 ## Editing Conventions

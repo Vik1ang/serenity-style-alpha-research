@@ -19,14 +19,15 @@ For stock-selection, chokepoint alpha, A-share thesis-level research, or non-adv
 
 1. Load `skills/serenity-style-alpha-research/SKILL.md`.
 2. Load `references/output-template.md` when the user asks for a full memo, shortlist, or trading-scenario output.
-3. For A-share work, start with `references/a-share-skill-spec-FINAL.md`; then load R4/R5/R6 detail files only as needed.
+3. Load `references/trading-scenario.md` when the user asks “怎么交易 / 能不能做 / 买不买 / 卖不卖 / 交易推演”.
+4. For A-share work, start with `references/a-share-skill-spec-FINAL.md`; then load R4/R5/R6 detail files only as needed.
 
 ## Hard Rules
 
 - Default output language is Chinese unless explicitly changed.
 - Do not use A/B/C/D ratings.
 - Do not provide direct buy/sell/position-size/target/stop advice.
-- If asked for trading advice, use the non-advisory 交易推演 layer: status, checkpoints, triggers, invalidation, and risk controls.
+- If asked for trading advice, use `references/trading-scenario.md` and output the non-advisory 交易推演 layer: status, checkpoints, triggers, invalidation, and risk controls.
 - Social-media-only evidence is never enough for a strong alpha conclusion.
 - Missing demand proof, bottleneck proof, materiality, market context, or risk checks means Watchlist / Excluded, not Shortlist.
 

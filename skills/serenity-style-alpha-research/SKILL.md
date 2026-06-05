@@ -181,7 +181,7 @@ Required fields for the layer:
 5. **未来 1–4 周触发器** — near-term announcements, earnings, industry data, price/volume confirmation, regulatory inquiry/reply, or customer/competitor cross-checks.
 6. **风险控制重点** — gap risk, limit-up/limit-down liquidity, event risk, dilution/refinancing, customer concentration, valuation/crowding, and evidence staleness.
 
-If the user explicitly asks for “买不买 / 卖不卖 / 仓位 / 目标价 / 止损价”, reframe into this layer: give scenarios and conditions, not commands.
+If the user explicitly asks for “买不买 / 卖不卖 / 仓位 / 目标价 / 止损价”, reframe into this layer: give scenarios and conditions, not commands. For detailed status mapping, upgrade/downgrade rules, and output blocks, load `references/trading-scenario.md`.
 
 ## Conclusion Status, Not Letter Rating
 
@@ -209,6 +209,7 @@ This skill is for listed-equity stock selection and company/industry supply-chai
 ## References
 
 - Use `references/output-template.md` for full research memo structure.
+- Use `references/trading-scenario.md` when the user asks “怎么交易 / 能不能做 / 买不买 / 卖不卖 / 交易推演”; it defines non-advisory status mapping, checkpoints, triggers, invalidation, and risk controls.
 - Use `references/domain-extensions.md` for AI infrastructure, semiconductor, datacenter power, crypto-mining-to-HPC, and A/H/HK/US supply-chain variants.
 - Use `references/scoring.md` only for numerical elasticity math or factor checklists; do not output A/B/C/D ratings.
 - For A-share research, start with `references/a-share-skill-spec-FINAL.md`; load `references/a-share-skill-spec-draft.md`, R4/R5/R6 detail files, and R1 source/review files only as needed.

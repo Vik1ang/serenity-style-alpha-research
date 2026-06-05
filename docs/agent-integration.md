@@ -7,7 +7,8 @@ This repository is an agent-usable research skill package. The canonical artifac
 Use `skills/serenity-style-alpha-research/` as the source of truth for all agents. It contains:
 
 - `SKILL.md` — activation rules, hard constraints, and core workflow.
-- `references/output-template.md` — full memo, shortlist, compact triage, and non-advisory trading-scenario output.
+- `references/output-template.md` — full memo, shortlist, compact triage, and trading-scenario output skeleton.
+- `references/trading-scenario.md` — non-advisory trading-scenario status mapping, upgrade/downgrade rules, checkpoints, triggers, invalidation, and risk controls.
 - `references/a-share-skill-spec-FINAL.md` — A-share top-level read path.
 - R4/R5/R6 reference files — thesis-level bucketing, announcement counter-evidence, company-level red flags, and market-structure evidence.
 
@@ -29,7 +30,8 @@ Claude Code should read `CLAUDE.md` first. That file points Claude to the canoni
 
 1. `skills/serenity-style-alpha-research/SKILL.md`
 2. `references/output-template.md` for output shape
-3. `references/a-share-skill-spec-FINAL.md` and R4/R5/R6 detail files for A-share work
+3. `references/trading-scenario.md` for trading-scenario requests
+4. `references/a-share-skill-spec-FINAL.md` and R4/R5/R6 detail files for A-share work
 
 Claude should not rely on `.codex/` as its source of truth.
 
@@ -43,7 +45,8 @@ For agents without filesystem access, paste or attach:
 
 1. `skills/serenity-style-alpha-research/SKILL.md`
 2. `references/output-template.md`
-3. For A-share research, `references/a-share-skill-spec-FINAL.md` plus the specific R4/R5/R6 file required by the task
+3. For trading-scenario requests, `references/trading-scenario.md`
+4. For A-share research, `references/a-share-skill-spec-FINAL.md` plus the specific R4/R5/R6 file required by the task
 
 Avoid pasting all A-share provenance files unless doing methodology review.
 
@@ -54,7 +57,7 @@ Every agent must preserve these rules:
 - Default output language is Chinese unless the user asks otherwise.
 - No A/B/C/D ratings; use textual conclusion states and confidence.
 - No direct buy/sell/position-size/target/stop advice.
-- Trading scenario output is allowed only as non-advisory status, checkpoints, triggers, invalidation, and risk controls.
+- Trading scenario output must follow `references/trading-scenario.md` and is allowed only as non-advisory status, checkpoints, triggers, invalidation, and risk controls.
 - Social-media-only evidence cannot support a strong alpha conclusion.
 - Missing demand proof, bottleneck proof, materiality, market context, or risk checks means Watchlist / Excluded, not Shortlist.
 - A-share work starts from the A-share FINAL index, not from a direct US-to-A-share gate translation.

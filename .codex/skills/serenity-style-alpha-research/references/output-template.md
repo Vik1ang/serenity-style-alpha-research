@@ -193,7 +193,7 @@ Use textual status, not A/B/C/D:
 
 ## 12. 交易推演（非投资建议）
 
-Use this only when the user asks how to trade, whether it is actionable, or wants “交易推演”. Do not provide direct buy/sell/position-size/target/stop instructions.
+Use this only when the user asks how to trade, whether it is actionable, or wants “交易推演”. Do not provide direct buy/sell/position-size/target/stop instructions. For detailed status mapping and upgrade/downgrade rules, use `references/trading-scenario.md`.
 
 - 当前交易状态：可交易研究对象 / 等待触发 / 仅观察 / 回避交易 / 数据不足
 - 为什么不是直接买卖建议：缺少哪些个性化约束、执行条件、证据或风险确认
