@@ -1,12 +1,12 @@
 # Serenity-Style Alpha Research
 
-这是一个 Codex / OpenAI skill 包，用于对上市公司做 Serenity-style chokepoint alpha 研究：
+这是一个面向多 agent 的 Serenity-style alpha research skill / reference 包，可供 Codex、Claude、Gemini 或其他 Markdown-aware agent 使用，用于对上市公司做 chokepoint alpha 研究：
 **确定性需求 → 受限供给 → 低关注/误分类 → 价值传导 → 催化 → 反证**。
 默认输出语言为中文。
 
-本仓库不是可运行应用，没有构建、测试或服务进程。仓库里的主交付物是 skill 本身：
+本仓库不是可运行应用，没有构建、测试或服务进程。仓库里的主交付物是 canonical skill 本身：
 `skills/serenity-style-alpha-research/`。`.codex/skills/serenity-style-alpha-research/`
-是当前仓库的 Codex project-level 安装镜像，用于本地运行时加载。
+只是当前仓库的 Codex project-level 安装镜像；Claude / Gemini / 其他 agent 应从 `skills/` 读取 canonical 文件。
 
 ## 仓库结构
 
@@ -31,15 +31,20 @@
 │   └── skills/
 │       └── serenity-style-alpha-research/ # Codex 本地安装镜像
 ├── docs/
+│   ├── agent-integration.md              # Codex / Claude / Gemini / generic LLM 接入说明
 │   └── a-share-maintenance-backlog.md
 ├── README.md
-├── CLAUDE.md
+├── AGENTS.md                             # OpenAI/Codex-style agent 入口说明
+├── CLAUDE.md                             # Claude Code 入口说明
+├── GEMINI.md                             # Gemini / Markdown-aware agent 入口说明
 └── .gitignore
 ```
 
 `.omx/` 和 `.claude/` 是本机 agent/harness 状态目录，已通过 `.gitignore` 排除。
 
 ## 安装 / 使用
+
+### Codex / OpenAI
 
 把 canonical skill 目录复制到任意 Codex-compatible 环境：
 
@@ -55,6 +60,13 @@ cp -r skills/serenity-style-alpha-research \
 
 本仓库中，`.codex/skills/serenity-style-alpha-research/` 保持为本地 Codex 加载镜像。
 维护时需要让 `skills/serenity-style-alpha-research/` 和 `.codex/skills/...` 同步。
+
+### Claude / Gemini / 其他 agent
+
+- Claude Code：读 `CLAUDE.md`，再按任务加载 `skills/serenity-style-alpha-research/SKILL.md` 和相关 `references/`。
+- Gemini CLI / 其他 Markdown-aware agent：读 `GEMINI.md` 或 `AGENTS.md`，再加载 canonical `skills/` 文件。
+- 无原生 skill loader 的聊天模型：直接提供 `SKILL.md` + 需要的 reference 文件；A 股任务先给 `a-share-skill-spec-FINAL.md`。
+- 跨 agent 维护细节见 `docs/agent-integration.md`。
 
 常见触发语：
 
@@ -112,6 +124,7 @@ A 股框架已用三只案例压力测试：
 
 - `skills/serenity-style-alpha-research/SKILL.md` 是 canonical skill 入口，frontmatter 不能删。
 - `.codex/skills/serenity-style-alpha-research/` 是本地 Codex 镜像；维护时必须与 `skills/` 同步。
+- `AGENTS.md` / `CLAUDE.md` / `GEMINI.md` 是 agent adapter 文档；行为边界变化时要一起更新。
 - 长文档放在 `references/`，并从 `SKILL.md` 的 `## References` 链接。
 - A 股方法论改动遵循 ownership：
   - D3：总览 / 索引。

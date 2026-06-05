@@ -4,12 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working in this
 
 ## What This Repo Is
 
-This is a **Codex / OpenAI skill package**, not a runnable application. There is
+This is a **multi-agent Markdown skill/reference package**, not a runnable application. There is
 no `package.json`, no build step, and no test suite. The shipped artifact is the
 canonical skill at `skills/serenity-style-alpha-research/` plus its `references/`
-directory. The `.codex/skills/serenity-style-alpha-research/` copy is the local
-Codex project-level install mirror. Agents load `SKILL.md` at runtime and
-selectively load reference docs.
+directory. The `.codex/skills/serenity-style-alpha-research/` copy is only the local
+Codex project-level install mirror. Claude should use `CLAUDE.md` as the entry point,
+then load canonical `skills/` files and relevant references.
 
 Subject domain: Serenity-style chokepoint alpha stock research — supply-chain
 bottlenecks in AI / semiconductor / datacenter-power chains, plus a dedicated
@@ -21,7 +21,10 @@ A-share thesis-level methodology stack.
 - `.codex/skills/serenity-style-alpha-research/SKILL.md` — Codex install mirror; keep synchronized with `skills/`.
   Contains YAML frontmatter (`name`, `description`, `metadata.short-description`)
   and behavioral rules. **Do not strip frontmatter**.
-- `skills/serenity-style-alpha-research/agents/openai.yaml` — UI-facing metadata.
+- `skills/serenity-style-alpha-research/agents/openai.yaml` — OpenAI UI-facing metadata.
+- `AGENTS.md` — OpenAI/Codex-style agent guidance.
+- `GEMINI.md` — Gemini / generic Markdown-aware agent guidance.
+- `docs/agent-integration.md` — cross-agent loading and maintenance map.
 - `skills/serenity-style-alpha-research/references/output-template.md` — full research memo and shortlist format.
 - `skills/serenity-style-alpha-research/references/domain-extensions.md` — AI / semiconductor / datacenter-power / crypto-mining-to-HPC / A·H·HK·US variants.
 - `skills/serenity-style-alpha-research/references/scoring.md` — elasticity math and factor checklist. Do not use it to output A/B/C/D ratings.
@@ -72,7 +75,7 @@ R1 provenance files:
   - R5 for business-vehicle layering and company-level financial/governance red flags.
   - R6 for market-structure evidence and R2/R3 risk pricing.
   - D4 FINAL if the top-level read path changes.
-- Keep root docs (`README.md`, `CLAUDE.md`) aligned with the reference stack.
+- Keep root docs (`README.md`, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`) aligned with the reference stack and usage contract.
 
 ## Local-Only Directories (Never Commit)
 
