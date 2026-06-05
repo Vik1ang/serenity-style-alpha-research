@@ -1,6 +1,6 @@
 ---
 name: serenity-style-alpha-research
-description: Use when doing Serenity/@aleabitoreddit-style stock selection or candidate screening from AI/semiconductor supply-chain bottleneck theses, market news, X/Twitter stock ideas, company announcements, earnings clues, or user asks who benefits, which stocks to research, whether a chokepoint alpha logic is valid, or how to verify a small-cap supply-chain stock thesis.
+description: Use when doing Serenity/@aleabitoreddit-style stock selection or candidate screening from AI/semiconductor supply-chain bottleneck theses, market news, X/Twitter stock ideas, company announcements, earnings clues, or user asks who benefits, which stocks to research, whether a chokepoint alpha logic is valid, how to verify a small-cap supply-chain stock thesis, or asks for non-advisory trading scenario analysis.
 metadata:
   short-description: Serenity-style chokepoint alpha research
 ---
@@ -13,7 +13,7 @@ Analyze market/news/company clues through the Serenity-style “chokepoint” le
 
 Default output language: **Chinese**.
 
-This skill produces stock-research candidates, thesis validation, and verification plans. It does not give buy/sell/position-size advice.
+This skill produces stock-research candidates, thesis validation, verification plans, and **交易推演（非投资建议）**. It does not give direct buy/sell/position-size advice; trading output must stay at scenario, trigger, invalidation, and risk-control level.
 
 ## What “Serenity-Style” Means Here
 
@@ -159,6 +159,29 @@ For every analysis, at least cover these gates:
 8. **Catalyst** — what can force recognition within 1–4 quarters?
 9. **Anti-thesis** — what would kill the thesis?
 10. **Conclusion status** — textual conclusion, not A/B/C/D. For stock screens, output research priority and disqualifiers, not buy/sell calls.
+
+## Trading Scenario Layer / 交易推演（非投资建议）
+
+When the user asks “怎么交易 / 交易建议 / 是否能做 / 交易推演 / 入场条件 / 观察条件”, include a **non-advisory trading scenario layer** after the research conclusion. This layer translates research status into observable trading readiness; it must not output direct buy/sell instructions, target prices, stop-loss orders, or position sizing.
+
+Use these trading-scenario statuses:
+
+- **可交易研究对象** — thesis evidence is strong enough to monitor for an execution trigger, but still not a buy call.
+- **等待触发** — thesis is plausible, but needs a specific catalyst, price/volume structure, filing, contract, earnings, or risk resolution before consideration.
+- **仅观察** — research interest exists, but key demand, bottleneck, materiality, market-structure, or risk data is missing.
+- **回避交易** — counter-evidence, crowding, financial/governance red flags, or liquidity risk dominates.
+- **数据不足** — current market/financial data is too stale or incomplete to form a trading scenario.
+
+Required fields for the layer:
+
+1. **当前交易状态** — one of the statuses above.
+2. **为什么不是直接买卖建议** — identify the missing evidence, personalization gap, or execution uncertainty.
+3. **进入交易观察的 checkpoints** — concrete data/events required: filing, segment revenue, contract amount + timing, customer order, market-structure evidence, risk resolution.
+4. **不宜交易条件** — thesis invalidation, announcement counter-evidence, liquidity/crowding, dilution/debt/ST/delisting risk, or R3 relay risk.
+5. **未来 1–4 周触发器** — near-term announcements, earnings, industry data, price/volume confirmation, regulatory inquiry/reply, or customer/competitor cross-checks.
+6. **风险控制重点** — gap risk, limit-up/limit-down liquidity, event risk, dilution/refinancing, customer concentration, valuation/crowding, and evidence staleness.
+
+If the user explicitly asks for “买不买 / 卖不卖 / 仓位 / 目标价 / 止损价”, reframe into this layer: give scenarios and conditions, not commands.
 
 ## Conclusion Status, Not Letter Rating
 

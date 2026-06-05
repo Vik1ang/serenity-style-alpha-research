@@ -72,8 +72,9 @@ cp -r skills/serenity-style-alpha-research \
 - **完整研究 Memo**：深度研究时使用 `references/output-template.md`。
 - **公司核验**：对指定 ticker 先查财务和市场数据，再判断产业链暴露和财务传导。
 - **A 股 thesis-level 分桶**：A 股研究从 `skills/serenity-style-alpha-research/references/a-share-skill-spec-FINAL.md` 开始读，再按需加载 D3/R4/R5/R6 细则。
+- **交易推演（非投资建议）**：当用户问“怎么交易/能不能做”时，输出可交易研究对象 / 等待触发 / 仅观察 / 回避交易 / 数据不足，以及触发器、checkpoints 和风险控制重点。
 
-结论只使用文本状态和置信度，不使用 A/B/C/D 评级，也不输出买入/卖出/仓位建议。
+结论只使用文本状态和置信度，不使用 A/B/C/D 评级。交易推演只做情景分析，不输出直接买入/卖出/仓位/目标价/止损价建议。
 
 ## A 股研究栈
 
@@ -118,7 +119,8 @@ A 股框架已用三只案例压力测试：
   - R5：业务载体分层与公司级财务/治理红旗。
   - R6：市场结构证据与 R2/R3 风险定价。
   - D4 FINAL：顶层阅读路径变化时更新。
-- 不新增 A/B/C/D rating，不输出交易建议。
+- 不新增 A/B/C/D rating；不输出直接买入/卖出/仓位/目标价/止损价建议。
+- 允许输出“交易推演（非投资建议）”：只写状态、触发器、checkpoints、反证条件和风险控制重点。
 
 ## 待办 / 维护 backlog
 

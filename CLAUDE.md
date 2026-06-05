@@ -51,13 +51,14 @@ R1 provenance files:
 ## Hard Rules To Preserve
 
 - **No A/B/C/D ratings.** Use textual conclusion states with `置信度：高 / 中 / 低`.
-- **No buy/sell/position-size advice.** This is research and validation only.
+- **No direct buy/sell/position-size/target/stop advice.** This is research and validation only; a non-advisory trading scenario layer is allowed only for statuses, checkpoints, triggers, invalidation, and risk controls.
 - **Social-media-only evidence cannot support a strong alpha conclusion.**
 - **No verified demand usually means “更像主题叙事”.**
 - **Third-order theme exposure usually means “更像主题叙事” unless financial
   transmission is proven.**
 - **Shortlist requires evidence.** Missing demand proof, bottleneck proof,
   materiality, market context, or risk checks → Watchlist / 待核验 or Excluded.
+- **Trading scenario layer is not trade advice.** If users ask “怎么交易 / 买不买 / 卖不卖”, reframe into 可交易研究对象 / 等待触发 / 仅观察 / 回避交易 / 数据不足 plus evidence checkpoints and risks.
 - **Default output language is Chinese** unless the user asks otherwise.
 
 ## Editing Conventions
