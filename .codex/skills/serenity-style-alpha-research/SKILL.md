@@ -188,3 +188,12 @@ This skill is for listed-equity stock selection and company/industry supply-chai
 - Use `references/output-template.md` for full research memo structure.
 - Use `references/domain-extensions.md` for AI infrastructure, semiconductor, datacenter power, crypto-mining-to-HPC, and A/H/HK/US supply-chain variants.
 - Use `references/scoring.md` only for numerical elasticity math or factor checklists; do not output A/B/C/D ratings.
+- For A-share research, start with `references/a-share-skill-spec-FINAL.md`; load `references/a-share-skill-spec-draft.md`, R4/R5/R6 detail files, and R1 source/review files only as needed.
+- A-share detailed references:
+  - `references/a-share-4-pillars-spec.md` — R1 source spec and session record for the four A-share reconstruction pillars.
+  - `references/a-share-4-pillars-spec-hermes-review.md` — Hermes R1 review only; does not cover R4-R6 updates.
+  - `references/a-share-4-pillars-peer-discussion-r1.md` — R1 peer-discussion and three hardening rules.
+  - `references/a-share-skill-spec-draft.md` — D3 working draft and R4-R6 index.
+  - `references/a-share-r4-thesis-bucketing-announcement-calibration.md` — thesis-level bucketing, announcement counter-evidence, and media-order confirmation rule.
+  - `references/a-share-r5-ma-target-layering-smallcap-redflags.md` — M&A/new-vehicle layering and company-level financial/governance red flags.
+  - `references/a-share-r6-market-structure-minimum-evidence.md` — R2/R3 market-structure evidence, market-cap date, and large-cap vs small-cap risk pricing.

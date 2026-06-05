@@ -1,100 +1,98 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working in this repository.
 
 ## What This Repo Is
 
 This is a **Codex / OpenAI skill package**, not a runnable application. There is
-no `package.json`, no build step, no test suite. The shipped artifact is the
-skill at `.codex/skills/serenity-style-alpha-research/` plus its
-`references/` directory; agents load `SKILL.md` (with frontmatter) at runtime
-and follow its behavioral rules.
+no `package.json`, no build step, and no test suite. The shipped artifact is the
+skill at `.codex/skills/serenity-style-alpha-research/` plus its `references/`
+directory. Agents load `SKILL.md` at runtime and selectively load reference docs.
 
-Subject domain: Serenity-style "chokepoint alpha" stock screening — supply
-chain bottlenecks in AI / semiconductor / datacenter-power chains, evaluated
-through five factors (Certain Demand, Constrained Supply, Low Attention,
-Value Capture, Catalyst) plus an Anti-Thesis check.
+Subject domain: Serenity-style chokepoint alpha stock research — supply-chain
+bottlenecks in AI / semiconductor / datacenter-power chains, plus a dedicated
+A-share thesis-level methodology stack.
 
 ## Key Files
 
-- `.codex/skills/serenity-style-alpha-research/SKILL.md` — entry point.
-  Contains YAML frontmatter (`name`, `description`,
-  `metadata.short-description`) plus the full behavioral spec (workflow,
-  shortlist gate, evidence hierarchy, conclusion states, hard caps). **Do
-  not strip the frontmatter** — agents use it to decide whether to trigger
-  the skill.
-- `.codex/skills/serenity-style-alpha-research/references/output-template.md`
-  — full research memo and shortlist format. Use this when the user asks
-  for a deep dive or stock screen.
-- `.codex/skills/serenity-style-alpha-research/references/domain-extensions.md`
-  — AI / semi / DC-power / crypto-mining-to-HPC / A·H·HK·US supply-chain
-  variants.
-- `.codex/skills/serenity-style-alpha-research/references/scoring.md` —
-  elasticity math + factor checklist. **Do not** use this to produce
-  A/B/C/D ratings; only for quantitative work.
-- `.codex/skills/serenity-style-alpha-research/references/a-share-skill-spec-draft.md`
-  — A-share-specific draft spec.
+- `.codex/skills/serenity-style-alpha-research/SKILL.md` — skill entry point.
+  Contains YAML frontmatter (`name`, `description`, `metadata.short-description`)
+  and behavioral rules. **Do not strip frontmatter**.
+- `.codex/skills/serenity-style-alpha-research/agents/openai.yaml` — UI-facing
+  metadata.
+- `.codex/skills/serenity-style-alpha-research/references/output-template.md` —
+  full research memo and shortlist format.
+- `.codex/skills/serenity-style-alpha-research/references/domain-extensions.md` —
+  AI / semiconductor / datacenter-power / crypto-mining-to-HPC / A·H·HK·US variants.
+- `.codex/skills/serenity-style-alpha-research/references/scoring.md` — elasticity
+  math and factor checklist. Do not use it to output A/B/C/D ratings.
 
-## Hard Rules (Preserve When Editing)
+## A-share Reference Stack
 
-These are enforced inside `SKILL.md` and must not be weakened:
+For A-share work, start with:
 
-- **No A/B/C/D ratings.** Use only the four textual conclusion states:
-  `强 Alpha 候选（需持续验证）` / `有潜力，但关键数据待验证` / `更像主题叙事`
-  / `暂时否定或回避研究`. Always include `置信度：高 / 中 / 低`.
-- **Social-media-only evidence is a hard cap** — can never reach
-  "强 Alpha 候选".
-- **No verified demand → usually "更像主题叙事"**.
-- **Third-order theme exposure → usually "更像主题叙事"** unless proven
-  otherwise.
-- **Shortlist is 3–7 names max.** Entry requires ticker clarity, exact
-  bottleneck product, materiality proxy, current market context, non-social
-  evidence, catalyst, and disqualifier. Anything missing → `Watchlist / 待核验`.
-- **Default output language is Chinese.** Honor this unless the user writes
-  in another language.
-- **Never give buy/sell/position-size advice.** This skill is research and
-  validation, not recommendation.
+- `references/a-share-skill-spec-FINAL.md` — final top-level map and read path.
+- `references/a-share-skill-spec-draft.md` — D3 working draft and R4-R6 index.
+- `references/a-share-r4-thesis-bucketing-announcement-calibration.md` —
+  thesis-level bucketing, 6-level announcement counter-evidence, and media-order
+  confirmation rule.
+- `references/a-share-r5-ma-target-layering-smallcap-redflags.md` — M&A/new
+  business vehicle layering and company-level financial/governance red flags.
+- `references/a-share-r6-market-structure-minimum-evidence.md` — R2/R3 market
+  structure evidence, required market-cap date, and large-cap vs small-cap risk pricing.
 
-## Working Conventions
+R1 provenance files:
 
-- `SKILL.md` is the single source of truth. Put long-form / niche material
-  in `references/` and link from `SKILL.md` — do not duplicate.
-- When adding a new reference, update the `## References` section in
-  `SKILL.md` so agents can find it.
-- When adding a new conclusion state, also update the hard-caps section in
-  `SKILL.md` and the "Conclusion Status, Not Letter Rating" guidance.
-- Keep `description` (frontmatter) trigger-rich but under one paragraph; it
-  is what the host uses for skill activation.
+- `references/a-share-4-pillars-spec.md` — original 4-pillar source spec and session log.
+- `references/a-share-4-pillars-spec-hermes-review.md` — Hermes review of R1 only;
+  it does not cover R4-R6 updates.
+- `references/a-share-4-pillars-peer-discussion-r1.md` — R1 peer-discussion and
+  three hardening rules.
+
+## Hard Rules To Preserve
+
+- **No A/B/C/D ratings.** Use textual conclusion states with `置信度：高 / 中 / 低`.
+- **No buy/sell/position-size advice.** This is research and validation only.
+- **Social-media-only evidence cannot support a strong alpha conclusion.**
+- **No verified demand usually means “更像主题叙事”.**
+- **Third-order theme exposure usually means “更像主题叙事” unless financial
+  transmission is proven.**
+- **Shortlist requires evidence.** Missing demand proof, bottleneck proof,
+  materiality, market context, or risk checks → Watchlist / 待核验 or Excluded.
+- **Default output language is Chinese** unless the user asks otherwise.
+
+## Editing Conventions
+
+- `SKILL.md` is the activation surface; references hold long-form methodology.
+- When adding a reference doc, add a one-line entry under `SKILL.md` → `## References`.
+- When changing A-share methodology, update the owning file:
+  - D3 for the overview/index.
+  - R4 for thesis-level bucket and announcement evidence.
+  - R5 for business-vehicle layering and company-level financial/governance red flags.
+  - R6 for market-structure evidence and R2/R3 risk pricing.
+  - D4 FINAL if the top-level read path changes.
+- Keep root docs (`README.md`, `CLAUDE.md`) aligned with the reference stack.
 
 ## Local-Only Directories (Never Commit)
 
-These exist on this machine for tool integration but are excluded via
-`.gitignore`:
+These are excluded via `.gitignore`:
 
 - `.omx/` — OMX harness state, logs, metrics, HUD config.
-- `.claude/` — local Claude Code permissions / cache (e.g.
-  `settings.local.json`).
+- `.claude/` — local Claude Code permissions/cache.
 
-If you ever add tooling that writes into another hidden directory, append
-it to `.gitignore` rather than committing its contents.
+If tooling writes into another hidden local directory, add it to `.gitignore`
+instead of committing its contents.
 
-## Common Tasks
 
-- **Add a new reference doc** → drop a `.md` file in
-  `references/`, then add a one-line entry under `## References` in
-  `SKILL.md`.
-- **Tighten the shortlist gate** → edit the "Entry Requirements" and
-  "Auto-Exclude" sections of `SKILL.md`; keep them in lockstep so they
-  cannot contradict.
-- **Add a new domain** (e.g. biotech, defense) → create a new file in
-  `references/` and reference it from `SKILL.md`'s "References" section.
-  Do not fork the skill — extend it.
-- **Run the skill locally** → load `SKILL.md` into a Codex-compatible
-  agent and ask a chokepoint question; behavior is spec-driven, there is
-  nothing to compile.
+## Maintenance Backlog
+
+Known A-share follow-ups live in `docs/a-share-maintenance-backlog.md`. Before
+making broad methodology changes, check that file first. In particular, do not
+rename the R5 file or split the large R1 provenance file without updating all
+references.
 
 ## No Commands
 
-There are no build, test, or lint commands. Do not invent a `Makefile`,
-`package.json`, or CI workflow unless the user explicitly asks for one —
-this repository is documentation + a Markdown skill, nothing more.
+There are no build, test, or lint commands. Do not add a `package.json`,
+`Makefile`, or CI workflow unless explicitly requested. Verification is file
+structure, frontmatter, link/reference consistency, and git diff review.
