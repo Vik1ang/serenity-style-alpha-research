@@ -1,26 +1,24 @@
 # Serenity-Style Alpha Research
 
-A Codex/OpenAI skill package for listed-equity alpha research through a
-Serenity-style chokepoint lens: **certain demand → constrained supply → low
-attention → value capture → catalyst → anti-thesis**. Default output language is
-Chinese.
+这是一个 Codex / OpenAI skill 包，用于对上市公司做 Serenity-style chokepoint alpha 研究：
+**确定性需求 → 受限供给 → 低关注/误分类 → 价值传导 → 催化 → 反证**。
+默认输出语言为中文。
 
-This repository is a **skill package**, not a runnable application. The canonical,
-human-visible skill lives at `skills/serenity-style-alpha-research/`. The
-`.codex/skills/serenity-style-alpha-research/` copy is kept as the project-level
-Codex install mirror so Codex-compatible agents can load it directly.
+本仓库不是可运行应用，没有构建、测试或服务进程。仓库里的主交付物是 skill 本身：
+`skills/serenity-style-alpha-research/`。`.codex/skills/serenity-style-alpha-research/`
+是当前仓库的 Codex project-level 安装镜像，用于本地运行时加载。
 
-## Repository Layout
+## 仓库结构
 
-```
+```text
 .
 ├── skills/
-│   └── serenity-style-alpha-research/    # canonical, human-visible skill package
-│       ├── SKILL.md                      # skill entry point + trigger metadata
+│   └── serenity-style-alpha-research/    # canonical，可读/可分发的 skill 包
+│       ├── SKILL.md                      # skill 入口 + 触发 metadata
 │       ├── references/
-│       │   ├── output-template.md        # full memo + shortlist format
-│       │   ├── domain-extensions.md      # AI / semi / DC-power variants
-│       │   ├── scoring.md                # elasticity math & factor checklist
+│       │   ├── output-template.md        # 完整 memo / shortlist 输出模板
+│       │   ├── domain-extensions.md      # AI / 半导体 / 数据中心电力等扩展
+│       │   ├── scoring.md                # 弹性测算和因子 checklist
 │       │   ├── a-share-skill-spec-FINAL.md
 │       │   ├── a-share-skill-spec-draft.md
 │       │   ├── a-share-4-pillars-*.md
@@ -31,7 +29,7 @@ Codex install mirror so Codex-compatible agents can load it directly.
 │           └── openai.yaml               # UI-facing skill metadata
 ├── .codex/
 │   └── skills/
-│       └── serenity-style-alpha-research/ # Codex project-level install mirror
+│       └── serenity-style-alpha-research/ # Codex 本地安装镜像
 ├── docs/
 │   └── a-share-maintenance-backlog.md
 ├── README.md
@@ -39,96 +37,100 @@ Codex install mirror so Codex-compatible agents can load it directly.
 └── .gitignore
 ```
 
-`.omx/` and `.claude/` are local agent-harness state and are intentionally
-excluded from version control.
+`.omx/` 和 `.claude/` 是本机 agent/harness 状态目录，已通过 `.gitignore` 排除。
 
-## Install / Use
+## 安装 / 使用
 
-Copy the canonical public skill directory into any Codex-compatible environment:
+把 canonical skill 目录复制到任意 Codex-compatible 环境：
 
 ```bash
-# project-level install
+# 项目级安装
 cp -r skills/serenity-style-alpha-research \
       <your-project>/.codex/skills/
 
-# or user-level install
+# 或用户级安装
 cp -r skills/serenity-style-alpha-research \
       ~/.codex/skills/
 ```
 
-For this repository itself, `.codex/skills/serenity-style-alpha-research/` is kept
-in sync as the local Codex project-level install mirror.
+本仓库中，`.codex/skills/serenity-style-alpha-research/` 保持为本地 Codex 加载镜像。
+维护时需要让 `skills/serenity-style-alpha-research/` 和 `.codex/skills/...` 同步。
 
-The skill is triggered by phrases like “谁受益 / 找类似 Serenity 的机会 / 帮我筛选
-/ 这个逻辑对吗 / 验证一个 chokepoint thesis”.
+常见触发语：
 
-## What It Produces
+- “谁受益？”
+- “找类似 Serenity 的机会”
+- “帮我筛选”
+- “这个逻辑对吗？”
+- “验证一个 chokepoint thesis”
+- “跑一只 A 股 / 美股候选”
 
-- **快速 Triage** — for one news item, tweet, announcement, or “does this logic
-  hold?”.
-- **选股 Shortlist** — longlist → evidence filter → shortlist/watchlist/excluded.
-- **完整研究 Memo** — use `references/output-template.md` for deep dives.
-- **公司核验** — verify current market and financial data before judging exposure.
-- **A 股 thesis-level 分桶** — for A-share names, start from
-  `skills/serenity-style-alpha-research/references/a-share-skill-spec-FINAL.md`, then load D3/R4/R5/R6 detail files as
-  needed.
+## 这个 skill 产出什么
 
-Conclusion is always textual status with confidence — never A/B/C/D ratings and
-never buy/sell/position-size advice.
+- **快速 Triage**：单条新闻、公告、推文、市场传闻的快速判断。
+- **选股 Shortlist**：longlist → evidence filter → shortlist / watchlist / excluded。
+- **完整研究 Memo**：深度研究时使用 `references/output-template.md`。
+- **公司核验**：对指定 ticker 先查财务和市场数据，再判断产业链暴露和财务传导。
+- **A 股 thesis-level 分桶**：A 股研究从 `skills/serenity-style-alpha-research/references/a-share-skill-spec-FINAL.md` 开始读，再按需加载 D3/R4/R5/R6 细则。
 
-## A-share Research Stack
+结论只使用文本状态和置信度，不使用 A/B/C/D 评级，也不输出买入/卖出/仓位建议。
 
-A-share support is a separate methodology stack, not a direct translation of the
-US chokepoint workflow.
+## A 股研究栈
 
-Read order:
+A 股方法论不是美股 Serenity 框架的逐条翻译，而是一套独立栈。
 
-1. `references/a-share-skill-spec-FINAL.md` — final one-page map and file index.
-2. `references/a-share-skill-spec-draft.md` — D3 working draft and R4-R6 index.
-3. `references/a-share-r4-thesis-bucketing-announcement-calibration.md` —
-   thesis-level bucketing, announcement counter-evidence, media-order rule.
-4. `references/a-share-r5-ma-target-layering-smallcap-redflags.md` — M&A/new
-   vehicle layering and company-level financial/governance red flags.
-5. `references/a-share-r6-market-structure-minimum-evidence.md` — R2/R3 market
-   structure evidence, market-cap date, and large-cap vs small-cap risk pricing.
-6. R1 source/review files (`a-share-4-pillars-*.md`) are provenance and design
-   history; load only when reviewing the methodology.
+推荐阅读顺序：
 
-The A-share framework was pressure-tested on three cases: 春秋电子, 鹏鼎控股, and
-黄河旋风.
+1. `references/a-share-skill-spec-FINAL.md` — 最终总览和文件索引。
+2. `references/a-share-skill-spec-draft.md` — D3 工作草稿和 R4-R6 索引。
+3. `references/a-share-r4-thesis-bucketing-announcement-calibration.md` — thesis-level 分桶、公告反证 6 级、媒体订单规则。
+4. `references/a-share-r5-ma-target-layering-smallcap-redflags.md` — 并购/新设业务载体分层、公司级财务/治理红旗。
+5. `references/a-share-r6-market-structure-minimum-evidence.md` — R2/R3 市场结构证据、市值数据日期、大票/小票风险定价差异。
+6. `a-share-4-pillars-*.md` — R1 来源、review 和 peer discussion，只在 review 方法论时加载。
 
-## Data Discipline
+A 股框架已用三只案例压力测试：
 
-Evidence hierarchy, in descending order of weight:
+- 春秋电子：公司主动否认 + 多 thesis 拆分。
+- 鹏鼎控股：真实收入但占比低 + 龙头拥挤。
+- 黄河旋风：亏损小票 + AI 散热叙事 + 公司级红旗。
 
-1. Primary — filings, exchange filings, company announcements, earnings calls.
-2. Cross-check — customer / supplier / competitor commentary, industry data.
-3. Market data — price, market cap, liquidity, valuation, short interest/options.
-4. Secondary — credible news / sell-side summaries; pointers, not proof.
-5. Social media — thesis input only; never sufficient on its own.
+## 数据纪律
 
-For specific companies, verify latest financial and market data when tools are
-available. If key evidence is missing, keep the name in Watchlist / 待核验 or
-Excluded; do not force a strong alpha conclusion.
+证据权重从高到低：
 
-## Editing The Skill
+1. **Primary**：财报、交易所公告、公司公告、电话会/投资者关系记录。
+2. **Cross-check**：客户、供应商、竞争对手、行业数据。
+3. **Market data**：价格、市值、流动性、估值、short interest/options 等。
+4. **Secondary**：可信媒体、券商摘要；只能作线索，不替代原始证据。
+5. **Social media**：只能作为 thesis input，不能单独支撑强结论。
 
-- `skills/serenity-style-alpha-research/SKILL.md` is the canonical entry point and activation surface. Keep frontmatter intact.
-- Keep `skills/serenity-style-alpha-research/` and `.codex/skills/serenity-style-alpha-research/` synchronized when editing.
-- Put long-form methodology in `references/` and link it from `SKILL.md`.
-- For A-share edits, update `a-share-skill-spec-FINAL.md` if the change affects
-  the top-level read path; update D3/R4/R5/R6 only in their owned scopes.
-- Do not invent new conclusion categories. Reuse textual conclusion states and
-  confidence levels.
+对具体公司做判断时，能查就查最新财务和市场数据。关键证据缺失时，只能放入
+`Watchlist / 待核验` 或 `Excluded / 剔除`，不能硬凑强 Alpha 结论。
 
+## 维护规则
 
-## Known Follow-ups
+- `skills/serenity-style-alpha-research/SKILL.md` 是 canonical skill 入口，frontmatter 不能删。
+- `.codex/skills/serenity-style-alpha-research/` 是本地 Codex 镜像；维护时必须与 `skills/` 同步。
+- 长文档放在 `references/`，并从 `SKILL.md` 的 `## References` 链接。
+- A 股方法论改动遵循 ownership：
+  - D3：总览 / 索引。
+  - R4：thesis-level 分桶与公告反证。
+  - R5：业务载体分层与公司级财务/治理红旗。
+  - R6：市场结构证据与 R2/R3 风险定价。
+  - D4 FINAL：顶层阅读路径变化时更新。
+- 不新增 A/B/C/D rating，不输出交易建议。
 
-A-share maintenance items are tracked in `docs/a-share-maintenance-backlog.md`.
-Current non-blocking follow-ups include an A-share output template, announcement
-counter-evidence sample library, optional R5 filename cleanup, and optional split
-of the large R1 provenance file.
+## 待办 / 维护 backlog
+
+A 股后续维护项写在：`docs/a-share-maintenance-backlog.md`。
+
+当前主要待办：
+
+- 新增 A 股固定输出模板 `references/a-share-output-template.md`。
+- 建公告反证 6 级样本库。
+- 未来考虑 R5 文件名重命名 / redirect。
+- 未来考虑拆分大型 R1 provenance 文件。
 
 ## License
 
-No license file is currently shipped. Add one before public distribution.
+当前未附 license。公开分发前应补 license 文件。
