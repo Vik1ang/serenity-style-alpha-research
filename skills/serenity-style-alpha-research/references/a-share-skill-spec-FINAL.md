@@ -18,7 +18,7 @@ R5 详见 `a-share-r5-ma-target-layering-smallcap-redflags.md`。它把收购标
 
 ## 5. R6 8.4
 
-R6 详见 `a-share-r6-market-structure-minimum-evidence.md`。它定义 R2/R3 的最低数据包、缺数据时的 R2 / 数据不足处理、公司级与 thesis-level 市场结构信号的映射，以及数据源优先级。 R6 包含 8.4 市场结构数据最低证据 + R6 §3 Large-cap crowding vs Small-cap relay + 市值档位数据日期强制要求。
+R6 详见 `a-share-r6-market-structure-minimum-evidence.md`。它定义 R2/R3 的最低数据包、缺数据时的 R2 / 数据不足处理、公司级与 thesis-level 市场结构信号的映射，以及数据源优先级。 R6 包含 8.4 市场结构数据最低证据 + R6 §3 Large-cap crowding vs Small-cap relay + 市值档位数据日期强制要求。 R9 见 `a-share-r9-biotech-bd-quality.md`（Biotech BD 收入质量 gate）。
 
 ## 6. 跑票流程
 
@@ -30,4 +30,4 @@ R6 详见 `a-share-r6-market-structure-minimum-evidence.md`。它定义 R2/R3 �
 
 ## 8. 三桶分桶 + reconcile
 
-三桶规则引用 `a-share-skill-spec-draft.md` 第 5 段，并结合 R4/R5：Shortlist 是确认型基本面候选，Watchlist — Early Optionality 是早期可选性待核验，Excluded 是反证或风险压倒；公司级红旗可覆盖全部 thesis。
+三桶规则引用 `a-share-skill-spec-draft.md` 第 5 段，并结合 R4/R5：Shortlist 是确认型基本面候选，Watchlist — Early Optionality 是早期可选性待核验，Excluded 是反证或风险压倒；公司级红旗可覆盖全部 thesis。 R4-R6 worked examples 见 `a-share-worked-examples.md`（3 案例：春秋/鹏鼎/黄河 + 2 占位：赛力斯/百利天恒）。

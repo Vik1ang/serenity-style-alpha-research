@@ -145,3 +145,6 @@ AI PC thesis：Excluded。
 ### 8.5 公司级财务/治理红旗与 A 股重建四件尚未完全合流
 
 已展开至 a-share-r5-ma-target-layering-smallcap-redflags.md 8.5。 公司级财务/治理红旗与风险覆盖规则见 R5 spec。
+## 9. Worked Examples — 见 a-share-worked-examples.md
+
+## 10. R9 Biotech BD 收入质量 — 见 a-share-r9-biotech-bd-quality.md
