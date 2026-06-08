@@ -1,12 +1,12 @@
 # candidates-2026-06-08 双盲辩论矩阵 (2026-06-08) — 第 2 轮修订
 
 > 来源:
-> - A 立场: `references/candidates-debate-side-a-codex.md` (3,661 bytes, 8 条)
-> - A 对 B 回应: `references/candidates-debate-codex-response.md` (4,982 bytes, 8 条)
-> - B 立场: `references/candidates-debate-side-b-hermes.md` (4,827 bytes, 8 条)
-> - B 对 A 回应: `references/candidates-debate-hermes-response.md` (8 条)
-> - 候选池: `references/candidates-2026-06-08.md` (21,871 bytes, 10 候选)
-> - 既有 action plan: `references/competitive-benchmark-action-plan.md` (未改, 9 项 + 5 风险)
+> - A 立场: `candidates-debate-side-a-codex.md` (3,661 bytes, 8 条)
+> - A 对 B 回应: `candidates-debate-codex-response.md` (4,982 bytes, 8 条)
+> - B 立场: `candidates-debate-side-b-hermes.md` (4,827 bytes, 8 条)
+> - B 对 A 回应: `candidates-debate-hermes-response.md` (8 条)
+> - 候选池: `candidates-2026-06-08.md` (21,871 bytes, 10 候选)
+> - 既有 action plan: `competitive-benchmark-action-plan.md` (未改, 9 项 + 5 风险)
 >
 > 3-step peer-discussion: A 写立场 / B 写立场 / 双方写交叉回应 / 收敛矩阵
 >
@@ -98,11 +98,11 @@
 
 | 文件 | 作者 | 字节 | 段数 |
 |---|---|---|---|
-| `references/candidates-debate-side-a-codex.md` | Codex | 3,661 | 8 立场 |
-| `references/candidates-debate-codex-response.md` | Codex | 4,982 | 8 回应 |
-| `references/candidates-debate-side-b-hermes.md` | Hermes | 4,827 | 8 立场 |
-| `references/candidates-debate-hermes-response.md` | Hermes | ~5,200 | 8 回应 |
-| `references/candidates-debate-2026-06-08.md` (本文件) | Hermes | ~9,500 | 7 段矩阵 |
-| `references/candidates-2026-06-08.md` | Codex | 21,871 | 8 段 (10 候选) |
+| `candidates-debate-side-a-codex.md` | Codex | 3,661 | 8 立场 |
+| `candidates-debate-codex-response.md` | Codex | 4,982 | 8 回应 |
+| `candidates-debate-side-b-hermes.md` | Hermes | 4,827 | 8 立场 |
+| `candidates-debate-hermes-response.md` | Hermes | ~5,200 | 8 回应 |
+| `candidates-debate-2026-06-08.md` (本文件) | Hermes | ~9,500 | 7 段矩阵 |
+| `candidates-2026-06-08.md` | Codex | 21,871 | 8 段 (10 候选) |
 
 **Verify**: R4/R5/R6/R9/R10 + SKILL.md + FINAL.md + action plan SHA 全部未变。

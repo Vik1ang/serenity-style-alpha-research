@@ -20,7 +20,7 @@ For stock-selection, chokepoint alpha, A-share thesis-level research, or non-adv
 1. Load `skills/serenity-style-alpha-research/SKILL.md`.
 2. Load `references/output-template.md` when the user asks for a full memo, shortlist, or trading-scenario output.
 3. Load `references/trading-scenario.md` when the user asks “怎么交易 / 能不能做 / 买不买 / 卖不卖 / 交易推演”.
-4. For A-share work, start with `references/a-share-skill-spec-FINAL.md`; then load R4/R5/R6 detail files only as needed.
+4. For A-share work, start with `references/a-share-skill-spec-FINAL.md`; load R4/R5/R6 as the base, R9 for Biotech BD, and R10 for qualifying large-cap re-rating work.
 
 ## Hard Rules
 
@@ -36,4 +36,5 @@ For stock-selection, chokepoint alpha, A-share thesis-level research, or non-adv
 - Edit canonical files under `skills/` first.
 - Keep `.codex/skills/serenity-style-alpha-research/` synchronized after canonical skill changes.
 - Update `README.md`, `CLAUDE.md`, `GEMINI.md`, and `docs/agent-integration.md` when behavior or installation guidance changes.
+- Keep benchmark candidates, action plans, and peer-discussion in `docs/decisions/`, not runtime `references/`.
 - Do not add application scaffolding (`package.json`, build tooling, CI) unless explicitly requested.

@@ -10,7 +10,8 @@ Use `skills/serenity-style-alpha-research/` as the source of truth for all agent
 - `references/output-template.md` — full memo, shortlist, compact triage, and trading-scenario output skeleton.
 - `references/trading-scenario.md` — non-advisory trading-scenario status mapping, upgrade/downgrade rules, checkpoints, triggers, invalidation, and risk controls.
 - `references/a-share-skill-spec-FINAL.md` — A-share top-level read path.
-- R4/R5/R6 reference files — thesis-level bucketing, announcement counter-evidence, company-level red flags, and market-structure evidence.
+- R4/R5/R6 reference files — A-share thesis-level bucketing, company-level red flags, and market-structure evidence.
+- R9/R10 reference files — Biotech BD income quality and qualifying large-cap residual re-rating.
 
 Do not edit only a hidden local install copy. Make methodology changes in `skills/` first, then sync any local mirrors.
 
@@ -31,7 +32,7 @@ Claude Code should read `CLAUDE.md` first. That file points Claude to the canoni
 1. `skills/serenity-style-alpha-research/SKILL.md`
 2. `references/output-template.md` for output shape
 3. `references/trading-scenario.md` for trading-scenario requests
-4. `references/a-share-skill-spec-FINAL.md` and R4/R5/R6 detail files for A-share work
+4. `references/a-share-skill-spec-FINAL.md`, R4/R5/R6 as the base, and R9/R10 only when their specialist conditions apply
 
 Claude should not rely on `.codex/` as its source of truth.
 
@@ -46,7 +47,7 @@ For agents without filesystem access, paste or attach:
 1. `skills/serenity-style-alpha-research/SKILL.md`
 2. `references/output-template.md`
 3. For trading-scenario requests, `references/trading-scenario.md`
-4. For A-share research, `references/a-share-skill-spec-FINAL.md` plus the specific R4/R5/R6 file required by the task
+4. For A-share research, `references/a-share-skill-spec-FINAL.md` plus only the required R4/R5/R6/R9/R10 files
 
 Avoid pasting all A-share provenance files unless doing methodology review.
 
@@ -70,3 +71,5 @@ When updating behavior, update in this order:
 2. Root agent docs if the change affects usage: `README.md`, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`.
 3. `.codex/skills/serenity-style-alpha-research/` local mirror if the canonical skill changed.
 4. Verify references and mirror consistency before committing.
+
+Maintenance candidates, action plans, and peer-discussion live under `docs/decisions/` and must not be loaded as runtime research references.

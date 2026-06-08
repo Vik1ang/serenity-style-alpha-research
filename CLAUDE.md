@@ -2,12 +2,10 @@
 
 ## Reference index
 
+- **A 股总入口** — `skills/serenity-style-alpha-research/references/a-share-skill-spec-FINAL.md`
 - **R9 / Biotech BD 收入质量** — `skills/serenity-style-alpha-research/references/a-share-r9-biotech-bd-quality.md`
 - **R10 / 大市值剩余重估空间** — `skills/serenity-style-alpha-research/references/a-share-r10-large-cap-rerating-residual.md`
-- **外部候选池（10 候选）** — `skills/serenity-style-alpha-research/references/candidates-2026-06-08.md`，不并入 action plan，仅作参考。
-- **A 股四支柱总览** — `skills/serenity-style-alpha-research/references/a-share-4-pillars-spec.md`
 - **完整跑票与复盘样本** — `skills/serenity-style-alpha-research/references/a-share-worked-examples.md`
-- **R-12~16 风险约束** — `skills/serenity-style-alpha-research/references/competitive-benchmark-action-plan.md` 的“风险约束”段。
 
 This file provides guidance to Claude Code (claude.ai/code) when working in this repository.
 
@@ -52,6 +50,8 @@ For A-share work, start with:
   business vehicle layering and company-level financial/governance red flags.
 - `references/a-share-r6-market-structure-minimum-evidence.md` — R2/R3 market
   structure evidence, required market-cap date, and large-cap vs small-cap risk pricing.
+- `references/a-share-r9-biotech-bd-quality.md` — Biotech BD income-quality specialist gate.
+- `references/a-share-r10-large-cap-rerating-residual.md` — large-cap residual re-rating and price-in gate.
 
 R1 provenance files:
 
@@ -84,7 +84,10 @@ R1 provenance files:
   - R4 for thesis-level bucket and announcement evidence.
   - R5 for business-vehicle layering and company-level financial/governance red flags.
   - R6 for market-structure evidence and R2/R3 risk pricing.
+  - R9 for Biotech BD income quality.
+  - R10 for large-cap residual re-rating.
   - D4 FINAL if the top-level read path changes.
+- Keep benchmark candidates, action plans, and peer-discussion under `docs/decisions/`; do not route them as runtime references.
 - Keep root docs (`README.md`, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`) aligned with the reference stack and usage contract.
 
 ## Local-Only Directories (Never Commit)
