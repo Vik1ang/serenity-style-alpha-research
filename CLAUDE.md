@@ -1,5 +1,14 @@
 # CLAUDE.md
 
+## Reference index
+
+- **R9 / Biotech BD 收入质量** — `skills/serenity-style-alpha-research/references/a-share-r9-biotech-bd-quality.md`
+- **R10 / 大市值剩余重估空间** — `skills/serenity-style-alpha-research/references/a-share-r10-large-cap-rerating-residual.md`
+- **外部候选池（10 候选）** — `skills/serenity-style-alpha-research/references/candidates-2026-06-08.md`，不并入 action plan，仅作参考。
+- **A 股四支柱总览** — `skills/serenity-style-alpha-research/references/a-share-4-pillars-spec.md`
+- **完整跑票与复盘样本** — `skills/serenity-style-alpha-research/references/a-share-worked-examples.md`
+- **R-12~16 风险约束** — `skills/serenity-style-alpha-research/references/competitive-benchmark-action-plan.md` 的“风险约束”段。
+
 This file provides guidance to Claude Code (claude.ai/code) when working in this repository.
 
 ## What This Repo Is

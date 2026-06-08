@@ -1,5 +1,14 @@
 # Serenity-Style Alpha Research
 
+## Reference index
+
+- **R9 / Biotech BD 收入质量** — `skills/serenity-style-alpha-research/references/a-share-r9-biotech-bd-quality.md`
+- **R10 / 大市值剩余重估空间** — `skills/serenity-style-alpha-research/references/a-share-r10-large-cap-rerating-residual.md`
+- **外部候选池（10 候选）** — `skills/serenity-style-alpha-research/references/candidates-2026-06-08.md`，不并入 action plan，仅作参考。
+- **A 股四支柱总览** — `skills/serenity-style-alpha-research/references/a-share-4-pillars-spec.md`
+- **完整跑票与复盘样本** — `skills/serenity-style-alpha-research/references/a-share-worked-examples.md`
+- **R-12~16 风险约束** — `skills/serenity-style-alpha-research/references/competitive-benchmark-action-plan.md` 的“风险约束”段。
+
 这是一个面向多 agent 的 Serenity-style alpha research skill / reference 包，可供 Codex、Claude、Gemini 或其他 Markdown-aware agent 使用，用于对上市公司做 chokepoint alpha 研究：
 **确定性需求 → 受限供给 → 低关注/误分类 → 价值传导 → 催化 → 反证**。
 默认输出语言为中文。

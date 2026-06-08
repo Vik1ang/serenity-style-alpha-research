@@ -1,5 +1,18 @@
 # A 股 Serenity-style Alpha Skill Spec FINAL
 
+## 活跃 references 索引（2026-06-08 更新）
+
+| 文件 | 状态 | 跟 R9/R10 的关系 |
+|---|---|---|
+| `a-share-4-pillars-spec.md` | R1 底稿 | 四支柱基础，不替代专项 gate |
+| `a-share-skill-spec-draft.md` | D3 索引 | 汇总 R4-R6，指向 R9 与案例 |
+| `a-share-r4-thesis-bucketing-announcement-calibration.md` | 活跃 | thesis 分桶与公告反证基础 |
+| `a-share-r5-ma-target-layering-smallcap-redflags.md` | 活跃 | R9/R10 前置公司级红旗 |
+| `a-share-r6-market-structure-minimum-evidence.md` | 活跃 | R10 crowding 与市场数据基础 |
+| `a-share-r9-biotech-bd-quality.md` | 活跃专项 | Biotech BD 收入质量 |
+| `a-share-r10-large-cap-rerating-residual.md` | 活跃专项 | 大市值剩余重估与 price-in |
+| `a-share-worked-examples.md` | 活跃案例 | R9/R10 实操与复盘 |
+
 ## 1. 一页纸总览
 
 这份 FINAL 是 A 股 serenity-style-alpha skill 的总入口，面向第一次接触该体系的人。它不再把美股 gate 逐条翻译到 A 股，而是把 c 路径和 R4-R6 的成果收束成一条可执行研究链：先用 c 路径确认 A 股需要独立方法论，核心是政策/周期前置、倒序信息传播、重估触发路径和涨跌停风险定价；再用三条硬化规则处理冲突优先级、fallback checkpoint 和 materiality 硬门槛；随后用春秋电子倒推补上公告反证、收购/并表、公司入口、缺数据和 Early Optionality 等漏洞。R4 解决输出单位和公告反证校准，R5 解决并购标的分层和小票财务红旗，R6 解决市场结构数据最低证据标准。实际跑票时，默认按 thesis-level 分桶，公司级只做 summary；风险、公告反证和财务硬门槛优先于题材叙事。 本 FINAL 已整合 4 步轻改：R4 加媒体订单规则 / R5 扩展新设业务载体 + 加红旗量化阈值 / R6 加市值档位数据日期。
@@ -18,7 +31,7 @@ R5 详见 `a-share-r5-ma-target-layering-smallcap-redflags.md`。它把收购标
 
 ## 5. R6 8.4
 
-R6 详见 `a-share-r6-market-structure-minimum-evidence.md`。它定义 R2/R3 的最低数据包、缺数据时的 R2 / 数据不足处理、公司级与 thesis-level 市场结构信号的映射，以及数据源优先级。 R6 包含 8.4 市场结构数据最低证据 + R6 §3 Large-cap crowding vs Small-cap relay + 市值档位数据日期强制要求。
+R6 详见 `a-share-r6-market-structure-minimum-evidence.md`。它定义 R2/R3 的最低数据包、缺数据时的 R2 / 数据不足处理、公司级与 thesis-level 市场结构信号的映射，以及数据源优先级。 R6 包含 8.4 市场结构数据最低证据 + R6 §3 Large-cap crowding vs Small-cap relay + 市值档位数据日期强制要求。 R9 见 `a-share-r9-biotech-bd-quality.md`（Biotech BD 收入质量 gate）。
 
 ## 6. 跑票流程
 
@@ -30,4 +43,4 @@ R6 详见 `a-share-r6-market-structure-minimum-evidence.md`。它定义 R2/R3 �
 
 ## 8. 三桶分桶 + reconcile
 
-三桶规则引用 `a-share-skill-spec-draft.md` 第 5 段，并结合 R4/R5：Shortlist 是确认型基本面候选，Watchlist — Early Optionality 是早期可选性待核验，Excluded 是反证或风险压倒；公司级红旗可覆盖全部 thesis。
+三桶规则引用 `a-share-skill-spec-draft.md` 第 5 段，并结合 R4/R5：Shortlist 是确认型基本面候选，Watchlist — Early Optionality 是早期可选性待核验，Excluded 是反证或风险压倒；公司级红旗可覆盖全部 thesis。 R4-R6 worked examples 见 `a-share-worked-examples.md`（3 案例：春秋/鹏鼎/黄河 + 2 占位：赛力斯/百利天恒）。

@@ -7,6 +7,23 @@ metadata:
 
 # Serenity-Style Alpha Research
 
+## Reference index
+
+- **R9 / Biotech BD 收入质量** — `references/a-share-r9-biotech-bd-quality.md`
+- **R10 / 大市值剩余重估空间** — `references/a-share-r10-large-cap-rerating-residual.md`
+- **外部候选池（10 候选）** — `references/candidates-2026-06-08.md`，不并入 action plan，仅作参考。
+- **A 股四支柱总览** — `references/a-share-4-pillars-spec.md`
+- **完整跑票与复盘样本** — `references/a-share-worked-examples.md`
+- **R-12~16 风险约束** — `references/competitive-benchmark-action-plan.md` 的“风险约束”段；运行时仍以本文件硬规则为准。
+
+## 硬约束（R-12~16）
+
+- **R-12 — 不输出直接交易指令：** 不给买入、卖出、仓位、目标价或止损价命令；只按交易推演层输出状态、触发器、反证和风险控制重点。
+- **R-13 — 不照抄重型多-skill 架构：** 保持单一研究入口；在 Candidate Registry 与监控闭环跑稳前，不拆成大量 sibling skills。
+- **R-14 — 不削弱现有证据链：** 新模块只能包裹或细化 thesis-level 分桶、公告反证和公司级财务/治理红旗，不能替换这些基础 gate。
+- **R-15 — 防止 reference 漂移：** 新增或改名 reference 时，必须同步入口索引、链接和职责 owner；外部项目只作设计证据，不成为运行时真相源。
+- **R-16 — Registry 先于自动化：** Candidate Registry 与 lifecycle、citation、数据状态契约未跑稳前，不建设 cron、持续推送或自动候选通知。
+
 ## Purpose
 
 Analyze market/news/company clues through the Serenity-style “chokepoint” lens: **certain demand → constrained supply → low market attention → value capture → catalyst → anti-thesis**. The goal is stock selection research: build a candidate universe, filter for investable bottleneck exposure, then decide which names deserve deeper due diligence. Do not copy Serenity’s tickers or hype; test whether a small, overlooked company sits at a hard-to-replace bottleneck that can transmit into financials.
@@ -41,6 +58,8 @@ When the user asks “谁受益 / 有哪些票 / 找类似 Serenity 的机会 / 
 7. **Deep dive trigger** — only deep dive names with enough data to test revenue mix, value capture, and anti-thesis.
 
 For each candidate, require at minimum: **ticker/exchange, exact bottleneck product, exposure purity, latest market cap, latest revenue or segment proxy, non-social-media evidence, key catalyst, key disqualifier**. If these cannot be verified, keep it in “Watchlist / 待核验”, not shortlist.
+
+**A 股 specific routing:** start with the A-share base stack (R4/R5/R6). For **Biotech BD 收入质量**, load `references/a-share-r9-biotech-bd-quality.md`. For a **大市值公司 whose core thesis already passes the base gates and needs residual re-rating / price-in analysis**, load `references/a-share-r10-large-cap-rerating-residual.md`.
 
 
 ## Shortlist Gate
@@ -221,3 +240,5 @@ This skill is for listed-equity stock selection and company/industry supply-chai
   - `references/a-share-r4-thesis-bucketing-announcement-calibration.md` — thesis-level bucketing, announcement counter-evidence, and media-order confirmation rule.
   - `references/a-share-r5-ma-target-layering-smallcap-redflags.md` — M&A/new-vehicle layering and company-level financial/governance red flags.
   - `references/a-share-r6-market-structure-minimum-evidence.md` — R2/R3 market-structure evidence, market-cap date, and large-cap vs small-cap risk pricing.
+  - `references/a-share-r9-biotech-bd-quality.md` — Biotech BD income quality, mixed-state aggregation, partner counter-events, and regional dual-track handling.
+  - `references/a-share-r10-large-cap-rerating-residual.md` — residual re-rating and price-in analysis for qualifying large-cap theses.
