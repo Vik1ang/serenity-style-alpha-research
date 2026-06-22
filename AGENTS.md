@@ -30,7 +30,7 @@ For stock-selection, chokepoint alpha, cycle/technology-inflation thesis validat
 - Do not provide direct buy/sell/position-size/target/stop advice.
 - If asked for trading advice, use `references/trading-scenario.md` and output the non-advisory 交易推演 layer: status, checkpoints, triggers, invalidation, and risk controls.
 - Social-media-only evidence is never enough for a strong alpha conclusion.
-- Missing cycle proof, demand proof, bottleneck proof, comparative advantage, materiality, market context, or risk checks means Watchlist / Excluded, not Shortlist.
+- Missing cycle proof, demand proof, bottleneck proof, comparative advantage, materiality, market context, or risk checks means Watchlist / Excluded, not Shortlist. For A-share shortlist work, market context requires a dated market snapshot and R2/R3/crowding judgment when data exists; no market-data coverage must be labeled data insufficient.
 
 ## Editing Rules
 

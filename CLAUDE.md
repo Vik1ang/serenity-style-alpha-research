@@ -53,7 +53,7 @@ For A-share work, start with:
 - `references/a-share-r5-ma-target-layering-smallcap-redflags.md` — M&A/new
   business vehicle layering and company-level financial/governance red flags.
 - `references/a-share-r6-market-structure-minimum-evidence.md` — R2/R3 market
-  structure evidence, required market-cap date, and large-cap vs small-cap risk pricing.
+  structure evidence, dated market snapshot fields, required market-cap date, and large-cap vs small-cap risk pricing.
 - `references/a-share-r9-biotech-bd-quality.md` — Biotech BD income-quality specialist gate.
 - `references/a-share-r10-large-cap-rerating-residual.md` — large-cap residual re-rating and price-in gate.
 - `references/cycle-objectivity-overlay.md` — optional overlay when global cycle / objective inflation / low-base elasticity is central; it does not replace R4-R10.
@@ -77,6 +77,7 @@ R1 provenance files:
   transmission is proven.**
 - **Shortlist requires evidence.** Missing cycle proof, demand proof, bottleneck proof,
   comparative advantage, materiality, market context, or risk checks → Watchlist / 待核验 or Excluded.
+  For A-share shortlist work, market context must include a dated snapshot: market cap/float cap, PE/PB/PS, 5D/60D move, amount, turnover, limit status, and R2/R3/crowding judgment when data exists; no source coverage must be stated as data insufficient.
 - When testing or changing the skill itself, use a mixed validation basket: likely positives, crowded boundary cases, exposure-impure cases, and red-flag false positives.
 - **Trading scenario layer is not trade advice.** If users ask “怎么交易 / 买不买 / 卖不卖”, load `references/trading-scenario.md` and reframe into 可交易研究对象 / 等待触发 / 仅观察 / 回避交易 / 数据不足 plus evidence checkpoints and risks.
 - **Default output language is Chinese** unless the user asks otherwise.

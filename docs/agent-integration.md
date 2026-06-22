@@ -12,7 +12,7 @@ Use `skills/structural-alpha-research/` as the source of truth for all agents. I
 - `references/cycle-objectivity-overlay.md` — cycle, comparative-advantage, low-base elasticity, liquidity, and objectivity overlay inspired by global-cycle / objectivity method synthesis.
 - `docs/decisions/` — validation baskets, maintenance decisions, and peer-discussion records; these are not runtime recommendations.
 - `references/a-share-skill-spec-FINAL.md` — A-share top-level read path.
-- R4/R5/R6 reference files — A-share thesis-level bucketing, company-level red flags, and market-structure evidence.
+- R4/R5/R6 reference files — A-share thesis-level bucketing, company-level red flags, and market-structure evidence, including dated A-share market snapshots and R2/R3/crowding judgment.
 - R9/R10 reference files — Biotech BD income quality and qualifying large-cap residual re-rating.
 
 Do not edit only a hidden local install copy. Make methodology changes in `skills/` first, then sync any local mirrors.
@@ -64,7 +64,7 @@ Every agent must preserve these rules:
 - No direct buy/sell/position-size/target/stop advice.
 - Trading scenario output must follow `references/trading-scenario.md` and is allowed only as non-advisory status, checkpoints, triggers, invalidation, and risk controls.
 - Social-media-only evidence cannot support a strong alpha conclusion.
-- Missing cycle proof, demand proof, bottleneck proof, comparative advantage, materiality, market context, or risk checks means Watchlist / Excluded, not Shortlist.
+- Missing cycle proof, demand proof, bottleneck proof, comparative advantage, materiality, market context, or risk checks means Watchlist / Excluded, not Shortlist. For A-share names, market context means a dated snapshot with market cap/float cap, valuation, 5D/60D move, amount, turnover, limit status, and R2/R3/crowding judgment when available; no market-data coverage must be labeled data insufficient.
 - When validating the skill itself, use mixed samples: likely positives, crowded winners, exposure-impure cases, and red-flag false positives. Store the results in `docs/decisions/`, not `references/`.
 - Method simulations inspired by external frameworks must be labeled as inference and must not be presented as source-attributed views without loaded source evidence.
 - A-share work starts from the A-share FINAL index, not from a direct US-to-A-share gate translation.

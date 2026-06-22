@@ -94,7 +94,7 @@ cp -r skills/structural-alpha-research \
 ## 这个 skill 产出什么
 
 - **快速 Triage**：单条新闻、公告、推文、市场传闻的快速判断。
-- **选股 Shortlist**：longlist → evidence filter → shortlist / watchlist / excluded。
+- **选股 Shortlist**：longlist → evidence filter → shortlist / watchlist / excluded；A 股 shortlist 必须有日期化行情快照和 R2/R3/拥挤判断，缺覆盖则标数据不足。
 - **完整研究 Memo**：深度研究时使用 `references/output-template.md`。
 - **周期/客观性增强**：当 thesis 依赖全球技术周期、价格/交期变化、低 ROE 修复或流动性判断时，加载 `references/cycle-objectivity-overlay.md`。
 - **公司核验**：对指定 ticker 先查财务和市场数据，再判断产业链暴露和财务传导。
@@ -114,7 +114,7 @@ A 股方法论不是美股 structural alpha 框架的逐条翻译，而是一套
 2. `references/a-share-skill-spec-draft.md` — D3 工作草稿和 R4-R6 索引。
 3. `references/a-share-r4-thesis-bucketing-announcement-calibration.md` — thesis-level 分桶、公告反证 6 级、媒体订单规则。
 4. `references/a-share-r5-ma-target-layering-smallcap-redflags.md` — 并购/新设业务载体分层、公司级财务/治理红旗。
-5. `references/a-share-r6-market-structure-minimum-evidence.md` — R2/R3 市场结构证据、市值数据日期、大票/小票风险定价差异。
+5. `references/a-share-r6-market-structure-minimum-evidence.md` — R2/R3 市场结构证据、市值/估值/5D/60D/成交额/换手等行情快照、市值数据日期、大票/小票风险定价差异。
 6. `references/a-share-r9-biotech-bd-quality.md` — Biotech BD 收入质量专项。
 7. `references/a-share-r10-large-cap-rerating-residual.md` — 大市值剩余重估专项。
 8. `references/cycle-objectivity-overlay.md` — 需要“全球周期/客观性/低基数弹性”增强时加载；它不替代 R4-R10。
@@ -128,7 +128,7 @@ A 股方法论不是美股 structural alpha 框架的逐条翻译，而是一套
 
 1. **Primary**：财报、交易所公告、公司公告、电话会/投资者关系记录。
 2. **Cross-check**：客户、供应商、竞争对手、行业数据。
-3. **Market data**：价格、市值、流动性、估值、short interest/options、产品价格、交期、产能利用率等。
+3. **Market data**：价格、市值/流通市值、流动性、估值、5D/60D 涨跌幅、成交额、换手、涨跌停、short interest/options、产品价格、交期、产能利用率等。A 股跑票若行情数据源无覆盖，必须显式标注数据不足，不能当成无拥挤或无流动性风险。
 4. **Secondary**：可信媒体、券商摘要；只能作线索，不替代原始证据。
 5. **Social media**：只能作为 thesis input，不能单独支撑强结论。
 

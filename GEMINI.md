@@ -32,7 +32,7 @@ See `docs/agent-integration.md` for the full cross-agent map.
 - If the user asks “怎么交易 / 买不买 / 能不能做”, load `references/trading-scenario.md` and output a non-advisory 交易推演: current status, checkpoints, triggers, invalidation, and risk controls.
 - Do not let social-media evidence alone support a strong alpha conclusion.
 - Do not attribute a method simulation to any external source unless loaded primary-source evidence supports it.
-- For A-share research, use thesis-level bucketing and the A-share FINAL index; do not mechanically translate US-market gates.
+- For A-share research, use thesis-level bucketing and the A-share FINAL index; do not mechanically translate US-market gates. A-share shortlist work must include a dated market snapshot and R2/R3/crowding judgment when data exists; no coverage means data insufficient, not risk cleared.
 
 ## Maintenance
 
