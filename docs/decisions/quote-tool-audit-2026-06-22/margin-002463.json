@@ -1,0 +1,39 @@
+{
+  "as_of": "2026-06-22 15:45:14 Asia/Shanghai",
+  "source": "jydb",
+  "code": "sz002463",
+  "margin": [
+    {
+      "date": "2026-06-18",
+      "margin_quan_wan": 15010.78,
+      "quantity_change_wan": -341.92,
+      "short_value_wan": 222.01,
+      "margin_ratio_pct": 7.8,
+      "prev_margin_quan_wan": 15352.7
+    },
+    {
+      "date": "2026-06-17",
+      "margin_quan_wan": 15352.7,
+      "quantity_change_wan": 13.57,
+      "short_value_wan": 224.99,
+      "margin_ratio_pct": 7.98,
+      "prev_margin_quan_wan": 15339.13
+    },
+    {
+      "date": "2026-06-16",
+      "margin_quan_wan": 15339.13,
+      "quantity_change_wan": -233.63,
+      "short_value_wan": 215.73,
+      "margin_ratio_pct": 7.97,
+      "prev_margin_quan_wan": 15572.75
+    },
+    {
+      "date": "2026-06-15",
+      "margin_quan_wan": 15572.75,
+      "quantity_change_wan": 427.37,
+      "short_value_wan": 208.3,
+      "margin_ratio_pct": 8.09,
+      "prev_margin_quan_wan": 15145.38
+    }
+  ]
+}

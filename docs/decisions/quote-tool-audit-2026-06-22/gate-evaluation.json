@@ -1,0 +1,149 @@
+[
+  {
+    "code": "sz002463",
+    "name": "沪电股份",
+    "price": 145.26,
+    "date": "2026-06-22",
+    "mcap_yi": 2795.3,
+    "bucket": "≥1000亿",
+    "change_5d": 9.04,
+    "change_60d": 100.17,
+    "amount_yi": 132.9,
+    "turnover": 4.73,
+    "pe": 64.9786,
+    "pb": 16.6489,
+    "flags": [
+      "large-cap",
+      "60d涨幅>=50%",
+      "成交额>=100亿",
+      "PB>=15"
+    ],
+    "gate": "触发 price-in / large-cap crowding cap：不能直接 Shortlist，除非证明仍有误分类"
+  },
+  {
+    "code": "sz300502",
+    "name": "新易盛",
+    "price": 579.97,
+    "date": "2026-06-22",
+    "mcap_yi": 8086.3,
+    "bucket": "≥1000亿",
+    "change_5d": 8.7,
+    "change_60d": 88.88,
+    "amount_yi": 263.1,
+    "turnover": 3.63,
+    "pe": 75.2938,
+    "pb": 39.6801,
+    "flags": [
+      "large-cap",
+      "60d涨幅>=50%",
+      "成交额>=100亿",
+      "PE>=70",
+      "PB>=15"
+    ],
+    "gate": "触发 price-in / large-cap crowding cap：不能直接 Shortlist，除非证明仍有误分类"
+  },
+  {
+    "code": "sz300308",
+    "name": "中际旭创",
+    "price": 1382.33,
+    "date": "2026-06-22",
+    "mcap_yi": 15416.2,
+    "bucket": "≥1000亿",
+    "change_5d": 17.15,
+    "change_60d": 126.98,
+    "amount_yi": 386.4,
+    "turnover": 2.53,
+    "pe": 103.1263,
+    "pb": 43.3197,
+    "flags": [
+      "large-cap",
+      "60d涨幅>=50%",
+      "5d涨幅>=10%",
+      "成交额>=100亿",
+      "PE>=70",
+      "PB>=15"
+    ],
+    "gate": "触发 price-in / large-cap crowding cap：不能直接 Shortlist，除非证明仍有误分类"
+  },
+  {
+    "code": "sh601138",
+    "name": "工业富联",
+    "price": 78.88,
+    "date": "2026-06-22",
+    "mcap_yi": 15653.0,
+    "bucket": "≥1000亿",
+    "change_5d": 6.51,
+    "change_60d": 27.8,
+    "amount_yi": 233.2,
+    "turnover": 1.51,
+    "pe": 38.5072,
+    "pb": 8.8828,
+    "flags": [
+      "large-cap",
+      "成交额>=100亿"
+    ],
+    "gate": "行情层未强拥挤；仍需公告、财报、订单和客户验证"
+  },
+  {
+    "code": "sz300476",
+    "name": "胜宏科技",
+    "price": 365.4,
+    "date": "2026-06-22",
+    "mcap_yi": 3591.1,
+    "bucket": "≥1000亿",
+    "change_5d": 7.82,
+    "change_60d": 27.95,
+    "amount_yi": 179.8,
+    "turnover": 5.7,
+    "pe": 76.7366,
+    "pb": 20.6335,
+    "flags": [
+      "large-cap",
+      "成交额>=100亿",
+      "换手>=5%",
+      "PE>=70",
+      "PB>=15"
+    ],
+    "gate": "触发 price-in / large-cap crowding cap：不能直接 Shortlist，除非证明仍有误分类"
+  },
+  {
+    "code": "sh688676",
+    "name": "金盘科技",
+    "price": 92.35,
+    "date": "2026-06-22",
+    "mcap_yi": 424.6,
+    "bucket": "100-1000亿",
+    "change_5d": 2.7,
+    "change_60d": 3.0,
+    "amount_yi": 21.4,
+    "turnover": 5.02,
+    "pe": 63.8779,
+    "pb": 8.2153,
+    "flags": [
+      "换手>=5%"
+    ],
+    "gate": "触发流动性/换手关注：需补成交结构、公告和订单质量"
+  },
+  {
+    "code": "sz002130",
+    "name": "沃尔核材",
+    "price": 20.44,
+    "date": "2026-06-22",
+    "mcap_yi": 286.1,
+    "bucket": "100-1000亿",
+    "change_5d": -0.58,
+    "change_60d": -22.34,
+    "amount_yi": 7.8,
+    "turnover": 3.36,
+    "pe": 25.4397,
+    "pb": 3.127,
+    "flags": [],
+    "gate": "未触发拥挤；主 gate 转为二阶暴露/技术路线/订单质量"
+  },
+  {
+    "code": "sz920808",
+    "name": "?",
+    "status": "no_data",
+    "gate": "R2/数据不足：行情源无覆盖，不能硬判R3或流动性风险解除"
+  }
+]

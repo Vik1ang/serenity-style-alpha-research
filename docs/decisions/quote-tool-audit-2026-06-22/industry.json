@@ -1,0 +1,3238 @@
+{
+  "as_of": "2026-06-22 15:45:22 Asia/Shanghai",
+  "source": "jydb",
+  "industries": [
+    {
+      "industry_code": "240203",
+      "pe_ttm": -1497.3193,
+      "pb_lf": 4.0651,
+      "ps_ttm": 4.7214,
+      "dividend_yield": 0.3973,
+      "total_mv": 4384.5660717735,
+      "float_mv": 4253.8764717382
+    },
+    {
+      "industry_code": "650100",
+      "pe_ttm": -999.4853,
+      "pb_lf": 5.6552,
+      "ps_ttm": 10.558,
+      "dividend_yield": 0.1207,
+      "total_mv": 5058.8997951441,
+      "float_mv": 4875.0981215974
+    },
+    {
+      "industry_code": "650101",
+      "pe_ttm": -999.4853,
+      "pb_lf": 5.6552,
+      "ps_ttm": 10.558,
+      "dividend_yield": 0.1207,
+      "total_mv": 5058.8997951441,
+      "float_mv": 4875.0981215974
+    },
+    {
+      "industry_code": "220602",
+      "pe_ttm": -584.2664,
+      "pb_lf": 2.6075,
+      "ps_ttm": 2.8147,
+      "dividend_yield": 0.3686,
+      "total_mv": 607.4521422561,
+      "float_mv": 501.0533754323
+    },
+    {
+      "industry_code": "710202",
+      "pe_ttm": -436.0888,
+      "pb_lf": 3.4929,
+      "ps_ttm": 2.3191,
+      "dividend_yield": 0.4101,
+      "total_mv": 13188.2540604272,
+      "float_mv": 12055.4564040994
+    },
+    {
+      "industry_code": "110103",
+      "pe_ttm": -285.7683,
+      "pb_lf": 2.663,
+      "ps_ttm": 0.8656,
+      "dividend_yield": 0.1491,
+      "total_mv": 450.145840347,
+      "float_mv": 450.145840347
+    },
+    {
+      "industry_code": "230101",
+      "pe_ttm": -260.4171,
+      "pb_lf": 0.7555,
+      "ps_ttm": 0.3515,
+      "dividend_yield": 1.2523,
+      "total_mv": 5042.9178757009995,
+      "float_mv": 4575.6314626729
+    },
+    {
+      "industry_code": "450300",
+      "pe_ttm": -253.5593,
+      "pb_lf": 1.3974,
+      "ps_ttm": 0.8447,
+      "dividend_yield": 1.2767,
+      "total_mv": 3345.7080493543,
+      "float_mv": 3058.551221599
+    },
+    {
+      "industry_code": "610200",
+      "pe_ttm": -168.1482,
+      "pb_lf": 1.4744,
+      "ps_ttm": 1.6203,
+      "dividend_yield": 1.0053,
+      "total_mv": 966.3785236312,
+      "float_mv": 762.2247254339
+    },
+    {
+      "industry_code": "610201",
+      "pe_ttm": -168.1482,
+      "pb_lf": 1.4744,
+      "ps_ttm": 1.6203,
+      "dividend_yield": 1.0053,
+      "total_mv": 966.3785236312,
+      "float_mv": 762.2247254339
+    },
+    {
+      "industry_code": "650301",
+      "pe_ttm": -165.4559,
+      "pb_lf": 3.6076,
+      "ps_ttm": 6.0765,
+      "dividend_yield": 0.2711,
+      "total_mv": 3009.0033544339003,
+      "float_mv": 2995.0697346763
+    },
+    {
+      "industry_code": "650300",
+      "pe_ttm": -165.4559,
+      "pb_lf": 3.6076,
+      "ps_ttm": 6.0765,
+      "dividend_yield": 0.2711,
+      "total_mv": 3009.0033544339003,
+      "float_mv": 2995.0697346763
+    },
+    {
+      "industry_code": "640103",
+      "pe_ttm": -138.8137,
+      "pb_lf": 4.7791,
+      "ps_ttm": 9.4167,
+      "dividend_yield": 0.4674,
+      "total_mv": 1435.620561493,
+      "float_mv": 1161.7812391295
+    },
+    {
+      "industry_code": "730203",
+      "pe_ttm": -126.284,
+      "pb_lf": 3.0483,
+      "ps_ttm": 2.5221,
+      "dividend_yield": 0.5438,
+      "total_mv": 2289.8410925259,
+      "float_mv": 2018.2569609901998
+    },
+    {
+      "industry_code": "720104",
+      "pe_ttm": -98.7634,
+      "pb_lf": 3.9859,
+      "ps_ttm": 4.8806,
+      "dividend_yield": 0.0745,
+      "total_mv": 441.6641622512,
+      "float_mv": 408.15321190419996
+    },
+    {
+      "industry_code": "450302",
+      "pe_ttm": -96.1115,
+      "pb_lf": 2.6642,
+      "ps_ttm": 0.5746,
+      "dividend_yield": 0.5348,
+      "total_mv": 1047.6370086997001,
+      "float_mv": 983.6610232316
+    },
+    {
+      "industry_code": "460400",
+      "pe_ttm": -87.8917,
+      "pb_lf": 3.2523,
+      "ps_ttm": 2.2791,
+      "dividend_yield": 0.2825,
+      "total_mv": 110.0155496032,
+      "float_mv": 105.23978388040001
+    },
+    {
+      "industry_code": "460401",
+      "pe_ttm": -87.8917,
+      "pb_lf": 3.2523,
+      "ps_ttm": 2.2791,
+      "dividend_yield": 0.2825,
+      "total_mv": 110.0155496032,
+      "float_mv": 105.23978388040001
+    },
+    {
+      "industry_code": "340305",
+      "pe_ttm": -84.9286,
+      "pb_lf": 1.5773,
+      "ps_ttm": 4.6057,
+      "dividend_yield": 0.6837,
+      "total_mv": 205.0544961438,
+      "float_mv": 170.6262352495
+    },
+    {
+      "industry_code": "220201",
+      "pe_ttm": -75.2157,
+      "pb_lf": 1.2353,
+      "ps_ttm": 1.4281,
+      "dividend_yield": 0.2389,
+      "total_mv": 630.5635024937001,
+      "float_mv": 605.4460246344
+    },
+    {
+      "industry_code": "360100",
+      "pe_ttm": -66.7388,
+      "pb_lf": 1.3791,
+      "ps_ttm": 0.9555,
+      "dividend_yield": 1.7463,
+      "total_mv": 1869.4745336189,
+      "float_mv": 1766.8408383047
+    },
+    {
+      "industry_code": "360101",
+      "pe_ttm": -66.7388,
+      "pb_lf": 1.3791,
+      "ps_ttm": 0.9555,
+      "dividend_yield": 1.7463,
+      "total_mv": 1869.4745336189,
+      "float_mv": 1766.8408383047
+    },
+    {
+      "industry_code": "720102",
+      "pe_ttm": -64.9267,
+      "pb_lf": 2.9923,
+      "ps_ttm": 5.1064,
+      "dividend_yield": 0.3214,
+      "total_mv": 2007.5093550079998,
+      "float_mv": 1858.5028212672
+    },
+    {
+      "industry_code": "350104",
+      "pe_ttm": -57.2574,
+      "pb_lf": 1.4986,
+      "ps_ttm": 0.5686,
+      "dividend_yield": 1.9118,
+      "total_mv": 200.3053695188,
+      "float_mv": 200.3053695188
+    },
+    {
+      "industry_code": "450301",
+      "pe_ttm": -55.7619,
+      "pb_lf": 1.2693,
+      "ps_ttm": 2.2801,
+      "dividend_yield": 0.9011,
+      "total_mv": 1378.7739144615,
+      "float_mv": 1319.0297502073
+    },
+    {
+      "industry_code": "110300",
+      "pe_ttm": -55.6617,
+      "pb_lf": 6.9532,
+      "ps_ttm": 12.0024,
+      "dividend_yield": 0.0454,
+      "total_mv": 189.71765609439998,
+      "float_mv": 188.4960620668
+    },
+    {
+      "industry_code": "110301",
+      "pe_ttm": -55.6617,
+      "pb_lf": 6.9532,
+      "ps_ttm": 12.0024,
+      "dividend_yield": 0.0454,
+      "total_mv": 189.71765609439998,
+      "float_mv": 188.4960620668
+    },
+    {
+      "industry_code": "720103",
+      "pe_ttm": -41.5631,
+      "pb_lf": 1.1678,
+      "ps_ttm": 2.8841,
+      "dividend_yield": 1.2823,
+      "total_mv": 1261.8034205452,
+      "float_mv": 1188.8626693666001
+    },
+    {
+      "industry_code": "450000",
+      "pe_ttm": -38.5066,
+      "pb_lf": 1.467,
+      "ps_ttm": 0.4772,
+      "dividend_yield": 1.6532,
+      "total_mv": 6975.222115199101,
+      "float_mv": 6263.761141373299
+    },
+    {
+      "industry_code": "620200",
+      "pe_ttm": -38.0865,
+      "pb_lf": 2.7808,
+      "ps_ttm": 1.6106,
+      "dividend_yield": 0.8182,
+      "total_mv": 1414.0435441676002,
+      "float_mv": 1268.7008728863
+    },
+    {
+      "industry_code": "620201",
+      "pe_ttm": -38.0865,
+      "pb_lf": 2.7808,
+      "ps_ttm": 1.6106,
+      "dividend_yield": 0.8182,
+      "total_mv": 1414.0435441676002,
+      "float_mv": 1268.7008728863
+    },
+    {
+      "industry_code": "110400",
+      "pe_ttm": -34.7014,
+      "pb_lf": 2.0929,
+      "ps_ttm": 0.4936,
+      "dividend_yield": 1.4425,
+      "total_mv": 2034.1359905893,
+      "float_mv": 1928.3963625047
+    },
+    {
+      "industry_code": "110401",
+      "pe_ttm": -34.7014,
+      "pb_lf": 2.0929,
+      "ps_ttm": 0.4936,
+      "dividend_yield": 1.4425,
+      "total_mv": 2034.1359905893,
+      "float_mv": 1928.3963625047
+    },
+    {
+      "industry_code": "630303",
+      "pe_ttm": -29.1566,
+      "pb_lf": 2.7645,
+      "ps_ttm": 1.7856,
+      "dividend_yield": 0.4999,
+      "total_mv": 11380.4681027408,
+      "float_mv": 10314.535508307701
+    },
+    {
+      "industry_code": "450501",
+      "pe_ttm": -25.1533,
+      "pb_lf": 1.6732,
+      "ps_ttm": 3.8072,
+      "dividend_yield": 1.1029,
+      "total_mv": 141.3731898135,
+      "float_mv": 141.3366513882
+    },
+    {
+      "industry_code": "330200",
+      "pe_ttm": -22.6575,
+      "pb_lf": 3.019,
+      "ps_ttm": 0.8177,
+      "dividend_yield": 1.0994,
+      "total_mv": 1790.8522824719,
+      "float_mv": 1753.3863797069
+    },
+    {
+      "industry_code": "630304",
+      "pe_ttm": -19.4691,
+      "pb_lf": 3.0897,
+      "ps_ttm": 2.1679,
+      "dividend_yield": 1.0412,
+      "total_mv": 77.9872867416,
+      "float_mv": 75.9093645871
+    },
+    {
+      "industry_code": "450400",
+      "pe_ttm": -19.2986,
+      "pb_lf": 1.285,
+      "ps_ttm": 0.3194,
+      "dividend_yield": 1.2039,
+      "total_mv": 847.3131680747,
+      "float_mv": 817.3064739349
+    },
+    {
+      "industry_code": "450401",
+      "pe_ttm": -19.2986,
+      "pb_lf": 1.285,
+      "ps_ttm": 0.3194,
+      "dividend_yield": 1.2039,
+      "total_mv": 847.3131680747,
+      "float_mv": 817.3064739349
+    },
+    {
+      "industry_code": "330201",
+      "pe_ttm": -16.1338,
+      "pb_lf": 2.8415,
+      "ps_ttm": 0.6524,
+      "dividend_yield": 1.4364,
+      "total_mv": 1311.7767447976,
+      "float_mv": 1288.0310883002
+    },
+    {
+      "industry_code": "620500",
+      "pe_ttm": -14.5192,
+      "pb_lf": 7.394,
+      "ps_ttm": 7.422,
+      "dividend_yield": 0.0493,
+      "total_mv": 1479.6551405041,
+      "float_mv": 1246.9784238094
+    },
+    {
+      "industry_code": "620501",
+      "pe_ttm": -14.5192,
+      "pb_lf": 7.394,
+      "ps_ttm": 7.422,
+      "dividend_yield": 0.0493,
+      "total_mv": 1479.6551405041,
+      "float_mv": 1246.9784238094
+    },
+    {
+      "industry_code": "210202",
+      "pe_ttm": -12.8315,
+      "pb_lf": 1.0427,
+      "ps_ttm": 0.8237,
+      "dividend_yield": 0.7968,
+      "total_mv": 509.28807711129997,
+      "float_mv": 508.9781142933
+    },
+    {
+      "industry_code": "110200",
+      "pe_ttm": -12.6887,
+      "pb_lf": 2.1532,
+      "ps_ttm": 1.1777,
+      "dividend_yield": 0.2634,
+      "total_mv": 206.5534033992,
+      "float_mv": 198.62641690689998
+    },
+    {
+      "industry_code": "110202",
+      "pe_ttm": -9.2118,
+      "pb_lf": 2.2865,
+      "ps_ttm": 1.4532,
+      "dividend_yield": 0.1905,
+      "total_mv": 159.1171563769,
+      "float_mv": 151.1918528846
+    },
+    {
+      "industry_code": "450500",
+      "pe_ttm": -7.8593,
+      "pb_lf": 1.5603,
+      "ps_ttm": 3.1075,
+      "dividend_yield": 2.8236,
+      "total_mv": 1365.5192601651,
+      "float_mv": 1267.777163932
+    },
+    {
+      "industry_code": "450502",
+      "pe_ttm": -7.2811,
+      "pb_lf": 1.5482,
+      "ps_ttm": 3.0429,
+      "dividend_yield": 3.0277,
+      "total_mv": 1224.1460703516,
+      "float_mv": 1126.4405125438
+    },
+    {
+      "industry_code": "430000",
+      "pe_ttm": -5.8543,
+      "pb_lf": 0.9316,
+      "ps_ttm": 0.7301,
+      "dividend_yield": 1.0485,
+      "total_mv": 11559.633104446299,
+      "float_mv": 10814.9618474673
+    },
+    {
+      "industry_code": "430101",
+      "pe_ttm": -4.8804,
+      "pb_lf": 0.8919,
+      "ps_ttm": 0.6421,
+      "dividend_yield": 0.9804,
+      "total_mv": 9848.5745827811,
+      "float_mv": 9301.9532706214
+    },
+    {
+      "industry_code": "430100",
+      "pe_ttm": -4.8804,
+      "pb_lf": 0.8919,
+      "ps_ttm": 0.6421,
+      "dividend_yield": 0.9804,
+      "total_mv": 9848.5745827811,
+      "float_mv": 9301.9532706214
+    },
+    {
+      "industry_code": "620304",
+      "pe_ttm": 5.0705,
+      "pb_lf": 0.3288,
+      "ps_ttm": 0.0946,
+      "dividend_yield": 5.3294,
+      "total_mv": 1968.8597234979002,
+      "float_mv": 1648.2997864979002
+    },
+    {
+      "industry_code": "490200",
+      "pe_ttm": 6.3473,
+      "pb_lf": 1.1113,
+      "ps_ttm": 0.907,
+      "dividend_yield": 3.513,
+      "total_mv": 26087.132012409504,
+      "float_mv": 17894.3843291339
+    },
+    {
+      "industry_code": "490201",
+      "pe_ttm": 6.3473,
+      "pb_lf": 1.1113,
+      "ps_ttm": 0.907,
+      "dividend_yield": 3.513,
+      "total_mv": 26087.132012409504,
+      "float_mv": 17894.3843291339
+    },
+    {
+      "industry_code": "480100",
+      "pe_ttm": 6.7304,
+      "pb_lf": 0.6359,
+      "ps_ttm": 2.5056,
+      "dividend_yield": 4.1818,
+      "total_mv": 146298.7602823143,
+      "float_mv": 95946.7568220497
+    },
+    {
+      "industry_code": "480000",
+      "pe_ttm": 6.7304,
+      "pb_lf": 0.6359,
+      "ps_ttm": 2.5056,
+      "dividend_yield": 4.1818,
+      "total_mv": 146298.7602823143,
+      "float_mv": 95946.7568220497
+    },
+    {
+      "industry_code": "480101",
+      "pe_ttm": 6.7304,
+      "pb_lf": 0.6359,
+      "ps_ttm": 2.5056,
+      "dividend_yield": 4.1818,
+      "total_mv": 146298.7602823143,
+      "float_mv": 95946.7568220497
+    },
+    {
+      "industry_code": "620300",
+      "pe_ttm": 9.3239,
+      "pb_lf": 0.559,
+      "ps_ttm": 0.1744,
+      "dividend_yield": 3.2264,
+      "total_mv": 7959.5290704649,
+      "float_mv": 6705.1599726634995
+    },
+    {
+      "industry_code": "620100",
+      "pe_ttm": 9.3688,
+      "pb_lf": 0.5789,
+      "ps_ttm": 0.1411,
+      "dividend_yield": 3.714,
+      "total_mv": 3404.1442269102004,
+      "float_mv": 3215.4221344316998
+    },
+    {
+      "industry_code": "620101",
+      "pe_ttm": 9.3688,
+      "pb_lf": 0.5789,
+      "ps_ttm": 0.1411,
+      "dividend_yield": 3.714,
+      "total_mv": 3404.1442269102004,
+      "float_mv": 3215.4221344316998
+    },
+    {
+      "industry_code": "620303",
+      "pe_ttm": 9.3999,
+      "pb_lf": 0.6442,
+      "ps_ttm": 0.1447,
+      "dividend_yield": 2.7218,
+      "total_mv": 1166.8426639044,
+      "float_mv": 889.0175346502
+    },
+    {
+      "industry_code": "640104",
+      "pe_ttm": 9.5555,
+      "pb_lf": 1.8376,
+      "ps_ttm": 1.4478,
+      "dividend_yield": 0.4883,
+      "total_mv": 340.7725456198,
+      "float_mv": 240.8020511343
+    },
+    {
+      "industry_code": "490000",
+      "pe_ttm": 9.7339,
+      "pb_lf": 1.1778,
+      "ps_ttm": 1.8376,
+      "dividend_yield": 2.3126,
+      "total_mv": 65181.503297276795,
+      "float_mv": 50817.6204713991
+    },
+    {
+      "industry_code": "330101",
+      "pe_ttm": 10.6145,
+      "pb_lf": 1.5463,
+      "ps_ttm": 0.5494,
+      "dividend_yield": 5.2827,
+      "total_mv": 2445.0909975861,
+      "float_mv": 1703.0495702823998
+    },
+    {
+      "industry_code": "620302",
+      "pe_ttm": 10.7906,
+      "pb_lf": 0.5909,
+      "ps_ttm": 0.2448,
+      "dividend_yield": 3.5784,
+      "total_mv": 2565.9785344924,
+      "float_mv": 2264.1774654619
+    },
+    {
+      "industry_code": "330102",
+      "pe_ttm": 11.0107,
+      "pb_lf": 2.1083,
+      "ps_ttm": 1.2786,
+      "dividend_yield": 2.6703,
+      "total_mv": 8096.978224940201,
+      "float_mv": 7467.2541938162
+    },
+    {
+      "industry_code": "210100",
+      "pe_ttm": 11.2408,
+      "pb_lf": 1.0848,
+      "ps_ttm": 0.6288,
+      "dividend_yield": 4.7739,
+      "total_mv": 17962.7412334119,
+      "float_mv": 15920.0179103025
+    },
+    {
+      "industry_code": "210101",
+      "pe_ttm": 11.2408,
+      "pb_lf": 1.0848,
+      "ps_ttm": 0.6288,
+      "dividend_yield": 4.7739,
+      "total_mv": 17962.7412334119,
+      "float_mv": 15920.0179103025
+    },
+    {
+      "industry_code": "330103",
+      "pe_ttm": 11.7499,
+      "pb_lf": 2.2908,
+      "ps_ttm": 1.38,
+      "dividend_yield": 8.7581,
+      "total_mv": 58.6325835,
+      "float_mv": 58.6325835
+    },
+    {
+      "industry_code": "240301",
+      "pe_ttm": 12.0313,
+      "pb_lf": 2.3333,
+      "ps_ttm": 1.0343,
+      "dividend_yield": 2.374,
+      "total_mv": 8112.2664203248,
+      "float_mv": 5628.198487083299
+    },
+    {
+      "industry_code": "420100",
+      "pe_ttm": 12.0726,
+      "pb_lf": 0.8779,
+      "ps_ttm": 2.1897,
+      "dividend_yield": 3.2033,
+      "total_mv": 4614.8997667789,
+      "float_mv": 4270.6533352395
+    },
+    {
+      "industry_code": "420101",
+      "pe_ttm": 12.0726,
+      "pb_lf": 0.8779,
+      "ps_ttm": 2.1897,
+      "dividend_yield": 3.2033,
+      "total_mv": 4614.8997667789,
+      "float_mv": 4270.6533352395
+    },
+    {
+      "industry_code": "220302",
+      "pe_ttm": 12.4344,
+      "pb_lf": 2.1145,
+      "ps_ttm": 1.0297,
+      "dividend_yield": 4.2575,
+      "total_mv": 605.6548480117,
+      "float_mv": 605.6548480117
+    },
+    {
+      "industry_code": "420600",
+      "pe_ttm": 12.687,
+      "pb_lf": 1.4077,
+      "ps_ttm": 1.6652,
+      "dividend_yield": 5.0577,
+      "total_mv": 5816.7961356874,
+      "float_mv": 5011.431007825
+    },
+    {
+      "industry_code": "420601",
+      "pe_ttm": 12.687,
+      "pb_lf": 1.4077,
+      "ps_ttm": 1.6652,
+      "dividend_yield": 5.0577,
+      "total_mv": 5816.7961356874,
+      "float_mv": 5011.431007825
+    },
+    {
+      "industry_code": "280103",
+      "pe_ttm": 12.92,
+      "pb_lf": 3.8053,
+      "ps_ttm": 0.988,
+      "dividend_yield": 7.2317,
+      "total_mv": 776.4324681661999,
+      "float_mv": 776.2650998166
+    },
+    {
+      "industry_code": "620402",
+      "pe_ttm": 13.7809,
+      "pb_lf": 0.9413,
+      "ps_ttm": 0.3167,
+      "dividend_yield": 2.3184,
+      "total_mv": 1067.8676783363,
+      "float_mv": 1051.4370323409
+    },
+    {
+      "industry_code": "420201",
+      "pe_ttm": 13.7875,
+      "pb_lf": 1.1237,
+      "ps_ttm": 2.942,
+      "dividend_yield": 3.6401,
+      "total_mv": 3856.7804820737,
+      "float_mv": 3308.8245565519
+    },
+    {
+      "industry_code": "420200",
+      "pe_ttm": 13.7875,
+      "pb_lf": 1.1237,
+      "ps_ttm": 2.942,
+      "dividend_yield": 3.6401,
+      "total_mv": 3856.7804820737,
+      "float_mv": 3308.8245565519
+    },
+    {
+      "industry_code": "490100",
+      "pe_ttm": 14.251,
+      "pb_lf": 1.2254,
+      "ps_ttm": 5.8463,
+      "dividend_yield": 1.7765,
+      "total_mv": 34310.2292136983,
+      "float_mv": 29094.0720771123
+    },
+    {
+      "industry_code": "490101",
+      "pe_ttm": 14.251,
+      "pb_lf": 1.2254,
+      "ps_ttm": 5.8463,
+      "dividend_yield": 1.7765,
+      "total_mv": 34310.2292136983,
+      "float_mv": 29094.0720771123
+    },
+    {
+      "industry_code": "410200",
+      "pe_ttm": 14.344,
+      "pb_lf": 1.0419,
+      "ps_ttm": 1.8743,
+      "dividend_yield": 2.3185,
+      "total_mv": 1650.9810295441,
+      "float_mv": 1588.8980151643
+    },
+    {
+      "industry_code": "410201",
+      "pe_ttm": 14.344,
+      "pb_lf": 1.0419,
+      "ps_ttm": 1.8743,
+      "dividend_yield": 2.3185,
+      "total_mv": 1650.9810295441,
+      "float_mv": 1588.8980151643
+    },
+    {
+      "industry_code": "220310",
+      "pe_ttm": 14.4416,
+      "pb_lf": 1.4549,
+      "ps_ttm": 0.7145,
+      "dividend_yield": 2.4913,
+      "total_mv": 675.4677586618,
+      "float_mv": 579.9640595383
+    },
+    {
+      "industry_code": "220601",
+      "pe_ttm": 14.5721,
+      "pb_lf": 1.0842,
+      "ps_ttm": 0.9142,
+      "dividend_yield": 2.6546,
+      "total_mv": 1130.6275329413002,
+      "float_mv": 974.4977231491999
+    },
+    {
+      "industry_code": "240400",
+      "pe_ttm": 14.5966,
+      "pb_lf": 3.8632,
+      "ps_ttm": 1.5268,
+      "dividend_yield": 1.0134,
+      "total_mv": 12225.7115708379,
+      "float_mv": 10014.262097775601
+    },
+    {
+      "industry_code": "240401",
+      "pe_ttm": 14.5966,
+      "pb_lf": 3.8632,
+      "ps_ttm": 1.5268,
+      "dividend_yield": 1.0134,
+      "total_mv": 12225.7115708379,
+      "float_mv": 10014.262097775601
+    },
+    {
+      "industry_code": "620403",
+      "pe_ttm": 14.6493,
+      "pb_lf": 1.1065,
+      "ps_ttm": 0.6814,
+      "dividend_yield": 3.1892,
+      "total_mv": 587.4456805318,
+      "float_mv": 564.4616584396
+    },
+    {
+      "industry_code": "620301",
+      "pe_ttm": 14.7025,
+      "pb_lf": 1.0191,
+      "ps_ttm": 0.6721,
+      "dividend_yield": 2.8954,
+      "total_mv": 435.0935251392,
+      "float_mv": 416.54763509919997
+    },
+    {
+      "industry_code": "410101",
+      "pe_ttm": 14.9791,
+      "pb_lf": 1.6093,
+      "ps_ttm": 0.9011,
+      "dividend_yield": 2.4584,
+      "total_mv": 10932.6386324716,
+      "float_mv": 9567.2432429774
+    },
+    {
+      "industry_code": "620000",
+      "pe_ttm": 15.1127,
+      "pb_lf": 0.7574,
+      "ps_ttm": 0.2278,
+      "dividend_yield": 2.5398,
+      "total_mv": 18353.7072062861,
+      "float_mv": 16229.6954642336
+    },
+    {
+      "industry_code": "210000",
+      "pe_ttm": 15.1288,
+      "pb_lf": 1.3426,
+      "ps_ttm": 0.9786,
+      "dividend_yield": 4.3272,
+      "total_mv": 42899.2693782764,
+      "float_mv": 36497.1843228946
+    },
+    {
+      "industry_code": "730100",
+      "pe_ttm": 15.2103,
+      "pb_lf": 1.33,
+      "ps_ttm": 1.3593,
+      "dividend_yield": 4.4571,
+      "total_mv": 26769.3555478402,
+      "float_mv": 6827.156698082
+    },
+    {
+      "industry_code": "730101",
+      "pe_ttm": 15.2103,
+      "pb_lf": 1.33,
+      "ps_ttm": 1.3593,
+      "dividend_yield": 4.4571,
+      "total_mv": 26769.3555478402,
+      "float_mv": 6827.156698082
+    },
+    {
+      "industry_code": "330100",
+      "pe_ttm": 15.8401,
+      "pb_lf": 2.5477,
+      "ps_ttm": 1.3298,
+      "dividend_yield": 2.3008,
+      "total_mv": 18492.8019966179,
+      "float_mv": 16660.0102234674
+    },
+    {
+      "industry_code": "340403",
+      "pe_ttm": 16.9854,
+      "pb_lf": 2.4955,
+      "ps_ttm": 1.191,
+      "dividend_yield": 4.4476,
+      "total_mv": 2127.1974063953,
+      "float_mv": 2107.9052283097
+    },
+    {
+      "industry_code": "340302",
+      "pe_ttm": 17.1444,
+      "pb_lf": 2.3812,
+      "ps_ttm": 2.1268,
+      "dividend_yield": 3.5435,
+      "total_mv": 1489.7856173038,
+      "float_mv": 1105.0365818416
+    },
+    {
+      "industry_code": "420000",
+      "pe_ttm": 17.1447,
+      "pb_lf": 1.2304,
+      "ps_ttm": 0.6869,
+      "dividend_yield": 3.0212,
+      "total_mv": 30505.6799920412,
+      "float_mv": 26947.5245248196
+    },
+    {
+      "industry_code": "420700",
+      "pe_ttm": 17.3497,
+      "pb_lf": 0.8562,
+      "ps_ttm": 2.1364,
+      "dividend_yield": 3.4919,
+      "total_mv": 3796.4642751910997,
+      "float_mv": 3753.7555433234998
+    },
+    {
+      "industry_code": "420701",
+      "pe_ttm": 17.3497,
+      "pb_lf": 0.8562,
+      "ps_ttm": 2.1364,
+      "dividend_yield": 3.4919,
+      "total_mv": 3796.4642751910997,
+      "float_mv": 3753.7555433234998
+    },
+    {
+      "industry_code": "210201",
+      "pe_ttm": 18.092,
+      "pb_lf": 1.5764,
+      "ps_ttm": 1.8357,
+      "dividend_yield": 4.7926,
+      "total_mv": 19631.8500085188,
+      "float_mv": 15925.1294618147
+    },
+    {
+      "industry_code": "210402",
+      "pe_ttm": 18.1941,
+      "pb_lf": 4.0023,
+      "ps_ttm": 3.1605,
+      "dividend_yield": 0.6126,
+      "total_mv": 458.172952926,
+      "float_mv": 458.172952926
+    },
+    {
+      "industry_code": "280102",
+      "pe_ttm": 18.4264,
+      "pb_lf": 1.3436,
+      "ps_ttm": 0.4627,
+      "dividend_yield": 1.4979,
+      "total_mv": 906.2518781802,
+      "float_mv": 815.1252147602
+    },
+    {
+      "industry_code": "360304",
+      "pe_ttm": 18.4459,
+      "pb_lf": 1.8283,
+      "ps_ttm": 0.5169,
+      "dividend_yield": 2.4445,
+      "total_mv": 995.7166096873,
+      "float_mv": 909.1748900564
+    },
+    {
+      "industry_code": "640501",
+      "pe_ttm": 18.4594,
+      "pb_lf": 1.1945,
+      "ps_ttm": 1.0012,
+      "dividend_yield": 3.4728,
+      "total_mv": 4022.6060551073997,
+      "float_mv": 3339.0888395883003
+    },
+    {
+      "industry_code": "640500",
+      "pe_ttm": 18.4594,
+      "pb_lf": 1.1945,
+      "ps_ttm": 1.0012,
+      "dividend_yield": 3.4728,
+      "total_mv": 4022.6060551073997,
+      "float_mv": 3339.0888395883003
+    },
+    {
+      "industry_code": "340301",
+      "pe_ttm": 18.4622,
+      "pb_lf": 3.6022,
+      "ps_ttm": 6.5088,
+      "dividend_yield": 4.8142,
+      "total_mv": 23213.015965854902,
+      "float_mv": 23114.1311746391
+    },
+    {
+      "industry_code": "220306",
+      "pe_ttm": 18.5165,
+      "pb_lf": 4.0347,
+      "ps_ttm": 10.0933,
+      "dividend_yield": 1.299,
+      "total_mv": 3381.0150932860997,
+      "float_mv": 3314.0320475953004
+    },
+    {
+      "industry_code": "330000",
+      "pe_ttm": 18.6357,
+      "pb_lf": 2.5833,
+      "ps_ttm": 1.2601,
+      "dividend_yield": 2.1875,
+      "total_mv": 20283.6542790898,
+      "float_mv": 18413.3966031743
+    },
+    {
+      "industry_code": "640201",
+      "pe_ttm": 18.6634,
+      "pb_lf": 1.65,
+      "ps_ttm": 1.294,
+      "dividend_yield": 2.4605,
+      "total_mv": 4925.8421644221,
+      "float_mv": 4330.5957224269005
+    },
+    {
+      "industry_code": "410102",
+      "pe_ttm": 18.7468,
+      "pb_lf": 2.2743,
+      "ps_ttm": 4.8109,
+      "dividend_yield": 2.9293,
+      "total_mv": 12831.3758102173,
+      "float_mv": 12601.6185252305
+    },
+    {
+      "industry_code": "110102",
+      "pe_ttm": 18.7761,
+      "pb_lf": 3.4338,
+      "ps_ttm": 1.0394,
+      "dividend_yield": 2.1682,
+      "total_mv": 816.0693798865,
+      "float_mv": 775.0256756358999
+    },
+    {
+      "industry_code": "410100",
+      "pe_ttm": 18.86,
+      "pb_lf": 1.8043,
+      "ps_ttm": 1.7964,
+      "dividend_yield": 2.4547,
+      "total_mv": 32241.128882998597,
+      "float_mv": 29806.9150136225
+    },
+    {
+      "industry_code": "410301",
+      "pe_ttm": 18.8924,
+      "pb_lf": 1.7352,
+      "ps_ttm": 0.8238,
+      "dividend_yield": 3.2099,
+      "total_mv": 2678.2735459347,
+      "float_mv": 2444.1033637502
+    },
+    {
+      "industry_code": "410300",
+      "pe_ttm": 18.8924,
+      "pb_lf": 1.7352,
+      "ps_ttm": 0.8238,
+      "dividend_yield": 3.2099,
+      "total_mv": 2678.2735459347,
+      "float_mv": 2444.1033637502
+    },
+    {
+      "industry_code": "340300",
+      "pe_ttm": 19.012,
+      "pb_lf": 3.4663,
+      "ps_ttm": 5.6152,
+      "dividend_yield": 4.5683,
+      "total_mv": 27131.1122654055,
+      "float_mv": 26489.4708532519
+    },
+    {
+      "industry_code": "210200",
+      "pe_ttm": 19.2661,
+      "pb_lf": 1.5562,
+      "ps_ttm": 1.7804,
+      "dividend_yield": 4.6757,
+      "total_mv": 20141.1380856301,
+      "float_mv": 16434.107576108
+    },
+    {
+      "industry_code": "350102",
+      "pe_ttm": 19.3168,
+      "pb_lf": 1.1179,
+      "ps_ttm": 1.1743,
+      "dividend_yield": 3.0905,
+      "total_mv": 585.8350671578,
+      "float_mv": 572.1967114408001
+    },
+    {
+      "industry_code": "240300",
+      "pe_ttm": 19.333,
+      "pb_lf": 2.76,
+      "ps_ttm": 0.7561,
+      "dividend_yield": 1.4464,
+      "total_mv": 18766.1976022722,
+      "float_mv": 15045.3094387389
+    },
+    {
+      "industry_code": "720101",
+      "pe_ttm": 19.3919,
+      "pb_lf": 1.34,
+      "ps_ttm": 1.9776,
+      "dividend_yield": 2.9588,
+      "total_mv": 2437.2603362165,
+      "float_mv": 2299.0165004349
+    },
+    {
+      "industry_code": "340000",
+      "pe_ttm": 20.1701,
+      "pb_lf": 3.2032,
+      "ps_ttm": 3.6254,
+      "dividend_yield": 4.3206,
+      "total_mv": 36034.0245281441,
+      "float_mv": 34828.850860551
+    },
+    {
+      "industry_code": "210400",
+      "pe_ttm": 20.3709,
+      "pb_lf": 1.6068,
+      "ps_ttm": 0.7949,
+      "dividend_yield": 1.2846,
+      "total_mv": 2661.7973029305,
+      "float_mv": 2296.1905306845997
+    },
+    {
+      "industry_code": "220204",
+      "pe_ttm": 20.3969,
+      "pb_lf": 2.9559,
+      "ps_ttm": 2.5409,
+      "dividend_yield": 1.9857,
+      "total_mv": 3631.7486538473,
+      "float_mv": 3449.5494495866997
+    },
+    {
+      "industry_code": "350206",
+      "pe_ttm": 20.6358,
+      "pb_lf": 2.0798,
+      "ps_ttm": 1.9681,
+      "dividend_yield": 4.1803,
+      "total_mv": 303.1105485983,
+      "float_mv": 272.7266209843
+    },
+    {
+      "industry_code": "420500",
+      "pe_ttm": 20.7488,
+      "pb_lf": 1.1876,
+      "ps_ttm": 3.3499,
+      "dividend_yield": 2.0957,
+      "total_mv": 963.9395769769001,
+      "float_mv": 845.3330337003999
+    },
+    {
+      "industry_code": "420501",
+      "pe_ttm": 20.7488,
+      "pb_lf": 1.1876,
+      "ps_ttm": 3.3499,
+      "dividend_yield": 2.0957,
+      "total_mv": 963.9395769769001,
+      "float_mv": 845.3330337003999
+    },
+    {
+      "industry_code": "410000",
+      "pe_ttm": 20.8552,
+      "pb_lf": 1.787,
+      "ps_ttm": 1.7501,
+      "dividend_yield": 2.2912,
+      "total_mv": 42895.8334360363,
+      "float_mv": 38752.5664492212
+    },
+    {
+      "industry_code": "210401",
+      "pe_ttm": 20.8905,
+      "pb_lf": 1.429,
+      "ps_ttm": 0.6878,
+      "dividend_yield": 1.449,
+      "total_mv": 2203.6243500045002,
+      "float_mv": 1838.0175777585998
+    },
+    {
+      "industry_code": "360400",
+      "pe_ttm": 20.971,
+      "pb_lf": 4.062,
+      "ps_ttm": 4.4848,
+      "dividend_yield": 2.265,
+      "total_mv": 191.74555276080002,
+      "float_mv": 189.42733462830003
+    },
+    {
+      "industry_code": "360401",
+      "pe_ttm": 20.971,
+      "pb_lf": 4.062,
+      "ps_ttm": 4.4848,
+      "dividend_yield": 2.265,
+      "total_mv": 191.74555276080002,
+      "float_mv": 189.42733462830003
+    },
+    {
+      "industry_code": "220101",
+      "pe_ttm": 21.0811,
+      "pb_lf": 0.7708,
+      "ps_ttm": 0.2351,
+      "dividend_yield": 4.1577,
+      "total_mv": 6961.716800791899,
+      "float_mv": 5555.274989525999
+    },
+    {
+      "industry_code": "280400",
+      "pe_ttm": 21.2397,
+      "pb_lf": 3.1015,
+      "ps_ttm": 1.5918,
+      "dividend_yield": 2.6844,
+      "total_mv": 1758.6370989911,
+      "float_mv": 1477.9397390739002
+    },
+    {
+      "industry_code": "280401",
+      "pe_ttm": 21.2397,
+      "pb_lf": 3.1015,
+      "ps_ttm": 1.5918,
+      "dividend_yield": 2.6844,
+      "total_mv": 1758.6370989911,
+      "float_mv": 1477.9397390739002
+    },
+    {
+      "industry_code": "220100",
+      "pe_ttm": 21.4162,
+      "pb_lf": 0.7833,
+      "ps_ttm": 0.2402,
+      "dividend_yield": 4.0594,
+      "total_mv": 7135.6395433545995,
+      "float_mv": 5717.7397392843
+    },
+    {
+      "industry_code": "110504",
+      "pe_ttm": 21.8183,
+      "pb_lf": 1.9732,
+      "ps_ttm": 1.2002,
+      "dividend_yield": 1.4012,
+      "total_mv": 1219.5040373139,
+      "float_mv": 1183.7438694452
+    },
+    {
+      "industry_code": "230102",
+      "pe_ttm": 22.2233,
+      "pb_lf": 1.4691,
+      "ps_ttm": 0.589,
+      "dividend_yield": 2.7191,
+      "total_mv": 2189.2267392554,
+      "float_mv": 2055.5215242346
+    },
+    {
+      "industry_code": "350203",
+      "pe_ttm": 22.2846,
+      "pb_lf": 1.6357,
+      "ps_ttm": 1.7029,
+      "dividend_yield": 2.7279,
+      "total_mv": 356.3535940089,
+      "float_mv": 280.4919664287
+    },
+    {
+      "industry_code": "220313",
+      "pe_ttm": 22.6242,
+      "pb_lf": 2.0216,
+      "ps_ttm": 1.0674,
+      "dividend_yield": 1.3973,
+      "total_mv": 2919.0089970840995,
+      "float_mv": 2882.1042236454
+    },
+    {
+      "industry_code": "220401",
+      "pe_ttm": 22.7917,
+      "pb_lf": 1.8567,
+      "ps_ttm": 0.5087,
+      "dividend_yield": 1.0015,
+      "total_mv": 4690.097298974099,
+      "float_mv": 4590.4654264663
+    },
+    {
+      "industry_code": "630403",
+      "pe_ttm": 23.4363,
+      "pb_lf": 2.262,
+      "ps_ttm": 1.4822,
+      "dividend_yield": 1.374,
+      "total_mv": 1705.0763811588001,
+      "float_mv": 1625.6545074307999
+    },
+    {
+      "industry_code": "240504",
+      "pe_ttm": 23.7654,
+      "pb_lf": 4.3632,
+      "ps_ttm": 1.9803,
+      "dividend_yield": 0.9766,
+      "total_mv": 10407.2864609183,
+      "float_mv": 9454.6035268899
+    },
+    {
+      "industry_code": "640207",
+      "pe_ttm": 24.415,
+      "pb_lf": 1.9485,
+      "ps_ttm": 1.53,
+      "dividend_yield": 1.5561,
+      "total_mv": 191.115142764,
+      "float_mv": 127.511844949
+    },
+    {
+      "industry_code": "620305",
+      "pe_ttm": 24.6838,
+      "pb_lf": 1.0926,
+      "ps_ttm": 0.3232,
+      "dividend_yield": 0.9665,
+      "total_mv": 1822.754623431,
+      "float_mv": 1487.1175509543
+    },
+    {
+      "industry_code": "340304",
+      "pe_ttm": 24.7111,
+      "pb_lf": 4.2025,
+      "ps_ttm": 4.2148,
+      "dividend_yield": 3.1281,
+      "total_mv": 1826.5773947951002,
+      "float_mv": 1749.4256173543
+    },
+    {
+      "industry_code": "340400",
+      "pe_ttm": 24.7678,
+      "pb_lf": 2.6015,
+      "ps_ttm": 1.7431,
+      "dividend_yield": 3.5702,
+      "total_mv": 8902.9122627386,
+      "float_mv": 8339.3800072991
+    },
+    {
+      "industry_code": "220312",
+      "pe_ttm": 24.836,
+      "pb_lf": 2.1562,
+      "ps_ttm": 1.7105,
+      "dividend_yield": 2.9171,
+      "total_mv": 789.7528240006,
+      "float_mv": 773.7047377772
+    },
+    {
+      "industry_code": "240000",
+      "pe_ttm": 24.9902,
+      "pb_lf": 3.7701,
+      "ps_ttm": 1.4608,
+      "dividend_yield": 0.9313,
+      "total_mv": 62313.8925792279,
+      "float_mv": 53230.9729416938
+    },
+    {
+      "industry_code": "460101",
+      "pe_ttm": 25.0104,
+      "pb_lf": 2.8452,
+      "ps_ttm": 7.5961,
+      "dividend_yield": 3.1291,
+      "total_mv": 208.57725242900003,
+      "float_mv": 206.30070292509998
+    },
+    {
+      "industry_code": "220600",
+      "pe_ttm": 25.1734,
+      "pb_lf": 1.4129,
+      "ps_ttm": 1.1912,
+      "dividend_yield": 1.7967,
+      "total_mv": 1982.5411803758,
+      "float_mv": 1705.3341954973998
+    },
+    {
+      "industry_code": "370401",
+      "pe_ttm": 25.2062,
+      "pb_lf": 1.6019,
+      "ps_ttm": 0.4222,
+      "dividend_yield": 1.6206,
+      "total_mv": 4605.9400384725,
+      "float_mv": 3741.1880648602
+    },
+    {
+      "industry_code": "370400",
+      "pe_ttm": 25.2062,
+      "pb_lf": 1.6019,
+      "ps_ttm": 0.4222,
+      "dividend_yield": 1.6206,
+      "total_mv": 4605.9400384725,
+      "float_mv": 3741.1880648602
+    },
+    {
+      "industry_code": "220301",
+      "pe_ttm": 25.6441,
+      "pb_lf": 1.4136,
+      "ps_ttm": 1.0737,
+      "dividend_yield": 2.0156,
+      "total_mv": 1005.6839135289999,
+      "float_mv": 1005.5359724125
+    },
+    {
+      "industry_code": "350204",
+      "pe_ttm": 25.6967,
+      "pb_lf": 1.4872,
+      "ps_ttm": 1.0662,
+      "dividend_yield": 4.0055,
+      "total_mv": 236.9727714785,
+      "float_mv": 208.865811418
+    },
+    {
+      "industry_code": "370600",
+      "pe_ttm": 25.7868,
+      "pb_lf": 3.1353,
+      "ps_ttm": 4.5051,
+      "dividend_yield": 1.215,
+      "total_mv": 7147.2195928436995,
+      "float_mv": 6087.378869294101
+    },
+    {
+      "industry_code": "370601",
+      "pe_ttm": 25.7868,
+      "pb_lf": 3.1353,
+      "ps_ttm": 4.5051,
+      "dividend_yield": 1.215,
+      "total_mv": 7147.2195928436995,
+      "float_mv": 6087.378869294101
+    },
+    {
+      "industry_code": "370200",
+      "pe_ttm": 26.3306,
+      "pb_lf": 2.057,
+      "ps_ttm": 2.1145,
+      "dividend_yield": 3.4808,
+      "total_mv": 7265.3879081960995,
+      "float_mv": 6970.3746900801
+    },
+    {
+      "industry_code": "370201",
+      "pe_ttm": 26.3306,
+      "pb_lf": 2.057,
+      "ps_ttm": 2.1145,
+      "dividend_yield": 3.4808,
+      "total_mv": 7265.3879081960995,
+      "float_mv": 6970.3746900801
+    },
+    {
+      "industry_code": "420800",
+      "pe_ttm": 26.3992,
+      "pb_lf": 1.311,
+      "ps_ttm": 0.2203,
+      "dividend_yield": 2.4071,
+      "total_mv": 6347.0414627502005,
+      "float_mv": 5701.775415338499
+    },
+    {
+      "industry_code": "420801",
+      "pe_ttm": 26.3992,
+      "pb_lf": 1.311,
+      "ps_ttm": 0.2203,
+      "dividend_yield": 2.4071,
+      "total_mv": 6347.0414627502005,
+      "float_mv": 5701.775415338499
+    },
+    {
+      "industry_code": "350103",
+      "pe_ttm": 26.6294,
+      "pb_lf": 2.0645,
+      "ps_ttm": 0.9384,
+      "dividend_yield": 2.8402,
+      "total_mv": 59.1541485,
+      "float_mv": 52.716448924
+    },
+    {
+      "industry_code": "490300",
+      "pe_ttm": 26.7593,
+      "pb_lf": 1.236,
+      "ps_ttm": 5.7079,
+      "dividend_yield": 1.2028,
+      "total_mv": 4784.142071169,
+      "float_mv": 3829.1640651528996
+    },
+    {
+      "industry_code": "490301",
+      "pe_ttm": 26.7593,
+      "pb_lf": 1.236,
+      "ps_ttm": 5.7079,
+      "dividend_yield": 1.2028,
+      "total_mv": 4784.142071169,
+      "float_mv": 3829.1640651528996
+    },
+    {
+      "industry_code": "630305",
+      "pe_ttm": 27.3719,
+      "pb_lf": 4.4228,
+      "ps_ttm": 3.2479,
+      "dividend_yield": 1.6497,
+      "total_mv": 24571.013322373798,
+      "float_mv": 22668.944252237
+    },
+    {
+      "industry_code": "340401",
+      "pe_ttm": 27.5447,
+      "pb_lf": 3.0337,
+      "ps_ttm": 1.0619,
+      "dividend_yield": 4.5562,
+      "total_mv": 1136.3466222393,
+      "float_mv": 1119.8263658521
+    },
+    {
+      "industry_code": "220308",
+      "pe_ttm": 27.8364,
+      "pb_lf": 1.4676,
+      "ps_ttm": 2.7693,
+      "dividend_yield": 1.6267,
+      "total_mv": 903.4812913467999,
+      "float_mv": 837.1159254691
+    },
+    {
+      "industry_code": "410105",
+      "pe_ttm": 28.1952,
+      "pb_lf": 1.5086,
+      "ps_ttm": 3.0409,
+      "dividend_yield": 1.7891,
+      "total_mv": 7400.493409311,
+      "float_mv": 6615.2764501444
+    },
+    {
+      "industry_code": "340402",
+      "pe_ttm": 28.4069,
+      "pb_lf": 4.0936,
+      "ps_ttm": 4.3815,
+      "dividend_yield": 3.5956,
+      "total_mv": 2891.4486741804,
+      "float_mv": 2751.3123448692
+    },
+    {
+      "industry_code": "240303",
+      "pe_ttm": 28.4079,
+      "pb_lf": 4.0309,
+      "ps_ttm": 1.5216,
+      "dividend_yield": 0.4181,
+      "total_mv": 4380.9347040367,
+      "float_mv": 4192.9132339813
+    },
+    {
+      "industry_code": "450200",
+      "pe_ttm": 28.5029,
+      "pb_lf": 1.715,
+      "ps_ttm": 0.1873,
+      "dividend_yield": 1.7069,
+      "total_mv": 1416.681637605,
+      "float_mv": 1120.1262819074
+    },
+    {
+      "industry_code": "450201",
+      "pe_ttm": 28.5029,
+      "pb_lf": 1.715,
+      "ps_ttm": 0.1873,
+      "dividend_yield": 1.7069,
+      "total_mv": 1416.681637605,
+      "float_mv": 1120.1262819074
+    },
+    {
+      "industry_code": "220400",
+      "pe_ttm": 28.5504,
+      "pb_lf": 2.0569,
+      "ps_ttm": 0.6932,
+      "dividend_yield": 0.9179,
+      "total_mv": 6961.8714997246,
+      "float_mv": 6759.2908072027
+    },
+    {
+      "industry_code": "630203",
+      "pe_ttm": 28.8065,
+      "pb_lf": 1.9888,
+      "ps_ttm": 2.2661,
+      "dividend_yield": 2.1675,
+      "total_mv": 961.5217689042,
+      "float_mv": 912.9646118769
+    },
+    {
+      "industry_code": "350202",
+      "pe_ttm": 28.8897,
+      "pb_lf": 1.7209,
+      "ps_ttm": 1.7667,
+      "dividend_yield": 3.6662,
+      "total_mv": 729.8536726961,
+      "float_mv": 696.7259051252
+    },
+    {
+      "industry_code": "620400",
+      "pe_ttm": 30.0148,
+      "pb_lf": 1.2024,
+      "ps_ttm": 0.4217,
+      "dividend_yield": 1.831,
+      "total_mv": 4096.3352242393,
+      "float_mv": 3793.4340604427002
+    },
+    {
+      "industry_code": "330104",
+      "pe_ttm": 30.0687,
+      "pb_lf": 2.3636,
+      "ps_ttm": 1.5375,
+      "dividend_yield": 2.8151,
+      "total_mv": 1878.2885666810998,
+      "float_mv": 1803.4575600885998
+    },
+    {
+      "industry_code": "340404",
+      "pe_ttm": 30.1382,
+      "pb_lf": 1.8455,
+      "ps_ttm": 1.7266,
+      "dividend_yield": 2.4435,
+      "total_mv": 2747.9195599236,
+      "float_mv": 2360.3360682681
+    },
+    {
+      "industry_code": "720301",
+      "pe_ttm": 30.4746,
+      "pb_lf": 3.4633,
+      "ps_ttm": 1.9891,
+      "dividend_yield": 1.1284,
+      "total_mv": 4638.5078390606,
+      "float_mv": 3679.7277760502
+    },
+    {
+      "industry_code": "220405",
+      "pe_ttm": 30.5534,
+      "pb_lf": 1.8302,
+      "ps_ttm": 2.237,
+      "dividend_yield": 1.2052,
+      "total_mv": 631.7113634359999,
+      "float_mv": 629.509926536
+    },
+    {
+      "industry_code": "640208",
+      "pe_ttm": 30.5669,
+      "pb_lf": 5.5992,
+      "ps_ttm": 6.673,
+      "dividend_yield": 0.5452,
+      "total_mv": 1896.7968405464999,
+      "float_mv": 1822.6239218194
+    },
+    {
+      "industry_code": "370101",
+      "pe_ttm": 30.7666,
+      "pb_lf": 2.2424,
+      "ps_ttm": 3.225,
+      "dividend_yield": 1.6207,
+      "total_mv": 4510.9698722585,
+      "float_mv": 4243.1708506005
+    },
+    {
+      "industry_code": "460200",
+      "pe_ttm": 30.9432,
+      "pb_lf": 1.4582,
+      "ps_ttm": 1.7981,
+      "dividend_yield": 2.3915,
+      "total_mv": 452.1661433355,
+      "float_mv": 417.57869027199996
+    },
+    {
+      "industry_code": "460201",
+      "pe_ttm": 30.9432,
+      "pb_lf": 1.4582,
+      "ps_ttm": 1.7981,
+      "dividend_yield": 2.3915,
+      "total_mv": 452.1661433355,
+      "float_mv": 417.57869027199996
+    },
+    {
+      "industry_code": "110500",
+      "pe_ttm": 31.601,
+      "pb_lf": 1.7996,
+      "ps_ttm": 0.8239,
+      "dividend_yield": 1.0502,
+      "total_mv": 3105.0879368804,
+      "float_mv": 1818.3506926785
+    },
+    {
+      "industry_code": "280000",
+      "pe_ttm": 31.7142,
+      "pb_lf": 2.2333,
+      "ps_ttm": 1.0345,
+      "dividend_yield": 1.5314,
+      "total_mv": 42065.9140067621,
+      "float_mv": 33004.885925417795
+    },
+    {
+      "industry_code": "110700",
+      "pe_ttm": 31.8262,
+      "pb_lf": 2.162,
+      "ps_ttm": 1.0913,
+      "dividend_yield": 3.0041,
+      "total_mv": 3747.2263845704997,
+      "float_mv": 2877.0790186899
+    },
+    {
+      "industry_code": "110701",
+      "pe_ttm": 31.8262,
+      "pb_lf": 2.162,
+      "ps_ttm": 1.0913,
+      "dividend_yield": 3.0041,
+      "total_mv": 3747.2263845704997,
+      "float_mv": 2877.0790186899
+    },
+    {
+      "industry_code": "640202",
+      "pe_ttm": 31.8809,
+      "pb_lf": 1.7287,
+      "ps_ttm": 1.149,
+      "dividend_yield": 0.8611,
+      "total_mv": 1122.7286291656,
+      "float_mv": 981.1189599378
+    },
+    {
+      "industry_code": "280100",
+      "pe_ttm": 31.9979,
+      "pb_lf": 1.692,
+      "ps_ttm": 0.6601,
+      "dividend_yield": 1.7891,
+      "total_mv": 16851.5757102569,
+      "float_mv": 10920.3317302321
+    },
+    {
+      "industry_code": "280200",
+      "pe_ttm": 32.1002,
+      "pb_lf": 2.8673,
+      "ps_ttm": 1.7016,
+      "dividend_yield": 1.2987,
+      "total_mv": 22960.326483562203,
+      "float_mv": 20122.4922715249
+    },
+    {
+      "industry_code": "280201",
+      "pe_ttm": 32.1002,
+      "pb_lf": 2.8673,
+      "ps_ttm": 1.7016,
+      "dividend_yield": 1.2987,
+      "total_mv": 22960.326483562203,
+      "float_mv": 20122.4922715249
+    },
+    {
+      "industry_code": "220303",
+      "pe_ttm": 32.4814,
+      "pb_lf": 1.562,
+      "ps_ttm": 1.2285,
+      "dividend_yield": 2.198,
+      "total_mv": 1990.2504280385,
+      "float_mv": 1829.5345965214
+    },
+    {
+      "industry_code": "420400",
+      "pe_ttm": 32.4913,
+      "pb_lf": 2.8969,
+      "ps_ttm": 0.7344,
+      "dividend_yield": 0.4557,
+      "total_mv": 4629.0505247038,
+      "float_mv": 3627.0374688138
+    },
+    {
+      "industry_code": "420401",
+      "pe_ttm": 32.4913,
+      "pb_lf": 2.8969,
+      "ps_ttm": 0.7344,
+      "dividend_yield": 0.4557,
+      "total_mv": 4629.0505247038,
+      "float_mv": 3627.0374688138
+    },
+    {
+      "industry_code": "410104",
+      "pe_ttm": 32.8643,
+      "pb_lf": 1.981,
+      "ps_ttm": 1.4303,
+      "dividend_yield": 1.0576,
+      "total_mv": 1014.1145497935,
+      "float_mv": 987.6320201152
+    },
+    {
+      "industry_code": "220304",
+      "pe_ttm": 33.0206,
+      "pb_lf": 2.4727,
+      "ps_ttm": 1.9106,
+      "dividend_yield": 0.7915,
+      "total_mv": 1029.7486027342,
+      "float_mv": 993.3400620468
+    },
+    {
+      "industry_code": "220311",
+      "pe_ttm": 33.2609,
+      "pb_lf": 5.3381,
+      "ps_ttm": 4.4344,
+      "dividend_yield": 1.1565,
+      "total_mv": 2508.1018477402,
+      "float_mv": 2425.5735498809
+    },
+    {
+      "industry_code": "350106",
+      "pe_ttm": 33.6838,
+      "pb_lf": 2.3426,
+      "ps_ttm": 2.1695,
+      "dividend_yield": 1.0438,
+      "total_mv": 471.5949398396,
+      "float_mv": 423.73879493690004
+    },
+    {
+      "industry_code": "410103",
+      "pe_ttm": 33.7201,
+      "pb_lf": 3.6988,
+      "ps_ttm": 14.4246,
+      "dividend_yield": null,
+      "total_mv": 62.506481205200004,
+      "float_mv": 35.144775155
+    },
+    {
+      "industry_code": "350100",
+      "pe_ttm": 33.7202,
+      "pb_lf": 1.5929,
+      "ps_ttm": 1.1919,
+      "dividend_yield": 2.2855,
+      "total_mv": 1656.460896232,
+      "float_mv": 1566.0049594042998
+    },
+    {
+      "industry_code": "630201",
+      "pe_ttm": 33.8557,
+      "pb_lf": 3.7361,
+      "ps_ttm": 2.9544,
+      "dividend_yield": 1.5397,
+      "total_mv": 4317.5726797185,
+      "float_mv": 4236.9887833829
+    },
+    {
+      "industry_code": "270501",
+      "pe_ttm": 34.0187,
+      "pb_lf": 5.8725,
+      "ps_ttm": 1.7206,
+      "dividend_yield": 1.5104,
+      "total_mv": 23827.994039960402,
+      "float_mv": 23268.972233984703
+    },
+    {
+      "industry_code": "340306",
+      "pe_ttm": 34.4708,
+      "pb_lf": 1.4776,
+      "ps_ttm": 4.092,
+      "dividend_yield": 1.0199,
+      "total_mv": 171.1729556759,
+      "float_mv": 171.1729556759
+    },
+    {
+      "industry_code": "220200",
+      "pe_ttm": 34.4914,
+      "pb_lf": 2.2703,
+      "ps_ttm": 2.0376,
+      "dividend_yield": 1.158,
+      "total_mv": 7981.301394716899,
+      "float_mv": 7553.796155148199
+    },
+    {
+      "industry_code": "210300",
+      "pe_ttm": 34.6787,
+      "pb_lf": 2.684,
+      "ps_ttm": 3.5059,
+      "dividend_yield": 1.3252,
+      "total_mv": 2133.5927563039,
+      "float_mv": 1846.8683057995001
+    },
+    {
+      "industry_code": "210301",
+      "pe_ttm": 34.6787,
+      "pb_lf": 2.684,
+      "ps_ttm": 3.5059,
+      "dividend_yield": 1.3252,
+      "total_mv": 2133.5927563039,
+      "float_mv": 1846.8683057995001
+    },
+    {
+      "industry_code": "630401",
+      "pe_ttm": 35.1499,
+      "pb_lf": 3.4282,
+      "ps_ttm": 2.6585,
+      "dividend_yield": 0.6064,
+      "total_mv": 4678.7386856509,
+      "float_mv": 4310.8334418137
+    },
+    {
+      "industry_code": "240500",
+      "pe_ttm": 35.3798,
+      "pb_lf": 4.9493,
+      "ps_ttm": 2.9181,
+      "dividend_yield": 0.6003,
+      "total_mv": 21454.5354495086,
+      "float_mv": 18860.2930010154
+    },
+    {
+      "industry_code": "340303",
+      "pe_ttm": 35.439,
+      "pb_lf": 2.9324,
+      "ps_ttm": 5.0011,
+      "dividend_yield": 1.403,
+      "total_mv": 225.50583563200001,
+      "float_mv": 179.07828849150002
+    },
+    {
+      "industry_code": "350000",
+      "pe_ttm": 36.1053,
+      "pb_lf": 1.835,
+      "ps_ttm": 1.5822,
+      "dividend_yield": 2.7707,
+      "total_mv": 4948.9961948107,
+      "float_mv": 4571.2779483998
+    },
+    {
+      "industry_code": "280101",
+      "pe_ttm": 36.344,
+      "pb_lf": 1.6704,
+      "ps_ttm": 0.6658,
+      "dividend_yield": 1.4319,
+      "total_mv": 15168.891363910501,
+      "float_mv": 9328.941415655301
+    },
+    {
+      "industry_code": "350200",
+      "pe_ttm": 37.4375,
+      "pb_lf": 1.987,
+      "ps_ttm": 1.8943,
+      "dividend_yield": 3.0121,
+      "total_mv": 3292.5352985787,
+      "float_mv": 3005.2729889955
+    },
+    {
+      "industry_code": "460500",
+      "pe_ttm": 37.8993,
+      "pb_lf": 2.2231,
+      "ps_ttm": 1.1372,
+      "dividend_yield": 0.8058,
+      "total_mv": 203.1538513156,
+      "float_mv": 170.8008317384
+    },
+    {
+      "industry_code": "460501",
+      "pe_ttm": 37.8993,
+      "pb_lf": 2.2231,
+      "ps_ttm": 1.1372,
+      "dividend_yield": 0.8058,
+      "total_mv": 203.1538513156,
+      "float_mv": 170.8008317384
+    },
+    {
+      "industry_code": "220000",
+      "pe_ttm": 37.9086,
+      "pb_lf": 2.2475,
+      "ps_ttm": 1.14,
+      "dividend_yield": 1.1949,
+      "total_mv": 74483.8109552953,
+      "float_mv": 67698.70155637071
+    },
+    {
+      "industry_code": "460301",
+      "pe_ttm": 38.0371,
+      "pb_lf": 2.0886,
+      "ps_ttm": 1.8979,
+      "dividend_yield": 1.9313,
+      "total_mv": 1539.9990068513,
+      "float_mv": 1446.1393844257998
+    },
+    {
+      "industry_code": "460300",
+      "pe_ttm": 38.0371,
+      "pb_lf": 2.0886,
+      "ps_ttm": 1.8979,
+      "dividend_yield": 1.9313,
+      "total_mv": 1539.9990068513,
+      "float_mv": 1446.1393844257998
+    },
+    {
+      "industry_code": "360303",
+      "pe_ttm": 38.3401,
+      "pb_lf": 4.7979,
+      "ps_ttm": 3.461,
+      "dividend_yield": 1.3895,
+      "total_mv": 3236.4621846570003,
+      "float_mv": 2059.1834184451
+    },
+    {
+      "industry_code": "220402",
+      "pe_ttm": 38.6887,
+      "pb_lf": 2.0784,
+      "ps_ttm": 2.2004,
+      "dividend_yield": 1.182,
+      "total_mv": 175.0464055854,
+      "float_mv": 175.0464055854
+    },
+    {
+      "industry_code": "370100",
+      "pe_ttm": 38.6979,
+      "pb_lf": 2.8167,
+      "ps_ttm": 3.7292,
+      "dividend_yield": 1.1227,
+      "total_mv": 18487.7688704779,
+      "float_mv": 16879.2143385883
+    },
+    {
+      "industry_code": "460000",
+      "pe_ttm": 39.0338,
+      "pb_lf": 2.0989,
+      "ps_ttm": 2.1417,
+      "dividend_yield": 1.8311,
+      "total_mv": 2964.2873648047,
+      "float_mv": 2739.9745219226
+    },
+    {
+      "industry_code": "730000",
+      "pe_ttm": 39.332,
+      "pb_lf": 3.4693,
+      "ps_ttm": 3.2538,
+      "dividend_yield": 0.656,
+      "total_mv": 87476.2471106405,
+      "float_mv": 61863.9324274193
+    },
+    {
+      "industry_code": "460100",
+      "pe_ttm": 39.3793,
+      "pb_lf": 2.7494,
+      "ps_ttm": 6.9883,
+      "dividend_yield": 1.8231,
+      "total_mv": 658.9528136991,
+      "float_mv": 600.2158316059999
+    },
+    {
+      "industry_code": "430201",
+      "pe_ttm": 39.3862,
+      "pb_lf": 1.2522,
+      "ps_ttm": 3.4541,
+      "dividend_yield": 1.4708,
+      "total_mv": 1711.0585216651998,
+      "float_mv": 1513.0085768459
+    },
+    {
+      "industry_code": "430200",
+      "pe_ttm": 39.3862,
+      "pb_lf": 1.2522,
+      "ps_ttm": 3.4541,
+      "dividend_yield": 1.4708,
+      "total_mv": 1711.0585216651998,
+      "float_mv": 1513.0085768459
+    },
+    {
+      "industry_code": "360300",
+      "pe_ttm": 39.4163,
+      "pb_lf": 2.7585,
+      "ps_ttm": 1.4647,
+      "dividend_yield": 1.9676,
+      "total_mv": 7039.2799010798,
+      "float_mv": 5573.7249455766005
+    },
+    {
+      "industry_code": "110100",
+      "pe_ttm": 39.6383,
+      "pb_lf": 2.8702,
+      "ps_ttm": 1.1141,
+      "dividend_yield": 1.148,
+      "total_mv": 1729.3560903910998,
+      "float_mv": 1651.4796427656
+    },
+    {
+      "industry_code": "350205",
+      "pe_ttm": 39.9658,
+      "pb_lf": 2.8423,
+      "ps_ttm": 2.179,
+      "dividend_yield": 3.3598,
+      "total_mv": 769.9126597892999,
+      "float_mv": 762.1631862498
+    },
+    {
+      "industry_code": "370000",
+      "pe_ttm": 39.9925,
+      "pb_lf": 2.5269,
+      "ps_ttm": 2.3776,
+      "dividend_yield": 1.5472,
+      "total_mv": 60441.066934400595,
+      "float_mv": 51366.2518695939
+    },
+    {
+      "industry_code": "110502",
+      "pe_ttm": 40.3783,
+      "pb_lf": 1.3889,
+      "ps_ttm": 0.5293,
+      "dividend_yield": 0.9507,
+      "total_mv": 1422.1679973048,
+      "float_mv": 223.1946049716
+    },
+    {
+      "industry_code": "630200",
+      "pe_ttm": 40.9144,
+      "pb_lf": 3.9355,
+      "ps_ttm": 3.4063,
+      "dividend_yield": 1.1701,
+      "total_mv": 9913.9179442242,
+      "float_mv": 9419.835421193
+    },
+    {
+      "industry_code": "650401",
+      "pe_ttm": 40.9687,
+      "pb_lf": 2.037,
+      "ps_ttm": 1.6699,
+      "dividend_yield": 0.381,
+      "total_mv": 4738.4433680373995,
+      "float_mv": 4504.2880819607
+    },
+    {
+      "industry_code": "650400",
+      "pe_ttm": 40.9687,
+      "pb_lf": 2.037,
+      "ps_ttm": 1.6699,
+      "dividend_yield": 0.381,
+      "total_mv": 4738.4433680373995,
+      "float_mv": 4504.2880819607
+    },
+    {
+      "industry_code": "450303",
+      "pe_ttm": 40.9827,
+      "pb_lf": 1.005,
+      "ps_ttm": 0.5998,
+      "dividend_yield": 2.7073,
+      "total_mv": 919.2971261931,
+      "float_mv": 755.8604481601
+    },
+    {
+      "industry_code": "630400",
+      "pe_ttm": 41.0847,
+      "pb_lf": 3.2872,
+      "ps_ttm": 1.8615,
+      "dividend_yield": 0.743,
+      "total_mv": 12293.326237103201,
+      "float_mv": 11532.3192537356
+    },
+    {
+      "industry_code": "220307",
+      "pe_ttm": 41.1312,
+      "pb_lf": 2.2301,
+      "ps_ttm": 1.629,
+      "dividend_yield": 1.0954,
+      "total_mv": 1249.6950990650998,
+      "float_mv": 1180.5486938766
+    },
+    {
+      "industry_code": "630301",
+      "pe_ttm": 41.6746,
+      "pb_lf": 2.2186,
+      "ps_ttm": 1.1285,
+      "dividend_yield": 0.6338,
+      "total_mv": 2350.3333606897,
+      "float_mv": 1710.568095542
+    },
+    {
+      "industry_code": "370102",
+      "pe_ttm": 42.2098,
+      "pb_lf": 3.0704,
+      "ps_ttm": 3.9275,
+      "dividend_yield": 0.9614,
+      "total_mv": 13976.7989982194,
+      "float_mv": 12636.043487987801
+    },
+    {
+      "industry_code": "220202",
+      "pe_ttm": 42.611,
+      "pb_lf": 1.3331,
+      "ps_ttm": 1.103,
+      "dividend_yield": 0.7654,
+      "total_mv": 1787.7676914329002,
+      "float_mv": 1710.608324223
+    },
+    {
+      "industry_code": "630302",
+      "pe_ttm": 43.8976,
+      "pb_lf": 1.7244,
+      "ps_ttm": 1.1548,
+      "dividend_yield": 0.9241,
+      "total_mv": 2824.0649985275,
+      "float_mv": 2469.5482617117
+    },
+    {
+      "industry_code": "240302",
+      "pe_ttm": 44.1129,
+      "pb_lf": 2.8058,
+      "ps_ttm": 0.445,
+      "dividend_yield": 0.9627,
+      "total_mv": 6272.9964779106995,
+      "float_mv": 5224.1977176743
+    },
+    {
+      "industry_code": "370500",
+      "pe_ttm": 44.5169,
+      "pb_lf": 2.5343,
+      "ps_ttm": 4.8571,
+      "dividend_yield": 1.5087,
+      "total_mv": 11942.8351917446,
+      "float_mv": 10949.6262320173
+    },
+    {
+      "industry_code": "370501",
+      "pe_ttm": 44.5169,
+      "pb_lf": 2.5343,
+      "ps_ttm": 4.8571,
+      "dividend_yield": 1.5087,
+      "total_mv": 11942.8351917446,
+      "float_mv": 10949.6262320173
+    },
+    {
+      "industry_code": "220300",
+      "pe_ttm": 44.5932,
+      "pb_lf": 3.1457,
+      "ps_ttm": 2.514,
+      "dividend_yield": 0.9444,
+      "total_mv": 45573.7132364541,
+      "float_mv": 41951.4745774344
+    },
+    {
+      "industry_code": "330105",
+      "pe_ttm": 44.7851,
+      "pb_lf": 5.9162,
+      "ps_ttm": 3.235,
+      "dividend_yield": 0.6961,
+      "total_mv": 6013.8116239105,
+      "float_mv": 5627.6163157802
+    },
+    {
+      "industry_code": "420301",
+      "pe_ttm": 45.1017,
+      "pb_lf": 1.6772,
+      "ps_ttm": 1.4675,
+      "dividend_yield": 1.7532,
+      "total_mv": 480.7077678792,
+      "float_mv": 428.714164027
+    },
+    {
+      "industry_code": "420300",
+      "pe_ttm": 45.1017,
+      "pb_lf": 1.6772,
+      "ps_ttm": 1.4675,
+      "dividend_yield": 1.7532,
+      "total_mv": 480.7077678792,
+      "float_mv": 428.714164027
+    },
+    {
+      "industry_code": "720300",
+      "pe_ttm": 46.0264,
+      "pb_lf": 3.5695,
+      "ps_ttm": 2.9514,
+      "dividend_yield": 0.9992,
+      "total_mv": 9559.5998486606,
+      "float_mv": 8132.120420824101
+    },
+    {
+      "industry_code": "640204",
+      "pe_ttm": 46.5847,
+      "pb_lf": 2.4416,
+      "ps_ttm": 2.1225,
+      "dividend_yield": 1.3136,
+      "total_mv": 1147.5344483813,
+      "float_mv": 1028.4165030613
+    },
+    {
+      "industry_code": "110201",
+      "pe_ttm": 47.6924,
+      "pb_lf": 1.8011,
+      "ps_ttm": 0.7199,
+      "dividend_yield": 0.5079,
+      "total_mv": 47.436247022299995,
+      "float_mv": 47.434564022299995
+    },
+    {
+      "industry_code": "110801",
+      "pe_ttm": 49.5244,
+      "pb_lf": 1.8641,
+      "ps_ttm": 2.8741,
+      "dividend_yield": 1.5486,
+      "total_mv": 592.8204393489,
+      "float_mv": 545.2213158884
+    },
+    {
+      "industry_code": "110800",
+      "pe_ttm": 49.5244,
+      "pb_lf": 1.8641,
+      "ps_ttm": 2.8741,
+      "dividend_yield": 1.5486,
+      "total_mv": 592.8204393489,
+      "float_mv": 545.2213158884
+    },
+    {
+      "industry_code": "220503",
+      "pe_ttm": 49.8491,
+      "pb_lf": 3.1843,
+      "ps_ttm": 1.1991,
+      "dividend_yield": 0.299,
+      "total_mv": 1554.5096532666,
+      "float_mv": 1304.7191391949
+    },
+    {
+      "industry_code": "270500",
+      "pe_ttm": 50.4179,
+      "pb_lf": 5.7902,
+      "ps_ttm": 2.1222,
+      "dividend_yield": 0.9247,
+      "total_mv": 48610.609778064696,
+      "float_mv": 44133.788153540496
+    },
+    {
+      "industry_code": "240503",
+      "pe_ttm": 51.1416,
+      "pb_lf": 2.912,
+      "ps_ttm": 6.0895,
+      "dividend_yield": 0.2082,
+      "total_mv": 3376.2195261917,
+      "float_mv": 2607.0537650242
+    },
+    {
+      "industry_code": "350105",
+      "pe_ttm": 53.4248,
+      "pb_lf": 2.303,
+      "ps_ttm": 1.335,
+      "dividend_yield": 2.6741,
+      "total_mv": 251.5090432235,
+      "float_mv": 234.6133242015
+    },
+    {
+      "industry_code": "460102",
+      "pe_ttm": 53.6554,
+      "pb_lf": 2.7071,
+      "ps_ttm": 6.7386,
+      "dividend_yield": 1.1848,
+      "total_mv": 450.37556127010004,
+      "float_mv": 393.91512868089995
+    },
+    {
+      "industry_code": "640106",
+      "pe_ttm": 54.3878,
+      "pb_lf": 3.6388,
+      "ps_ttm": 3.813,
+      "dividend_yield": 0.9509,
+      "total_mv": 6849.4743044786,
+      "float_mv": 6011.8493064658
+    },
+    {
+      "industry_code": "630000",
+      "pe_ttm": 55.6608,
+      "pb_lf": 3.4798,
+      "ps_ttm": 2.3465,
+      "dividend_yield": 1.0767,
+      "total_mv": 68436.704464072,
+      "float_mv": 62553.1275060109
+    },
+    {
+      "industry_code": "630202",
+      "pe_ttm": 56.9379,
+      "pb_lf": 5.267,
+      "ps_ttm": 4.523,
+      "dividend_yield": 0.6189,
+      "total_mv": 4634.8234956015,
+      "float_mv": 4269.8820259332
+    },
+    {
+      "industry_code": "640000",
+      "pe_ttm": 58.1266,
+      "pb_lf": 3.8441,
+      "ps_ttm": 3.4428,
+      "dividend_yield": 0.8027,
+      "total_mv": 78453.3482433468,
+      "float_mv": 68609.0751765353
+    },
+    {
+      "industry_code": "220103",
+      "pe_ttm": 58.8726,
+      "pb_lf": 2.2193,
+      "ps_ttm": 1.9036,
+      "dividend_yield": 0.8289,
+      "total_mv": 173.9227425627,
+      "float_mv": 162.4647497583
+    },
+    {
+      "industry_code": "360302",
+      "pe_ttm": 59.5857,
+      "pb_lf": 1.8745,
+      "ps_ttm": 1.3806,
+      "dividend_yield": 2.8358,
+      "total_mv": 1982.8867892622,
+      "float_mv": 1826.4195427029001
+    },
+    {
+      "industry_code": "630100",
+      "pe_ttm": 59.6222,
+      "pb_lf": 4.1224,
+      "ps_ttm": 3.7325,
+      "dividend_yield": 0.8133,
+      "total_mv": 2608.3253961433998,
+      "float_mv": 2301.6871855295003
+    },
+    {
+      "industry_code": "630101",
+      "pe_ttm": 59.6222,
+      "pb_lf": 4.1224,
+      "ps_ttm": 3.7325,
+      "dividend_yield": 0.8133,
+      "total_mv": 2608.3253961433998,
+      "float_mv": 2301.6871855295003
+    },
+    {
+      "industry_code": "630402",
+      "pe_ttm": 59.867,
+      "pb_lf": 2.6777,
+      "ps_ttm": 2.8753,
+      "dividend_yield": 0.6596,
+      "total_mv": 1595.6829635966,
+      "float_mv": 1514.8151081028
+    },
+    {
+      "industry_code": "110000",
+      "pe_ttm": 60.1972,
+      "pb_lf": 2.1155,
+      "ps_ttm": 0.8749,
+      "dividend_yield": 1.749,
+      "total_mv": 11654.667196133001,
+      "float_mv": 9246.6581539621
+    },
+    {
+      "industry_code": "640200",
+      "pe_ttm": 61.1421,
+      "pb_lf": 4.3379,
+      "ps_ttm": 4.0948,
+      "dividend_yield": 0.6527,
+      "total_mv": 45587.800522889105,
+      "float_mv": 41121.9750405441
+    },
+    {
+      "industry_code": "360000",
+      "pe_ttm": 63.4481,
+      "pb_lf": 2.3521,
+      "ps_ttm": 1.4779,
+      "dividend_yield": 1.7444,
+      "total_mv": 12326.174803636399,
+      "float_mv": 10326.7895215664
+    },
+    {
+      "industry_code": "720000",
+      "pe_ttm": 64.3792,
+      "pb_lf": 2.6527,
+      "ps_ttm": 2.5622,
+      "dividend_yield": 1.3162,
+      "total_mv": 19096.2432900417,
+      "float_mv": 17042.7544231751
+    },
+    {
+      "industry_code": "350101",
+      "pe_ttm": 64.5367,
+      "pb_lf": 2.0484,
+      "ps_ttm": 1.2621,
+      "dividend_yield": 3.1125,
+      "total_mv": 88.0623279923,
+      "float_mv": 82.4343103823
+    },
+    {
+      "industry_code": "630404",
+      "pe_ttm": 64.6716,
+      "pb_lf": 4.2077,
+      "ps_ttm": 1.3744,
+      "dividend_yield": 0.6728,
+      "total_mv": 4313.8282066969,
+      "float_mv": 4081.0161963883
+    },
+    {
+      "industry_code": "110501",
+      "pe_ttm": 64.8646,
+      "pb_lf": 5.5536,
+      "ps_ttm": 7.0659,
+      "dividend_yield": 0.3532,
+      "total_mv": 463.41590226169996,
+      "float_mv": 411.4122182617
+    },
+    {
+      "industry_code": "240202",
+      "pe_ttm": 65.0367,
+      "pb_lf": 4.9689,
+      "ps_ttm": 4.3151,
+      "dividend_yield": 1.0281,
+      "total_mv": 3005.144105803,
+      "float_mv": 2700.8882061767004
+    },
+    {
+      "industry_code": "630300",
+      "pe_ttm": 67.7077,
+      "pb_lf": 3.4145,
+      "ps_ttm": 2.3016,
+      "dividend_yield": 1.1679,
+      "total_mv": 43621.1348866012,
+      "float_mv": 39299.285645552794
+    },
+    {
+      "industry_code": "240201",
+      "pe_ttm": 69.5985,
+      "pb_lf": 4.537,
+      "ps_ttm": 2.9121,
+      "dividend_yield": 0.4462,
+      "total_mv": 2477.7377790327,
+      "float_mv": 2356.343726249
+    },
+    {
+      "industry_code": "410400",
+      "pe_ttm": 69.9137,
+      "pb_lf": 2.1038,
+      "ps_ttm": 2.6018,
+      "dividend_yield": 1.1222,
+      "total_mv": 6325.4499775589,
+      "float_mv": 4912.6500566842
+    },
+    {
+      "industry_code": "410401",
+      "pe_ttm": 69.9137,
+      "pb_lf": 2.1038,
+      "ps_ttm": 2.6018,
+      "dividend_yield": 1.1222,
+      "total_mv": 6325.4499775589,
+      "float_mv": 4912.6500566842
+    },
+    {
+      "industry_code": "240502",
+      "pe_ttm": 69.9185,
+      "pb_lf": 12.9597,
+      "ps_ttm": 4.9758,
+      "dividend_yield": 0.3175,
+      "total_mv": 4209.8373718676,
+      "float_mv": 3337.4436185703003
+    },
+    {
+      "industry_code": "620401",
+      "pe_ttm": 70.5677,
+      "pb_lf": 1.1962,
+      "ps_ttm": 0.6893,
+      "dividend_yield": 1.9756,
+      "total_mv": 460.3468863603,
+      "float_mv": 404.8698212391
+    },
+    {
+      "industry_code": "640203",
+      "pe_ttm": 70.9006,
+      "pb_lf": 3.591,
+      "ps_ttm": 3.6727,
+      "dividend_yield": 0.8407,
+      "total_mv": 3744.9769547234996,
+      "float_mv": 2984.702398772
+    },
+    {
+      "industry_code": "640400",
+      "pe_ttm": 73.1963,
+      "pb_lf": 3.119,
+      "ps_ttm": 1.5803,
+      "dividend_yield": 0.4999,
+      "total_mv": 3801.898710485,
+      "float_mv": 3027.8448960565
+    },
+    {
+      "industry_code": "640401",
+      "pe_ttm": 73.1963,
+      "pb_lf": 3.119,
+      "ps_ttm": 1.5803,
+      "dividend_yield": 0.4999,
+      "total_mv": 3801.898710485,
+      "float_mv": 3027.8448960565
+    },
+    {
+      "industry_code": "640100",
+      "pe_ttm": 74.1387,
+      "pb_lf": 4.5495,
+      "ps_ttm": 5.026,
+      "dividend_yield": 0.72,
+      "total_mv": 19331.717998736,
+      "float_mv": 17187.1201395728
+    },
+    {
+      "industry_code": "650200",
+      "pe_ttm": 76.0888,
+      "pb_lf": 2.9609,
+      "ps_ttm": 3.0378,
+      "dividend_yield": 0.5786,
+      "total_mv": 8480.404437135501,
+      "float_mv": 8190.9445555076
+    },
+    {
+      "industry_code": "650201",
+      "pe_ttm": 76.0888,
+      "pb_lf": 2.9609,
+      "ps_ttm": 3.0378,
+      "dividend_yield": 0.5786,
+      "total_mv": 8480.404437135501,
+      "float_mv": 8190.9445555076
+    },
+    {
+      "industry_code": "640301",
+      "pe_ttm": 77.6933,
+      "pb_lf": 5.3654,
+      "ps_ttm": 4.1234,
+      "dividend_yield": 0.8548,
+      "total_mv": 5709.3249561293005,
+      "float_mv": 3933.0462607736
+    },
+    {
+      "industry_code": "640300",
+      "pe_ttm": 77.6933,
+      "pb_lf": 5.3654,
+      "ps_ttm": 4.1234,
+      "dividend_yield": 0.8548,
+      "total_mv": 5709.3249561293005,
+      "float_mv": 3933.0462607736
+    },
+    {
+      "industry_code": "240501",
+      "pe_ttm": 81.9002,
+      "pb_lf": 7.4368,
+      "ps_ttm": 4.9701,
+      "dividend_yield": 0.2263,
+      "total_mv": 3461.192090531,
+      "float_mv": 3461.192090531
+    },
+    {
+      "industry_code": "220309",
+      "pe_ttm": 83.4279,
+      "pb_lf": 3.3338,
+      "ps_ttm": 2.7608,
+      "dividend_yield": 0.5748,
+      "total_mv": 20334.8754307399,
+      "float_mv": 17745.984001555902
+    },
+    {
+      "industry_code": "270102",
+      "pe_ttm": 85.5171,
+      "pb_lf": 6.5943,
+      "ps_ttm": 9.9015,
+      "dividend_yield": 0.3408,
+      "total_mv": 2410.9566359481,
+      "float_mv": 2345.0626541428
+    },
+    {
+      "industry_code": "610101",
+      "pe_ttm": 86.0911,
+      "pb_lf": 0.6423,
+      "ps_ttm": 0.7899,
+      "dividend_yield": 2.9205,
+      "total_mv": 2855.5034765327,
+      "float_mv": 2379.9133480197
+    },
+    {
+      "industry_code": "610100",
+      "pe_ttm": 86.0911,
+      "pb_lf": 0.6423,
+      "ps_ttm": 0.7899,
+      "dividend_yield": 2.9205,
+      "total_mv": 2855.5034765327,
+      "float_mv": 2379.9133480197
+    },
+    {
+      "industry_code": "730201",
+      "pe_ttm": 86.1616,
+      "pb_lf": 11.699,
+      "ps_ttm": 7.6185,
+      "dividend_yield": 0.3709,
+      "total_mv": 12264.261117346,
+      "float_mv": 10708.8257333574
+    },
+    {
+      "industry_code": "220500",
+      "pe_ttm": 87.1315,
+      "pb_lf": 3.9101,
+      "ps_ttm": 2.5802,
+      "dividend_yield": 0.2776,
+      "total_mv": 4848.7441006693,
+      "float_mv": 4011.0660818037
+    },
+    {
+      "industry_code": "720302",
+      "pe_ttm": 87.7743,
+      "pb_lf": 3.6392,
+      "ps_ttm": 5.3618,
+      "dividend_yield": 0.8906,
+      "total_mv": 4848.4462589225,
+      "float_mv": 4391.5383409064
+    },
+    {
+      "industry_code": "640101",
+      "pe_ttm": 88.9466,
+      "pb_lf": 4.8315,
+      "ps_ttm": 5.711,
+      "dividend_yield": 0.4346,
+      "total_mv": 1664.9230616745,
+      "float_mv": 1502.4009397515
+    },
+    {
+      "industry_code": "230000",
+      "pe_ttm": 91.3774,
+      "pb_lf": 0.8858,
+      "ps_ttm": 0.4004,
+      "dividend_yield": 1.702,
+      "total_mv": 7232.1446149564,
+      "float_mv": 6631.1529869075
+    },
+    {
+      "industry_code": "230100",
+      "pe_ttm": 91.3774,
+      "pb_lf": 0.8858,
+      "ps_ttm": 0.4004,
+      "dividend_yield": 1.702,
+      "total_mv": 7232.1446149564,
+      "float_mv": 6631.1529869075
+    },
+    {
+      "industry_code": "270203",
+      "pe_ttm": 93.1932,
+      "pb_lf": 8.9201,
+      "ps_ttm": 8.3964,
+      "dividend_yield": 0.413,
+      "total_mv": 7742.3440649781005,
+      "float_mv": 7333.219322187299
+    },
+    {
+      "industry_code": "360200",
+      "pe_ttm": 93.3564,
+      "pb_lf": 2.5085,
+      "ps_ttm": 2.1017,
+      "dividend_yield": 1.2282,
+      "total_mv": 3225.6748161769,
+      "float_mv": 2796.7964030568
+    },
+    {
+      "industry_code": "360201",
+      "pe_ttm": 93.3564,
+      "pb_lf": 2.5085,
+      "ps_ttm": 2.1017,
+      "dividend_yield": 1.2282,
+      "total_mv": 3225.6748161769,
+      "float_mv": 2796.7964030568
+    },
+    {
+      "industry_code": "270502",
+      "pe_ttm": 93.975,
+      "pb_lf": 5.7133,
+      "ps_ttm": 2.7364,
+      "dividend_yield": 0.3576,
+      "total_mv": 24782.6157381043,
+      "float_mv": 20864.8159195558
+    },
+    {
+      "industry_code": "270000",
+      "pe_ttm": 95.443,
+      "pb_lf": 7.2731,
+      "ps_ttm": 4.45,
+      "dividend_yield": 0.4499,
+      "total_mv": 193033.806264156,
+      "float_mv": 168957.2843368864
+    },
+    {
+      "industry_code": "610302",
+      "pe_ttm": 96.1199,
+      "pb_lf": 1.9748,
+      "ps_ttm": 1.6277,
+      "dividend_yield": 2.1268,
+      "total_mv": 434.9385173503,
+      "float_mv": 413.62113838519997
+    },
+    {
+      "industry_code": "220314",
+      "pe_ttm": 97.0746,
+      "pb_lf": 9.7604,
+      "ps_ttm": 10.32,
+      "dividend_yield": 0.3867,
+      "total_mv": 6345.2788395497,
+      "float_mv": 6226.8086574157
+    },
+    {
+      "industry_code": "640102",
+      "pe_ttm": 97.2106,
+      "pb_lf": 6.5279,
+      "ps_ttm": 7.7621,
+      "dividend_yield": 0.6046,
+      "total_mv": 7790.8914576058,
+      "float_mv": 7173.6714780942
+    },
+    {
+      "industry_code": "220203",
+      "pe_ttm": 97.6658,
+      "pb_lf": 4.4351,
+      "ps_ttm": 4.5401,
+      "dividend_yield": 0.2564,
+      "total_mv": 1931.2215469429998,
+      "float_mv": 1788.1923567041001
+    },
+    {
+      "industry_code": "220403",
+      "pe_ttm": 100.1663,
+      "pb_lf": 2.5732,
+      "ps_ttm": 2.0197,
+      "dividend_yield": 0.1028,
+      "total_mv": 322.0679181378,
+      "float_mv": 291.9120940706
+    },
+    {
+      "industry_code": "720100",
+      "pe_ttm": 102.5836,
+      "pb_lf": 1.6702,
+      "ps_ttm": 2.855,
+      "dividend_yield": 1.5346,
+      "total_mv": 6148.237274020899,
+      "float_mv": 5754.5352029729
+    },
+    {
+      "industry_code": "650000",
+      "pe_ttm": 104.4151,
+      "pb_lf": 3.0766,
+      "ps_ttm": 3.2235,
+      "dividend_yield": 0.3823,
+      "total_mv": 21286.7509547509,
+      "float_mv": 20565.400493742
+    },
+    {
+      "industry_code": "510000",
+      "pe_ttm": 105.5431,
+      "pb_lf": 2.5843,
+      "ps_ttm": 2.3129,
+      "dividend_yield": 0.9113,
+      "total_mv": 2246.6563841137,
+      "float_mv": 2050.8106281481
+    },
+    {
+      "industry_code": "510100",
+      "pe_ttm": 105.5431,
+      "pb_lf": 2.5843,
+      "ps_ttm": 2.3129,
+      "dividend_yield": 0.9113,
+      "total_mv": 2246.6563841137,
+      "float_mv": 2050.8106281481
+    },
+    {
+      "industry_code": "510101",
+      "pe_ttm": 105.5431,
+      "pb_lf": 2.5843,
+      "ps_ttm": 2.3129,
+      "dividend_yield": 0.9113,
+      "total_mv": 2246.6563841137,
+      "float_mv": 2050.8106281481
+    },
+    {
+      "industry_code": "640205",
+      "pe_ttm": 106.2845,
+      "pb_lf": 2.3768,
+      "ps_ttm": 2.5214,
+      "dividend_yield": 1.3655,
+      "total_mv": 910.7995652044999,
+      "float_mv": 878.8429970689999
+    },
+    {
+      "industry_code": "640209",
+      "pe_ttm": 106.4475,
+      "pb_lf": 7.1333,
+      "ps_ttm": 8.0728,
+      "dividend_yield": 0.3093,
+      "total_mv": 30901.0311588556,
+      "float_mv": 28244.774690436203
+    },
+    {
+      "industry_code": "270200",
+      "pe_ttm": 108.1188,
+      "pb_lf": 12.521,
+      "ps_ttm": 9.8738,
+      "dividend_yield": 0.3748,
+      "total_mv": 42375.5328961263,
+      "float_mv": 38593.6411982242
+    },
+    {
+      "industry_code": "220603",
+      "pe_ttm": 110.7871,
+      "pb_lf": 1.9191,
+      "ps_ttm": 1.1541,
+      "dividend_yield": 1.4624,
+      "total_mv": 244.4615051784,
+      "float_mv": 229.7830969159
+    },
+    {
+      "industry_code": "270401",
+      "pe_ttm": 111.3093,
+      "pb_lf": 7.3303,
+      "ps_ttm": 5.6385,
+      "dividend_yield": 0.2729,
+      "total_mv": 14664.5524715758,
+      "float_mv": 12238.3440036806
+    },
+    {
+      "industry_code": "270400",
+      "pe_ttm": 111.3093,
+      "pb_lf": 7.3303,
+      "ps_ttm": 5.6385,
+      "dividend_yield": 0.2729,
+      "total_mv": 14664.5524715758,
+      "float_mv": 12238.3440036806
+    },
+    {
+      "industry_code": "710201",
+      "pe_ttm": 112.0172,
+      "pb_lf": 5.0247,
+      "ps_ttm": 4.0124,
+      "dividend_yield": 0.5547,
+      "total_mv": 18625.4186695254,
+      "float_mv": 15426.7490477755
+    },
+    {
+      "industry_code": "270202",
+      "pe_ttm": 112.1335,
+      "pb_lf": 13.763,
+      "ps_ttm": 10.2781,
+      "dividend_yield": 0.3661,
+      "total_mv": 34633.188831148196,
+      "float_mv": 31260.4218760369
+    },
+    {
+      "industry_code": "270303",
+      "pe_ttm": 114.7745,
+      "pb_lf": 7.7681,
+      "ps_ttm": 6.0065,
+      "dividend_yield": 0.4184,
+      "total_mv": 2833.3143326706,
+      "float_mv": 2627.1838754868
+    },
+    {
+      "industry_code": "720200",
+      "pe_ttm": 116.8835,
+      "pb_lf": 4.0357,
+      "ps_ttm": 1.6444,
+      "dividend_yield": 1.8176,
+      "total_mv": 3388.4061673602,
+      "float_mv": 3156.0987993781
+    },
+    {
+      "industry_code": "720201",
+      "pe_ttm": 116.8835,
+      "pb_lf": 4.0357,
+      "ps_ttm": 1.6444,
+      "dividend_yield": 1.8176,
+      "total_mv": 3388.4061673602,
+      "float_mv": 3156.0987993781
+    },
+    {
+      "industry_code": "640105",
+      "pe_ttm": 117.5947,
+      "pb_lf": 3.6451,
+      "ps_ttm": 3.407,
+      "dividend_yield": 0.9107,
+      "total_mv": 1250.0360678642999,
+      "float_mv": 1096.6151249975
+    },
+    {
+      "industry_code": "220404",
+      "pe_ttm": 118.4527,
+      "pb_lf": 3.7593,
+      "ps_ttm": 3.7719,
+      "dividend_yield": 0.605,
+      "total_mv": 1142.9485135913,
+      "float_mv": 1072.3569545444
+    },
+    {
+      "industry_code": "360305",
+      "pe_ttm": 119.1878,
+      "pb_lf": 2.999,
+      "ps_ttm": 1.6218,
+      "dividend_yield": 1.6194,
+      "total_mv": 824.2143174733001,
+      "float_mv": 778.9470943722
+    },
+    {
+      "industry_code": "630306",
+      "pe_ttm": 119.7697,
+      "pb_lf": 6.3529,
+      "ps_ttm": 5.3749,
+      "dividend_yield": 0.3024,
+      "total_mv": 2417.2678155278,
+      "float_mv": 2059.7801631673
+    },
+    {
+      "industry_code": "240200",
+      "pe_ttm": 125.0958,
+      "pb_lf": 4.4258,
+      "ps_ttm": 3.9854,
+      "dividend_yield": 0.5989,
+      "total_mv": 9867.4479566092,
+      "float_mv": 9311.1084041639
+    },
+    {
+      "industry_code": "730200",
+      "pe_ttm": 130.8059,
+      "pb_lf": 11.9331,
+      "ps_ttm": 8.4423,
+      "dividend_yield": 0.2022,
+      "total_mv": 60706.8915628003,
+      "float_mv": 55036.77572933731
+    },
+    {
+      "industry_code": "220501",
+      "pe_ttm": 134.1385,
+      "pb_lf": 4.5964,
+      "ps_ttm": 6.0663,
+      "dividend_yield": 0.2588,
+      "total_mv": 3144.5556649207,
+      "float_mv": 2558.9583762648003
+    },
+    {
+      "industry_code": "730202",
+      "pe_ttm": 135.787,
+      "pb_lf": 14.0378,
+      "ps_ttm": 9.8763,
+      "dividend_yield": 0.1372,
+      "total_mv": 46152.7893529284,
+      "float_mv": 42309.6930349897
+    },
+    {
+      "industry_code": "220502",
+      "pe_ttm": 146.5104,
+      "pb_lf": 2.2097,
+      "ps_ttm": 2.3213,
+      "dividend_yield": 0.4528,
+      "total_mv": 149.678782482,
+      "float_mv": 147.388566344
+    },
+    {
+      "industry_code": "270100",
+      "pe_ttm": 157.0346,
+      "pb_lf": 9.4518,
+      "ps_ttm": 13.0481,
+      "dividend_yield": 0.1396,
+      "total_mv": 72038.66401432731,
+      "float_mv": 60181.158162794
+    },
+    {
+      "industry_code": "110600",
+      "pe_ttm": 157.7969,
+      "pb_lf": 1.4238,
+      "ps_ttm": 1.0308,
+      "dividend_yield": 1.1673,
+      "total_mv": 49.7692948592,
+      "float_mv": 39.0086424613
+    },
+    {
+      "industry_code": "110601",
+      "pe_ttm": 157.7969,
+      "pb_lf": 1.4238,
+      "ps_ttm": 1.0308,
+      "dividend_yield": 1.1673,
+      "total_mv": 49.7692948592,
+      "float_mv": 39.0086424613
+    },
+    {
+      "industry_code": "620404",
+      "pe_ttm": 160.1939,
+      "pb_lf": 1.4601,
+      "ps_ttm": 0.4115,
+      "dividend_yield": 1.091,
+      "total_mv": 1980.6749790109,
+      "float_mv": 1772.6655484231
+    },
+    {
+      "industry_code": "270101",
+      "pe_ttm": 160.5882,
+      "pb_lf": 9.0957,
+      "ps_ttm": 13.2004,
+      "dividend_yield": 0.1315,
+      "total_mv": 55455.877384815096,
+      "float_mv": 44515.8976416768
+    },
+    {
+      "industry_code": "270103",
+      "pe_ttm": 166.2939,
+      "pb_lf": 12.2259,
+      "ps_ttm": 13.1655,
+      "dividend_yield": 0.1319,
+      "total_mv": 14171.829993564099,
+      "float_mv": 13320.1978669744
+    },
+    {
+      "industry_code": "710101",
+      "pe_ttm": 170.2506,
+      "pb_lf": 7.1504,
+      "ps_ttm": 5.0914,
+      "dividend_yield": 0.2726,
+      "total_mv": 16055.2947753149,
+      "float_mv": 15171.5852421026
+    },
+    {
+      "industry_code": "710100",
+      "pe_ttm": 170.2506,
+      "pb_lf": 7.1504,
+      "ps_ttm": 5.0914,
+      "dividend_yield": 0.2726,
+      "total_mv": 16055.2947753149,
+      "float_mv": 15171.5852421026
+    },
+    {
+      "industry_code": "610000",
+      "pe_ttm": 179.234,
+      "pb_lf": 1.2586,
+      "ps_ttm": 1.3567,
+      "dividend_yield": 1.7396,
+      "total_mv": 8391.0865759527,
+      "float_mv": 6442.8734332476
+    },
+    {
+      "industry_code": "270301",
+      "pe_ttm": 188.9246,
+      "pb_lf": 2.4773,
+      "ps_ttm": 1.3404,
+      "dividend_yield": 0.6081,
+      "total_mv": 8374.8344705953,
+      "float_mv": 7725.2227653790005
+    },
+    {
+      "industry_code": "270300",
+      "pe_ttm": 202.0964,
+      "pb_lf": 2.986,
+      "ps_ttm": 1.904,
+      "dividend_yield": 0.5967,
+      "total_mv": 15344.4471040619,
+      "float_mv": 13810.3528186471
+    },
+    {
+      "industry_code": "710000",
+      "pe_ttm": 207.8236,
+      "pb_lf": 4.9208,
+      "ps_ttm": 3.5506,
+      "dividend_yield": 0.4198,
+      "total_mv": 47868.9675052675,
+      "float_mv": 42653.7906939775
+    },
+    {
+      "industry_code": "330202",
+      "pe_ttm": 211.4429,
+      "pb_lf": 3.6418,
+      "ps_ttm": 2.67,
+      "dividend_yield": 0.192,
+      "total_mv": 479.0755376743,
+      "float_mv": 465.35529140669996
+    },
+    {
+      "industry_code": "710200",
+      "pe_ttm": 233.8712,
+      "pb_lf": 4.2518,
+      "ps_ttm": 3.0801,
+      "dividend_yield": 0.4948,
+      "total_mv": 31813.6727299526,
+      "float_mv": 27482.205451874903
+    },
+    {
+      "industry_code": "610300",
+      "pe_ttm": 235.5846,
+      "pb_lf": 2.9176,
+      "ps_ttm": 2.3154,
+      "dividend_yield": 1.24,
+      "total_mv": 4569.2045757888,
+      "float_mv": 3300.735359794
+    },
+    {
+      "industry_code": "350207",
+      "pe_ttm": 254.7565,
+      "pb_lf": 2.0411,
+      "ps_ttm": 2.3215,
+      "dividend_yield": 1.6362,
+      "total_mv": 896.3320520075999,
+      "float_mv": 784.2994987894999
+    },
+    {
+      "industry_code": "110101",
+      "pe_ttm": 266.1066,
+      "pb_lf": 2.3651,
+      "ps_ttm": 1.874,
+      "dividend_yield": 0.3212,
+      "total_mv": 463.14087015760003,
+      "float_mv": 426.30812678269996
+    },
+    {
+      "industry_code": "610303",
+      "pe_ttm": 272.3944,
+      "pb_lf": 3.2254,
+      "ps_ttm": 2.5641,
+      "dividend_yield": 1.2146,
+      "total_mv": 3790.9578487402,
+      "float_mv": 2560.8962136344
+    },
+    {
+      "industry_code": "720303",
+      "pe_ttm": 288.7254,
+      "pb_lf": 11.1818,
+      "ps_ttm": 25.3608,
+      "dividend_yield": null,
+      "total_mv": 72.6457506775,
+      "float_mv": 60.8543038675
+    },
+    {
+      "industry_code": "280300",
+      "pe_ttm": 293.0679,
+      "pb_lf": 1.6417,
+      "ps_ttm": 0.9252,
+      "dividend_yield": 1.1269,
+      "total_mv": 495.37471395190005,
+      "float_mv": 484.1221845869
+    },
+    {
+      "industry_code": "280301",
+      "pe_ttm": 293.0679,
+      "pb_lf": 1.6417,
+      "ps_ttm": 0.9252,
+      "dividend_yield": 1.1269,
+      "total_mv": 495.37471395190005,
+      "float_mv": 484.1221845869
+    },
+    {
+      "industry_code": "610301",
+      "pe_ttm": 360.2177,
+      "pb_lf": 2.0135,
+      "ps_ttm": 1.5078,
+      "dividend_yield": 0.3973,
+      "total_mv": 343.3082096983,
+      "float_mv": 326.2180077744
+    },
+    {
+      "industry_code": "370300",
+      "pe_ttm": 373.0847,
+      "pb_lf": 2.7787,
+      "ps_ttm": 5.304,
+      "dividend_yield": 1.0293,
+      "total_mv": 10991.9153326658,
+      "float_mv": 6738.4696747539
+    },
+    {
+      "industry_code": "370301",
+      "pe_ttm": 373.0847,
+      "pb_lf": 2.7787,
+      "ps_ttm": 5.304,
+      "dividend_yield": 1.0293,
+      "total_mv": 10991.9153326658,
+      "float_mv": 6738.4696747539
+    },
+    {
+      "industry_code": "220305",
+      "pe_ttm": 451.8294,
+      "pb_lf": 6.3053,
+      "ps_ttm": 5.6007,
+      "dividend_yield": 0.4839,
+      "total_mv": 1835.6982626664,
+      "float_mv": 1551.5732016876002
+    },
+    {
+      "industry_code": "270302",
+      "pe_ttm": 598.4697,
+      "pb_lf": 2.9686,
+      "ps_ttm": 3.0882,
+      "dividend_yield": 0.6963,
+      "total_mv": 4136.298300796,
+      "float_mv": 3457.9461777813
+    },
+    {
+      "industry_code": "640206",
+      "pe_ttm": 2887.7678,
+      "pb_lf": 3.566,
+      "ps_ttm": 3.9191,
+      "dividend_yield": 0.447,
+      "total_mv": 746.9756188260001,
+      "float_mv": 723.3880020725
+    }
+  ],
+  "count": 359
+}

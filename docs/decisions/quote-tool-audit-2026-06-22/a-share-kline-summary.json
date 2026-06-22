@@ -1,0 +1,63 @@
+[
+  {
+    "code": "002463",
+    "status": "ok",
+    "rows": 60,
+    "first_date": "20260323",
+    "last_date": "20260618",
+    "ret_period_pct": 84.32
+  },
+  {
+    "code": "300502",
+    "status": "ok",
+    "rows": 60,
+    "first_date": "20260323",
+    "last_date": "20260618",
+    "ret_period_pct": 26.29
+  },
+  {
+    "code": "300308",
+    "status": "ok",
+    "rows": 60,
+    "first_date": "20260323",
+    "last_date": "20260618",
+    "ret_period_pct": 128.12
+  },
+  {
+    "code": "601138",
+    "status": "ok",
+    "rows": 60,
+    "first_date": "20260323",
+    "last_date": "20260618",
+    "ret_period_pct": 64.03
+  },
+  {
+    "code": "300476",
+    "status": "ok",
+    "rows": 60,
+    "first_date": "20260323",
+    "last_date": "20260618",
+    "ret_period_pct": 41.15
+  },
+  {
+    "code": "688676",
+    "status": "ok",
+    "rows": 60,
+    "first_date": "20260323",
+    "last_date": "20260618",
+    "ret_period_pct": 17.64
+  },
+  {
+    "code": "002130",
+    "status": "ok",
+    "rows": 60,
+    "first_date": "20260323",
+    "last_date": "20260618",
+    "ret_period_pct": -11.5
+  },
+  {
+    "code": "920808",
+    "status": "error",
+    "error": "Command '['/Users/vik1ang/workbench/quote-tool/.venv/bin/quote', 'kline', '920808', '-d', '60', '--json', '--pretty']' returned non-zero exit status 1."
+  }
+]

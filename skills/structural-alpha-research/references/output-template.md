@@ -24,10 +24,10 @@ Use this when the user asks for “谁受益 / 有哪些票 / 找类似 structur
 
 ## 2. Shortlist（研究优先级，不是买入建议）
 
-| 优先级 | 公司 | Ticker/交易所 | 瓶颈产品 | 阶数 | 周期/通胀证据 | 比较优势 | 暴露纯度/收入代理 | 最新市值 | 流动性备注 | 非社媒证据 | 催化剂 | 最大反证 |
-|---:|---|---|---|---|---|---|---|---:|---|---|---|---|
+| 优先级 | 公司 | Ticker/交易所 | 瓶颈产品 | 阶数 | 周期/通胀证据 | 比较优势 | 暴露纯度/收入代理 | 行情快照（日期/市值/估值/5D/60D/成交额/换手） | R2/R3/拥挤判断 | 非社媒证据 | 催化剂 | 最大反证 |
+|---:|---|---|---|---|---|---|---|---|---|---|---|---|
 
-Limit to 3–7 names. A name cannot enter Shortlist without ticker clarity, exact bottleneck product, cycle/objective-demand evidence, comparative advantage, materiality proxy, current market context, non-social-media evidence, catalyst, and disqualifier. If any are missing, place it in Watchlist / 待核验 instead.
+Limit to 3–7 names. A name cannot enter Shortlist without ticker clarity, exact bottleneck product, cycle/objective-demand evidence, comparative advantage, materiality proxy, current market context, non-social-media evidence, catalyst, and disqualifier. For A-share names, current market context means a dated market snapshot: market cap/float cap, PE/PB/PS, 5D/60D move, amount, turnover, limit status, and R2/R3/crowding judgment when data exists. If any are missing, place it in Watchlist / 待核验 instead.
 
 ## 3. Watchlist / 待核验
 
@@ -231,7 +231,7 @@ Use this for one tweet/news item or “这个逻辑对不对?”
 2. **成立所需四件事**：周期/客观通胀 / 真实需求 / 真瓶颈 / 公司财务暴露。
 3. **目前最强证据**：列已验证或用户提供的证据。
 4. **最大漏洞**：指出最弱链条。
-5. **必须查的数据**：市值、收入占比、客户、backlog、毛利率、稀释等。
+5. **必须查的数据**：行情快照（日期/市值/流通市值/估值/5D/60D/成交额/换手/涨跌停/K线）、收入占比、客户、backlog、毛利率、稀释等。
 6. **结论状态**：强 Alpha 候选 / 有潜力但待验证 / 更像主题叙事 / 暂时否定；附置信度。
 7. **可选交易推演**：如果用户询问交易，只输出可交易研究对象 / 等待触发 / 仅观察 / 回避交易 / 数据不足，以及关键触发器和风险，不输出买卖/仓位。
 
@@ -241,7 +241,7 @@ Use for quick “谁受益/有哪些票”:
 
 1. **先判周期与瓶颈层级**：真正发生变化的周期，以及真正可能短缺的环节。
 2. **Longlist**：按产业链层级列候选，不超过 10 个。
-3. **Shortlist**：3–5 个研究优先级最高的标的；必须有 ticker、精确产品、周期/客观通胀证据、比较优势、materiality proxy、非社媒证据、催化剂、最大反证。
+3. **Shortlist**：3–5 个研究优先级最高的标的；必须有 ticker、精确产品、周期/客观通胀证据、比较优势、materiality proxy、非社媒证据、催化剂、最大反证；A 股还必须有行情快照和 R2/R3/拥挤判断，缺行情覆盖则标数据不足。
 4. **Watchlist**：有趣但缺关键数据的标的。
 5. **剔除项**：说明哪些热门票只是主题暴露。
 6. **下一步验证**：每个 shortlist 名字最关键的财务/客户/订单数据。
