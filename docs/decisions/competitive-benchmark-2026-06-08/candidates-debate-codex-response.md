@@ -40,7 +40,7 @@
 
 **Codex 回应**: needs-discussion
 
-`side-b-hermes.md:B-6（32-34 行）`关于“不紧急”是对的，但“美股抄 Serenity 即可”不足以形成可审计 evidence contract，港股与 crypto 也不能复用 A 股阈值。本月不实现跨市场 spec，只在 Registry 预留 market、asset_type 和独立 materiality 接口；adapter 进入 R_{n+1}+，等待真实任务触发。
+`side-b-hermes.md:B-6（32-34 行）`关于“不紧急”是对的，但“美股抄 structural alpha 即可”不足以形成可审计 evidence contract，港股与 crypto 也不能复用 A 股阈值。本月不实现跨市场 spec，只在 Registry 预留 market、asset_type 和独立 materiality 接口；adapter 进入 R_{n+1}+，等待真实任务触发。
 
 ### B-7: action plan 从 9 项涨到 15 项会增加决策负担
 

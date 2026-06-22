@@ -1,6 +1,6 @@
 # Hermes 立场 B: 不并入 / 不修改 (保守)
 
-> 双盲 peer-discussion 第二轮, 反对"现在就把 candidates-2026-06-08.md 合并到 competitive-benchmark-action-plan 并触发 serenity spec 改动"
+> 双盲 peer-discussion 第二轮, 反对"现在就把 candidates-2026-06-08.md 合并到 competitive-benchmark-action-plan 并触发 structural alpha spec 改动"
 >
 > 立场: **不改 / 不并入**, 候选池继续当参考池, 等 1 季后再评估
 >
@@ -30,8 +30,8 @@ R-12 已经写进 action plan 第 160 行 (5 项风险约束, R-12=不学 ZhuLin
 Codex 自己说: "需要进入 R_{n+1}+ 范畴: 反向影响现存 R4-R10 的部分; LLMQuant 跨资产扩展; 港股合同"。 **R_{n+1}+ 是结构改动, 风险高, 跳到 R_{n+1}+ = 跳 P0 跑 (跳步)**。 跟 memory 2026-06-07 "Vik1ang 纠正: 跳步算拖" 是一回事。
 
 ### B-6 港股 / 美股 / 加密是空白, 但 blank ≠ urgent
-serenity 当前定位: A 股 + chokepoint alpha。 港股 (belos-street 有数据但缺 R4-R10) / 美股 (CC Equity Research, AlphaAnalyst 都强但 US 模板不能直接套 A 股) / 加密 (LLMQuant 强但 tokenomics ≠ 股票) 都**不是"现在就要"**。
-真正"现在就要" 的: 港股 = 不是 (serenity 用户跑 A 股); 美股 = 已经是 Serenity (@aleabitoreddit) 主战场, 抄她就行, 不用自己造。 **空白是设计选择, 不是缺口**。
+structural alpha 当前定位: A 股 + chokepoint alpha。 港股 (belos-street 有数据但缺 R4-R10) / 美股 (CC Equity Research, AlphaAnalyst 都强但 US 模板不能直接套 A 股) / 加密 (LLMQuant 强但 tokenomics ≠ 股票) 都**不是"现在就要"**。
+真正"现在就要" 的: 港股 = 不是 (structural alpha 用户跑 A 股); 美股 = 已经是 structural alpha (public bottleneck-alpha) 主战场, 抄她就行, 不用自己造。 **空白是设计选择, 不是缺口**。
 
 ### B-7 competitive-benchmark-action-plan.md 已有 9 项 + 5 项风险约束, 再加 6 候选 = 15 项
 action plan 从 9 项涨到 15 项, 跟 4 候选的 9 项是同一个量级问题: **候选越多, 用户越难决策**。 真正能落地的是 4 项 P0 (本周 1 + 本月 3), 候选池是参考, 不是 todo list。

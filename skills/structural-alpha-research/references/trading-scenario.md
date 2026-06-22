@@ -6,7 +6,7 @@ Use this reference when the user asks “怎么交易 / 能不能做 / 买不买
 
 交易推演回答的是：在当前证据、价格结构、事件窗口和风险条件下，这个 thesis 处于什么可行动性状态；接下来需要等什么、看什么、什么情况应该放弃。它不是把研究结论直接翻译成“买/卖”。
 
-The layer sits **after** thesis research. Do not run it before demand proof, bottleneck proof, materiality, market context, and risk checks have been assessed.
+The layer sits **after** thesis research. Do not run it before cycle proof, demand proof, bottleneck proof, comparative advantage, materiality, market context, and risk checks have been assessed.
 
 ## 2. Required Inputs
 
@@ -15,7 +15,10 @@ Before giving a trading scenario, state whether these inputs are verified, stale
 - thesis bucket: Shortlist / Watchlist / Excluded, or A-share thesis-level bucket;
 - conclusion status and confidence;
 - latest price / market cap / liquidity date, ideally within the last 30 trading days;
+- cycle/objectivity evidence: technology route, capex, policy, product pricing, lead time, utilization, or backlog signal;
+- comparative-advantage evidence: why the company captures the constrained layer;
 - materiality evidence: revenue, segment revenue, contract amount + timing, backlog/order, customer concentration;
+- low-base elasticity evidence where relevant: recoverable margin/ROE/profit repair, not structurally poor economics;
 - catalyst window: upcoming filing, announcement, earnings, customer validation, policy/cycle event, or industry data;
 - invalidation evidence: company denial, weak announcement language, dilution/debt/ST/delisting risk, margin/cash-flow failure;
 - market-structure state: normal, crowded, R2/R3 data insufficient, large-cap crowding, small-cap relay, limit-up/limit-down liquidity risk.
@@ -50,7 +53,7 @@ Use when the requested trading scenario depends on unavailable or stale market/f
 
 These are defaults; explain exceptions explicitly.
 
-- **Shortlist + current market data + no dominant red flags** → 可交易研究对象 or 等待触发.
+- **Shortlist + current market data + no dominant red flags + objective cycle evidence** → 可交易研究对象 or 等待触发.
 - **Shortlist + catalyst missing / crowded price / stale liquidity data** → 等待触发.
 - **Watchlist / Early Optionality** → 仅观察 or 等待触发, never 可交易研究对象 unless the missing checkpoint is resolved.
 - **Excluded thesis** → 回避交易, unless discussing a separate thesis-level bucket for the same company.

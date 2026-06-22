@@ -1,4 +1,4 @@
-# A 股 Serenity-style Alpha Skill Spec Draft
+# A 股 Structural Alpha Skill Spec Draft
 
 ## 1. 概要
 

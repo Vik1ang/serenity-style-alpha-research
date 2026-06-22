@@ -1,6 +1,6 @@
 # Codex 立场 A: 改/并入 (激进)
 
-> 双盲 peer-discussion 第二轮, 支持"现在就把 candidates-2026-06-08.md 合并到 action plan 并触发 serenity 改动"
+> 双盲 peer-discussion 第二轮, 支持"现在就把 candidates-2026-06-08.md 合并到 action plan 并触发 structural alpha 改动"
 >
 > 立场: **改 / 并入 / 现在动**。 本周先修入口索引, 本月把新候选证据并入 P0-2/3/4; R_{n+1}+ 仅登记边界, 不抢先实现。
 >

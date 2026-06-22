@@ -1,7 +1,7 @@
 # A-share Skill Maintenance Backlog
 
 This document tracks known follow-ups for the A-share extension of
-`serenity-style-alpha-research`. These items are not blockers for current manual
+`structural-alpha-research`. These items are not blockers for current manual
 research use, but should be addressed before treating the A-share stack as a
 production-grade skill workflow.
 

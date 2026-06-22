@@ -1,6 +1,0 @@
-interface:
-  display_name: "Serenity Alpha Research"
-  short_description: "Bottleneck alpha research framework"
-  default_prompt: "Use $serenity-style-alpha-research to evaluate whether this news item creates a bottleneck-driven alpha hypothesis."
-policy:
-  allow_implicit_invocation: true

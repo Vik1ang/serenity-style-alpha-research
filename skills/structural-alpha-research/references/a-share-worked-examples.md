@@ -128,7 +128,7 @@ AI 散热 thesis：Excluded / 缺 demand proof、materiality confirmation 和商
 
 ### 事后表现是否挑战 spec
 
-这是反例样本，允许股价阶段上涨挑战使用者心理，但不挑战 spec 本身。若后续缺少合同和报表确认，即使价格继续上涨，也只能说明市场结构交易强，不说明 Serenity-style alpha thesis 成立。
+这是反例样本，允许股价阶段上涨挑战使用者心理，但不挑战 spec 本身。若后续缺少合同和报表确认，即使价格继续上涨，也只能说明市场结构交易强，不说明 structural alpha thesis 成立。
 
 ### 教会 skill 什么
 
@@ -158,7 +158,7 @@ R5 财务红旗阈值需要最新财报数据日期；R6 small-cap relay 需要�
 
 ### 分桶结果
 
-新能源整车 / 问界主业 thesis：Shortlist。理由是需求、公司入口、materiality 和财务传导均已验证：销量、成交均价、收入、净利润、经营现金流都进入报表，且 2025 年仍维持正利润和高端品牌地位。华为合作 / 问界生态 thesis：Shortlist（并入主业 thesis，不单独作为概念分桶）；它是问界主业兑现的能力来源，但如果单独以“华为概念”交易，应降为 Watchlist。出海 thesis：Watchlist — Early Optionality / 缺海外订单、收入占比、渠道交付、区域利润贡献。AI / 机器人 / 其他创新业务 thesis：Watchlist — Early Optionality / 缺商业化收入和客户订单。公司整体 summary：Shortlist（正向兑现样本，置信度：中高）；但这不是小市值 Serenity chokepoint，而是 A 股 large-cap re-rating / 基本面兑现样本。
+新能源整车 / 问界主业 thesis：Shortlist。理由是需求、公司入口、materiality 和财务传导均已验证：销量、成交均价、收入、净利润、经营现金流都进入报表，且 2025 年仍维持正利润和高端品牌地位。华为合作 / 问界生态 thesis：Shortlist（并入主业 thesis，不单独作为概念分桶）；它是问界主业兑现的能力来源，但如果单独以“华为概念”交易，应降为 Watchlist。出海 thesis：Watchlist — Early Optionality / 缺海外订单、收入占比、渠道交付、区域利润贡献。AI / 机器人 / 其他创新业务 thesis：Watchlist — Early Optionality / 缺商业化收入和客户订单。公司整体 summary：Shortlist（正向兑现样本，置信度：中高）；但这不是小市值 structural alpha chokepoint，而是 A 股 large-cap re-rating / 基本面兑现样本。
 
 ### 交易推演状态
 
@@ -195,7 +195,7 @@ R5 财务红旗阈值需要最新财报数据日期；R6 small-cap relay 需要�
 
 ### thesis-level 拆分
 
-创新药 ADC 主业 / iza-bren 核心资产 thesis：这是最强 thesis。BMS 愿意支付 8 亿美元首付款并后续支付 2.5 亿美元里程碑，证明该资产已经通过全球 MNC 外部验证，不能按普通“创新药概念”处理。BD 合同收入 thesis：这是已验证但需要拆质量的 thesis。8 亿美元首付款和 2.5 亿美元里程碑是真实收入和现金流确认，满足合同金额+时间；但 upfront 和 milestone 不是经常性产品销售收入，也不是自动持续利润。后续管线兑现 thesis：这是 Watchlist — Early Optionality；除 BL-B01D1 外，公司还有多个临床阶段候选药物和 ADC 平台能力，但后续管线是否能形成第二个 BMS 级 BD、国内商业化收入或全球注册成功，仍需要临床数据、注册节点、合作方、付款节点和商业化收入验证。持续盈利 / MNC 化转型 thesis：需要连续经营现金流转正、商业化收入、费用率稳定和多产品收入结构验证。传统化药 / 中成药业务 thesis：不构成 Serenity-style 主线。
+创新药 ADC 主业 / iza-bren 核心资产 thesis：这是最强 thesis。BMS 愿意支付 8 亿美元首付款并后续支付 2.5 亿美元里程碑，证明该资产已经通过全球 MNC 外部验证，不能按普通“创新药概念”处理。BD 合同收入 thesis：这是已验证但需要拆质量的 thesis。8 亿美元首付款和 2.5 亿美元里程碑是真实收入和现金流确认，满足合同金额+时间；但 upfront 和 milestone 不是经常性产品销售收入，也不是自动持续利润。后续管线兑现 thesis：这是 Watchlist — Early Optionality；除 BL-B01D1 外，公司还有多个临床阶段候选药物和 ADC 平台能力，但后续管线是否能形成第二个 BMS 级 BD、国内商业化收入或全球注册成功，仍需要临床数据、注册节点、合作方、付款节点和商业化收入验证。持续盈利 / MNC 化转型 thesis：需要连续经营现金流转正、商业化收入、费用率稳定和多产品收入结构验证。传统化药 / 中成药业务 thesis：不构成 structural alpha 主线。
 
 ### 触发哪些 spec 模块
 

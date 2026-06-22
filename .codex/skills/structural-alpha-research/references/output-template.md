@@ -1,16 +1,17 @@
-# Serenity-Style Alpha Output Template
+# Structural Alpha Output Template
 
 Default language: Chinese. Use this for full research memos and stock-selection screens. For quick questions, use the compact triage format at the end.
 
 
 # Stock Selection Shortlist Format
 
-Use this when the user asks for “谁受益 / 有哪些票 / 找类似 Serenity 的机会 / 筛选标的”. Do not call the shortlist buy recommendations; it is a research queue.
+Use this when the user asks for “谁受益 / 有哪些票 / 找类似 structural alpha 的机会 / 筛选标的”. Do not call the shortlist buy recommendations; it is a research queue.
 
 ## 0. 筛选假设
 
 - 市场范围：US / A股 / 港股 / 欧洲 / 加拿大 / 全球（说明假设）
 - 主题/产业变化：
+- 周期驱动：全球技术周期 / capex / 政策 / 物理短缺 / 产品涨价 / 其他
 - 目标瓶颈层级：
 - 排除条件：低流动性 / 无法验证财报 / 低业务纯度 / 严重稀释 / 已充分定价
 
@@ -23,10 +24,10 @@ Use this when the user asks for “谁受益 / 有哪些票 / 找类似 Serenity
 
 ## 2. Shortlist（研究优先级，不是买入建议）
 
-| 优先级 | 公司 | Ticker/交易所 | 瓶颈产品 | 阶数 | 暴露纯度/收入代理 | 最新市值 | 流动性备注 | 非社媒证据 | 催化剂 | 最大反证 |
-|---:|---|---|---|---|---|---:|---|---|---|---|
+| 优先级 | 公司 | Ticker/交易所 | 瓶颈产品 | 阶数 | 周期/通胀证据 | 比较优势 | 暴露纯度/收入代理 | 最新市值 | 流动性备注 | 非社媒证据 | 催化剂 | 最大反证 |
+|---:|---|---|---|---|---|---|---|---:|---|---|---|---|
 
-Limit to 3–7 names. A name cannot enter Shortlist without ticker clarity, exact bottleneck product, materiality proxy, current market context, non-social-media evidence, catalyst, and disqualifier. If any are missing, place it in Watchlist / 待核验 instead.
+Limit to 3–7 names. A name cannot enter Shortlist without ticker clarity, exact bottleneck product, cycle/objective-demand evidence, comparative advantage, materiality proxy, current market context, non-social-media evidence, catalyst, and disqualifier. If any are missing, place it in Watchlist / 待核验 instead.
 
 ## 3. Watchlist / 待核验
 
@@ -49,7 +50,7 @@ Limit to 3–7 names. A name cannot enter Shortlist without ticker clarity, exac
 - 关键数据日期：
 - 已验证数据：
 - 未验证数据：市值 / 收入 / segment / 客户 / backlog / 毛利率 / dilution / valuation
-- 最弱证据链条：需求 / 瓶颈 / 公司暴露 / 财务传导 / 市场忽视 / 催化剂 / 风险
+- 最弱证据链条：周期驱动 / 需求 / 瓶颈 / 比较优势 / 公司暴露 / 财务传导 / 市场忽视 / 催化剂 / 风险
 - 置信度：高 / 中 / 低
 
 If not verified:
@@ -58,7 +59,7 @@ If not verified:
 
 ## 1. 一句话 Thesis
 
-如果 [已验证产业变化] 持续，那么 [难以替代的瓶颈环节] 可能获得价值捕获；[公司/资产] 的潜在弹性来自 [小体量/业务纯度/低关注/供给约束/催化剂]，但核心待验证点是 [最弱链条]。
+如果 [已验证周期/技术变化] 持续，并转化为 [确定性需求]，那么 [难以替代的瓶颈环节] 可能获得价值捕获；[公司/资产] 的潜在弹性来自 [比较优势/低基数ROE修复/业务纯度/低关注/供给约束/催化剂]，但核心待验证点是 [最弱链条]。
 
 ## 2. 表层叙事
 
@@ -90,6 +91,16 @@ If weak:
 
 > 当前更像是叙事或主题交易，暂不构成强 Alpha 假设。
 
+## 3A. Cycle / Technology Inflation / 周期与客观通胀
+
+- 全球或产业周期变化：
+- 客观通胀信号：价格 / 交期 / backlog / 产能利用率 / 毛利率 / capex / 政策订单
+- 中国或公司比较优势：
+- 是否是供给端创造需求，还是普通补库存/主题轮动：
+- 待核实事实：
+
+**周期可信度：强 / 中 / 弱 / 数据不足**
+
 ## 4. Supply Chain Map / 产业链拆解
 
 终端需求  
@@ -117,8 +128,8 @@ For each relevant layer:
 
 ## 6. Company Exposure / 公司暴露度
 
-| 公司 | 产品 | 阶数 | 相关收入占比 | 客户/认证 | 订单/收入验证 | 市场旧标签 | 主要风险 |
-|---|---|---:|---:|---|---|---|---|
+| 公司 | 产品 | 阶数 | 比较优势 | 相关收入占比 | 客户/认证 | 订单/收入验证 | 市场旧标签 | 主要风险 |
+|---|---|---:|---|---:|---|---|---|---|
 
 Classification:
 
@@ -143,6 +154,13 @@ If company data is missing:
 ### 经营利润
 
 - 经营杠杆、费用率、一次性费用、盈利拐点。
+
+### 低基数弹性 / ROE 修复
+
+- 当前 ROE / 利润率是否处于低位：
+- 低位原因：供需压制 / 预先研发 / 产能爬坡 / 产品结构 / 永久低质量
+- 修复证据：订单、收入、毛利、费用率、产能利用率、客户验证
+- 结论：可修复 / 待验证 / 不成立
 
 ### 现金流
 
@@ -171,8 +189,10 @@ If company data is missing:
 
 ## 10. Anti-Thesis / 反证条件
 
+- 周期驱动不是长期变化，只是补库存或情绪；
 - 下游需求没有变成订单/收入；
 - 公司没有客户认证或相关业务占比太低；
+- 比较优势被证明不存在，或客户选择了替代供应商；
 - 毛利率/现金流没有改善；
 - 扩产容易、竞争者快速进入；
 - 技术路线绕开原瓶颈；
@@ -207,8 +227,8 @@ Use this only when the user asks how to trade, whether it is actionable, or want
 
 Use this for one tweet/news item or “这个逻辑对不对?”
 
-1. **核心判断**：一句话说明是否像 Serenity-style chokepoint thesis。
-2. **成立所需三件事**：真实需求 / 真瓶颈 / 公司财务暴露。
+1. **核心判断**：一句话说明是否像 structural alpha thesis。
+2. **成立所需四件事**：周期/客观通胀 / 真实需求 / 真瓶颈 / 公司财务暴露。
 3. **目前最强证据**：列已验证或用户提供的证据。
 4. **最大漏洞**：指出最弱链条。
 5. **必须查的数据**：市值、收入占比、客户、backlog、毛利率、稀释等。
@@ -219,9 +239,9 @@ Use this for one tweet/news item or “这个逻辑对不对?”
 
 Use for quick “谁受益/有哪些票”:
 
-1. **先判瓶颈层级**：真正可能短缺的环节。
+1. **先判周期与瓶颈层级**：真正发生变化的周期，以及真正可能短缺的环节。
 2. **Longlist**：按产业链层级列候选，不超过 10 个。
-3. **Shortlist**：3–5 个研究优先级最高的标的；必须有 ticker、精确产品、materiality proxy、非社媒证据、催化剂、最大反证。
+3. **Shortlist**：3–5 个研究优先级最高的标的；必须有 ticker、精确产品、周期/客观通胀证据、比较优势、materiality proxy、非社媒证据、催化剂、最大反证。
 4. **Watchlist**：有趣但缺关键数据的标的。
 5. **剔除项**：说明哪些热门票只是主题暴露。
 6. **下一步验证**：每个 shortlist 名字最关键的财务/客户/订单数据。

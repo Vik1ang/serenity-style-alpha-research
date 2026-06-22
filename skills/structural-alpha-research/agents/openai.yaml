@@ -1,0 +1,6 @@
+interface:
+  display_name: "Structural Alpha"
+  short_description: "Structural alpha research framework"
+  default_prompt: "Use $structural-alpha-research to test whether this news creates a cycle-driven bottleneck alpha thesis."
+policy:
+  allow_implicit_invocation: true

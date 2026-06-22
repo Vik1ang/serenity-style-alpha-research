@@ -2,9 +2,9 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
 
-**Goal:** Reduce runtime context and reference ambiguity without changing Serenity research gates, buckets, or trading-scenario behavior.
+**Goal:** Reduce runtime context and reference ambiguity without changing structural alpha research gates, buckets, or trading-scenario behavior.
 
-**Architecture:** Keep `skills/serenity-style-alpha-research/` limited to runtime instructions and task-loaded research references. Move benchmark candidates, action planning, and peer-discussion provenance into `docs/decisions/competitive-benchmark-2026-06-08/`. Compress the canonical `SKILL.md` into a routing-first entry while preserving all mandatory gates and synchronize the Codex mirror.
+**Architecture:** Keep `skills/structural-alpha-research/` limited to runtime instructions and task-loaded research references. Move benchmark candidates, action planning, and peer-discussion provenance into `docs/decisions/competitive-benchmark-2026-06-08/`. Compress the canonical `SKILL.md` into a routing-first entry while preserving all mandatory gates and synchronize the Codex mirror.
 
 **Tech Stack:** Markdown, Git, Python structural assertions, shell link/hash checks.
 
@@ -13,8 +13,8 @@
 ### Task 1: Lock Existing Runtime Behavior
 
 **Files:**
-- Read: `skills/serenity-style-alpha-research/SKILL.md`
-- Test: `/tmp/serenity-skill-regression.py`
+- Read: `skills/structural-alpha-research/SKILL.md`
+- Test: `/tmp/structural alpha-skill-regression.py`
 
 - [ ] Record assertions for frontmatter, Chinese output, demand/bottleneck gates, materiality thresholds, three buckets, watchlist upgrade, red flags, evidence hierarchy, reasoning sequence, trading states, conclusion states, scope, and R9/R10 routing.
 - [ ] Run the assertions against the current canonical skill and require PASS before editing.
@@ -22,8 +22,8 @@
 ### Task 2: Separate Runtime References From Decision Provenance
 
 **Files:**
-- Move: `skills/serenity-style-alpha-research/references/candidates-*.md`
-- Move: `skills/serenity-style-alpha-research/references/competitive-benchmark-action-plan.md`
+- Move: `skills/structural-alpha-research/references/candidates-*.md`
+- Move: `skills/structural-alpha-research/references/competitive-benchmark-action-plan.md`
 - Create: `docs/decisions/competitive-benchmark-2026-06-08/README.md`
 
 - [ ] Move all seven benchmark/candidate/debate files into one dated decision directory.
@@ -33,7 +33,7 @@
 ### Task 3: Slim the Canonical Runtime Entry
 
 **Files:**
-- Modify: `skills/serenity-style-alpha-research/SKILL.md`
+- Modify: `skills/structural-alpha-research/SKILL.md`
 
 - [ ] Remove maintenance candidates/action-plan links from the runtime index.
 - [ ] Consolidate repeated purpose, workflow, gate, output, and reference text.
@@ -47,7 +47,7 @@
 - Modify: `CLAUDE.md`
 - Modify: `GEMINI.md`
 - Modify: `docs/agent-integration.md`
-- Modify: `.codex/skills/serenity-style-alpha-research/SKILL.md`
+- Modify: `.codex/skills/structural-alpha-research/SKILL.md`
 
 - [ ] Keep top-level indexes runtime-only.
 - [ ] Add the decision archive under maintenance documentation, not skill loading instructions.

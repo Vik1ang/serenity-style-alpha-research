@@ -8,7 +8,7 @@
 ## 任务背景(Codex 接受 prompt 后的任务定义, 作附录)
 
 
-› 不用写代码, 不用跑票, 不用改 serenity-style-alpha 现有文件。
+› 不用写代码, 不用跑票, 不用改 structural alpha-alpha 现有文件。
 
   Vik1ang 选了 c 路径: 美股 / A 股独立体系, 重写 A 股 skill。
 
@@ -29,7 +29,7 @@
   这一件要解决什么问题?
 
   ### 2. 跟美股 skill 的对应 / 不对应
-  - 美股 serenity-style-alpha 里有没有对应? 是哪个 gate?
+  - 美股 structural alpha-alpha 里有没有对应? 是哪个 gate?
   - 为什么不能直接迁移? (引用我们讨论的论点)
 
   ### 3. A 股的运行机制
@@ -57,7 +57,7 @@
 
   ## 不要做的事
 
-  - 不要重写 serenity-style-alpha 现有 SKILL.md
+  - 不要重写 structural alpha-alpha 现有 SKILL.md
   - 不要跑票
   - 不要提 A-share skill 的整体设计 (那是下一步)
   - 不要写"五件重建" / 加新维度 (4 件已经收敛)
@@ -88,7 +88,7 @@
 
   ### 2. 跟美股 skill 的对应 / 不对应
 
-  美股 serenity-style-alpha 里最接近的是：
+  美股 structural alpha-alpha 里最接近的是：
 
   - Demand Proof Gate
   - Catalyst
@@ -269,7 +269,7 @@
 
   ### 2. 跟美股 skill 的对应 / 不对应
 
-  美股 serenity-style-alpha 里对应的是：
+  美股 structural alpha-alpha 里对应的是：
 
   - Low attention
   - Market neglect
@@ -391,7 +391,7 @@
 
   解释：
 
-  - 默认不是 Serenity-style early alpha；
+  - 默认不是 structural early alpha；
   - 可以是题材交易、情绪交易或风险定价；
   - 基本面研究必须等待反证或验证。
 
@@ -475,7 +475,7 @@
 
   ### 2. 跟美股 skill 的对应 / 不对应
 
-  美股 serenity-style-alpha 对应的是：
+  美股 structural alpha-alpha 对应的是：
 
   - Catalyst
   - Financial transmission
@@ -522,7 +522,7 @@
 
   春秋电子 的液冷收购如果只有“完成 Asetek 收购”，但没有明确订单、收入、并表贡献、客户验证，那么它只是潜在 catalyst，不是 confirmation。AI PC 和机器人被公司否认后，不能作为重估路径。
 
-  鹏鼎控股 有光模块收入，但占比 2.83%，公司还表示全年占比仍小。这里可能存在产业链长期方向，但当前 confirmation 不足以支撑 Serenity-style 重估。
+  鹏鼎控股 有光模块收入，但占比 2.83%，公司还表示全年占比仍小。这里可能存在产业链长期方向，但当前 confirmation 不足以支撑 structural alpha 重估。
 
   黄河旋风 如果只是金刚石 + AI 散热叙事加连板，但公司三年亏损严重、没有订单和收入验证，那么 catalyst 是市场叙事，不是基本面重估。
 
@@ -701,7 +701,7 @@
 
   ### 2. 跟美股 skill 的对应 / 不对应
 
-  美股 serenity-style-alpha 对应的是：
+  美股 structural alpha-alpha 对应的是：
 
   - Current market context
   - Crowding / price-in

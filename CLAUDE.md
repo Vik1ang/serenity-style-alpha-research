@@ -2,10 +2,11 @@
 
 ## Reference index
 
-- **A 股总入口** — `skills/serenity-style-alpha-research/references/a-share-skill-spec-FINAL.md`
-- **R9 / Biotech BD 收入质量** — `skills/serenity-style-alpha-research/references/a-share-r9-biotech-bd-quality.md`
-- **R10 / 大市值剩余重估空间** — `skills/serenity-style-alpha-research/references/a-share-r10-large-cap-rerating-residual.md`
-- **完整跑票与复盘样本** — `skills/serenity-style-alpha-research/references/a-share-worked-examples.md`
+- **A 股总入口** — `skills/structural-alpha-research/references/a-share-skill-spec-FINAL.md`
+- **R9 / Biotech BD 收入质量** — `skills/structural-alpha-research/references/a-share-r9-biotech-bd-quality.md`
+- **R10 / 大市值剩余重估空间** — `skills/structural-alpha-research/references/a-share-r10-large-cap-rerating-residual.md`
+- **周期/客观性增强层** — `skills/structural-alpha-research/references/cycle-objectivity-overlay.md`
+- **完整跑票与复盘样本** — `skills/structural-alpha-research/references/a-share-worked-examples.md`
 
 This file provides guidance to Claude Code (claude.ai/code) when working in this repository.
 
@@ -13,29 +14,32 @@ This file provides guidance to Claude Code (claude.ai/code) when working in this
 
 This is a **multi-agent Markdown skill/reference package**, not a runnable application. There is
 no `package.json`, no build step, and no test suite. The shipped artifact is the
-canonical skill at `skills/serenity-style-alpha-research/` plus its `references/`
-directory. The `.codex/skills/serenity-style-alpha-research/` copy is only the local
+canonical skill at `skills/structural-alpha-research/` plus its `references/`
+directory. The `.codex/skills/structural-alpha-research/` copy is only the local
 Codex project-level install mirror. Claude should use `CLAUDE.md` as the entry point,
 then load canonical `skills/` files and relevant references.
 
-Subject domain: Serenity-style chokepoint alpha stock research — supply-chain
-bottlenecks in AI / semiconductor / datacenter-power chains, plus a dedicated
-A-share thesis-level methodology stack.
+Subject domain: structural alpha stock research — supply-chain
+bottlenecks in AI / semiconductor / datacenter-power chains, plus a global-cycle / objectivity
+global-cycle / objectivity / low-base elasticity overlay and a dedicated A-share
+thesis-level methodology stack.
 
 ## Key Files
 
-- `skills/serenity-style-alpha-research/SKILL.md` — canonical skill entry point.
-- `.codex/skills/serenity-style-alpha-research/SKILL.md` — Codex install mirror; keep synchronized with `skills/`.
+- `skills/structural-alpha-research/SKILL.md` — canonical skill entry point.
+- `.codex/skills/structural-alpha-research/SKILL.md` — Codex install mirror; keep synchronized with `skills/`.
   Contains YAML frontmatter (`name`, `description`, `metadata.short-description`)
   and behavioral rules. **Do not strip frontmatter**.
-- `skills/serenity-style-alpha-research/agents/openai.yaml` — OpenAI UI-facing metadata.
+- `skills/structural-alpha-research/agents/openai.yaml` — OpenAI UI-facing metadata.
 - `AGENTS.md` — OpenAI/Codex-style agent guidance.
 - `GEMINI.md` — Gemini / generic Markdown-aware agent guidance.
 - `docs/agent-integration.md` — cross-agent loading and maintenance map.
-- `skills/serenity-style-alpha-research/references/output-template.md` — full research memo and shortlist format.
-- `skills/serenity-style-alpha-research/references/trading-scenario.md` — non-advisory trading scenario status mapping, checkpoints, triggers, invalidation, and risk controls.
-- `skills/serenity-style-alpha-research/references/domain-extensions.md` — AI / semiconductor / datacenter-power / crypto-mining-to-HPC / A·H·HK·US variants.
-- `skills/serenity-style-alpha-research/references/scoring.md` — elasticity math and factor checklist. Do not use it to output A/B/C/D ratings.
+- `skills/structural-alpha-research/references/output-template.md` — full research memo and shortlist format.
+- `skills/structural-alpha-research/references/trading-scenario.md` — non-advisory trading scenario status mapping, checkpoints, triggers, invalidation, and risk controls.
+- `skills/structural-alpha-research/references/domain-extensions.md` — AI / semiconductor / datacenter-power / crypto-mining-to-HPC / A·H·HK·US variants.
+- `skills/structural-alpha-research/references/scoring.md` — elasticity math and factor checklist. Do not use it to output A/B/C/D ratings.
+- `skills/structural-alpha-research/references/cycle-objectivity-overlay.md` — cycle, comparative-advantage, low-ROE repair, liquidity, and objectivity overlay.
+- Framework validation notes and ticker samples live under `docs/decisions/`; do not treat validation tickers as built-in recommendations.
 
 ## A-share Reference Stack
 
@@ -52,6 +56,7 @@ For A-share work, start with:
   structure evidence, required market-cap date, and large-cap vs small-cap risk pricing.
 - `references/a-share-r9-biotech-bd-quality.md` — Biotech BD income-quality specialist gate.
 - `references/a-share-r10-large-cap-rerating-residual.md` — large-cap residual re-rating and price-in gate.
+- `references/cycle-objectivity-overlay.md` — optional overlay when global cycle / objective inflation / low-base elasticity is central; it does not replace R4-R10.
 
 R1 provenance files:
 
@@ -66,18 +71,20 @@ R1 provenance files:
 - **No A/B/C/D ratings.** Use textual conclusion states with `置信度：高 / 中 / 低`.
 - **No direct buy/sell/position-size/target/stop advice.** This is research and validation only; a non-advisory trading scenario layer is allowed only for statuses, checkpoints, triggers, invalidation, and risk controls.
 - **Social-media-only evidence cannot support a strong alpha conclusion.**
-- **No verified demand usually means “更像主题叙事”.**
+- **No verified cycle/demand usually means “更像主题叙事”.**
+- **No comparative advantage usually means “更像主题叙事”.**
 - **Third-order theme exposure usually means “更像主题叙事” unless financial
   transmission is proven.**
-- **Shortlist requires evidence.** Missing demand proof, bottleneck proof,
-  materiality, market context, or risk checks → Watchlist / 待核验 or Excluded.
+- **Shortlist requires evidence.** Missing cycle proof, demand proof, bottleneck proof,
+  comparative advantage, materiality, market context, or risk checks → Watchlist / 待核验 or Excluded.
+- When testing or changing the skill itself, use a mixed validation basket: likely positives, crowded boundary cases, exposure-impure cases, and red-flag false positives.
 - **Trading scenario layer is not trade advice.** If users ask “怎么交易 / 买不买 / 卖不卖”, load `references/trading-scenario.md` and reframe into 可交易研究对象 / 等待触发 / 仅观察 / 回避交易 / 数据不足 plus evidence checkpoints and risks.
 - **Default output language is Chinese** unless the user asks otherwise.
 
 ## Editing Conventions
 
-- `skills/serenity-style-alpha-research/SKILL.md` is the canonical activation surface; references hold long-form methodology.
-- Keep `skills/serenity-style-alpha-research/` and `.codex/skills/serenity-style-alpha-research/` synchronized. The former is for repository readers/distribution; the latter is for local Codex loading.
+- `skills/structural-alpha-research/SKILL.md` is the canonical activation surface; references hold long-form methodology.
+- Keep `skills/structural-alpha-research/` and `.codex/skills/structural-alpha-research/` synchronized. The former is for repository readers/distribution; the latter is for local Codex loading.
 - When adding a reference doc, add a one-line entry under `SKILL.md` → `## References`.
 - When changing A-share methodology, update the owning file:
   - D3 for the overview/index.
@@ -88,6 +95,7 @@ R1 provenance files:
   - R10 for large-cap residual re-rating.
   - D4 FINAL if the top-level read path changes.
 - Keep benchmark candidates, action plans, and peer-discussion under `docs/decisions/`; do not route them as runtime references.
+- Treat external cycle-method projects as methodology benchmarks only; this repository does not bundle external view corpora, so method simulations must remain framework inference rather than source attribution.
 - Keep root docs (`README.md`, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`) aligned with the reference stack and usage contract.
 
 ## Local-Only Directories (Never Commit)
